@@ -36,7 +36,6 @@ img {
   max-height: 100%;
   border: 2px solid black;
   transition: 0.5s;
-  justify-content: center;
   align-items: center;
   position: relative;
 

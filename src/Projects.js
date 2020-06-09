@@ -36,7 +36,7 @@ function Projects(props) {
 
         {/* /<!-- Second Grid: Work & Resume --> */}
         <div className="w3-row w3-animate-left container2">
-        <div className="w3-half w3-s and w3-center" id="work">
+        <div className="w3-half w3-sand and w3-center" id="work">
             <div className="w3-padding-64 w3-animate-right">
                 <h1>Projects</h1>
                     <Thumbnail 
@@ -95,7 +95,7 @@ function Projects(props) {
             <p><strong>Just call me awesome!</strong></p>
         </div>
         </div>
-        <div className="w3-half w3-brown w3-container" id="resume">
+        <div className="w3-half w3-brown w3-container w3-center" id="resume">
             <div className="w3-padding-64 w3-animate-right">
             <h1>Extra Extra... Read all about it!</h1>
             <br></br>
@@ -151,7 +151,7 @@ function Projects(props) {
         <div className="w3-padding-64 w3-animate-left w3-center">
             <h2>Resume</h2>
                     <Thumbnail
-                    link="https://github.com/beauvilerobed/Robed-Beauvile/blob/master/Robed%20Beauvil.pdf"
+                    link="https://github.com/beauvilerobed/Robed-Beauvile/blob/master/Robed%20Beauvil2.pdf"
                     image="./resume.png"
                     title="See in Github"
                     />
