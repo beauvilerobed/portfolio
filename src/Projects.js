@@ -54,7 +54,7 @@ function Projects(props) {
                     />
 
                     <Thumbnail
-                    link="http://calctutorbot.com"
+                    link="https://calctutor123.herokuapp.com/"
                     image="./calc_bot.png"
                     title="Calctutor-bot"
                     category="E-learning App"
@@ -95,7 +95,7 @@ function Projects(props) {
             <p><strong>Just call me awesome!</strong></p>
         </div>
         </div>
-        <div className="w3-half w3-brown w3-container w3-center" id="resume">
+        <div className="w3-half w3-brown w3-container w3-center" id="extracurricular">
             <div className="w3-padding-64 w3-animate-right">
             <h1>Extra Extra... Read all about it!</h1>
             <br></br>
@@ -147,7 +147,7 @@ function Projects(props) {
             <p>robedbeauvil@gmail.com</p>
             </div>
         </div>
-        <div className="w3-half w3-teal w3-container" id="extracurricular">
+        <div className="w3-half w3-teal w3-container" id="resume">
         <div className="w3-padding-64 w3-animate-left w3-center">
             <h2>Resume</h2>
                     <Thumbnail
