@@ -9,24 +9,24 @@ function Projects(props) {
         <div className="w3-row w3-animate-right container1">
         <div className="w3-half w3-black w3-container w3-center" style={{height: "700px"}}>
             <div className="w3-padding-64">
-            <h1>Robed Beauvile</h1>
+            <h1><strong>Robed Beauvile</strong></h1>
             <div id="container" className="container-fluid"></div>
             <h4>Welcome to my personal website</h4>
             </div>
             <div className="w3-padding-64 w3-animate-top">
-            <a href="#about" className="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">About Me</a>
-            <a href="#work" className="w3-button w3-black w3-block w3-hover-light-grey w3-padding-16">Projects</a>
-            <a href="#resume" className="w3-button w3-black w3-block w3-hover-indigo w3-padding-16">Resume</a>
-            <a href="#contact" className="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
-            <a href="#extracurricular" className="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Extracurricular</a>
+            <a href="#about" className="w3-button w3-black w3-block w3-hover-light-grey w3-padding-16">About Me</a>
+            <a href="#work" className="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Projects</a>
+            <a href="#resume" className="w3-button w3-black w3-block w3-hover-light-grey w3-padding-16">Resume</a>
+            <a href="#contact" className="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Contact</a>
+            <a href="#extracurricular" className="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Extracurricular</a>
             </div>
         </div>
-        <div className="w3-half w3-blue-grey w3-container" style={{height: "700px"}} id="about">
+        <div className="w3-half w3-light-grey w3-container" style={{height: "700px"}} id="about">
             <div className="w3-padding-64 w3-animate-left w3-center">
-            <h1>About Me</h1>
+            <h1><strong>About Me</strong></h1>
             <div className="w3-left-align w3-padding-large">
-                <p>Dedicated to using science, technology,  and mathematics to further the pursuit of knowledge  and impact as many people as possible.<p></p>
-                Robust background in logical thinking, complex problem solving, analytical thinking,  and a working knowledge of computer programming.</p>
+                <p>Dedicated to using science, technology,  and mathematics to further the pursuit of knowledge  and impact as many people as possible.</p>
+                <p>Robust background in logical thinking, complex problem solving, analytical thinking,  and a working knowledge of computer programming.</p>
                 <p>Ability to build  and maintain relationships, collaborate with others, engage in constructive conflict, manage interpersonal dynamics, quickly learn new systems,  and work in a fast-paced  and collaborative environment
                 </p>
             </div>
@@ -36,9 +36,9 @@ function Projects(props) {
 
         {/* /<!-- Second Grid: Work & Resume --> */}
         <div className="w3-row w3-animate-left container2">
-        <div className="w3-half w3-sand and w3-center" id="work">
+        <div className="w3-half w3-blue-grey and w3-center" id="work">
             <div className="w3-padding-64 w3-animate-right">
-                <h1>Projects</h1>
+                <h1><strong>Projects</strong></h1>
                     <Thumbnail 
                     link="http://sfitnessco.com"
                     image="./sFITNESS.jpg"
@@ -52,6 +52,7 @@ function Projects(props) {
                     Health  and fitness should not need to be difficult  and it should be sustainable."
                     category="PHP, MySQL, CSS, Javascript and phpMyAdmin, React, MAMP, Atom, Bootstrap, JSON"
                     />
+                    
 
                     <Thumbnail
                     link="https://calctutor123.herokuapp.com/"
@@ -97,7 +98,7 @@ function Projects(props) {
         </div>
         <div className="w3-half w3-brown w3-container w3-center" id="extracurricular">
             <div className="w3-padding-64 w3-animate-right">
-            <h1>Extra Extra... Read all about it!</h1>
+            <h1><strong>Extra Extra... Read all about it!</strong></h1>
             <br></br>
             <br></br>
             <br></br>
@@ -138,18 +139,18 @@ function Projects(props) {
         <div className="w3-row w3-animate-right container3" id="contact">
         <div className="w3-half w3-dark-grey w3-container w3-center">
             <div className="w3-padding-64 w3-animate-right">
-            <h1>Contact</h1>
+            <h1><strong>Contact</strong></h1>
             </div>
             <div className="w3-padding-64 w3-animate-left">
             <p>..for a cup of coffee, or whatever.</p>
             <p>Orlando, FL</p>
             <p>(850) 354-0565</p>
-            <p>robedbeauvil@gmail.com</p>
+            <p>robedbeauvile001@gmail.com</p>
             </div>
         </div>
-        <div className="w3-half w3-teal w3-container" id="resume">
+        <div className="w3-half w3-light-grey w3-container" id="resume">
         <div className="w3-padding-64 w3-animate-left w3-center">
-            <h2>Resume</h2>
+            <h1><strong>Resume</strong></h1>
                     <Thumbnail
                     link="https://github.com/beauvilerobed/Robed-Beauvile/blob/master/Robed%20Beauvil2.pdf"
                     image="./resume.png"
@@ -158,11 +159,6 @@ function Projects(props) {
             </div>
         </div>
         </div>
-
-        {/* <!-- Footer --> */}
-        <footer className="w3-container w3-black w3-padding-16">
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-        </footer> 
     </div>
   )
 }
