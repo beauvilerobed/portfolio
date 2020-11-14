@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
-import Icon from './Images/ThumbnailImage';
-import sFITNESS from './Images/sFITNESS.jpg'
-import calc_bot from './Images/calc_bot.png'
-import TWITTY from './Images/TWITTY.png'
-import Thumbnail from './Thumbnail.js';
-import Summary from './Summary.js';
+import '../App.css';
+import Icon from '../Images/ThumbnailImage';
+import sFITNESS from '../Images/sFITNESS.jpg'
+import calc_bot from '../Images/calc_bot.png'
+import TWITTY from '../Images/TWITTY.png'
+import Thumbnail from '../components/Thumbnail.js';
+import Summary from '../components/Summary.js';
 import Extra from './Extra'
  
 function Projects(props) {

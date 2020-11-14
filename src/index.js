@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import HomePage from './HomePage';
+import HomePage from './content/HomePage';
 
 ReactDOM.render(
   <React.StrictMode>

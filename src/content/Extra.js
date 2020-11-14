@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
-import Icon from './Images/ThumbnailImage';
-import Thumbnail from './Thumbnail.js';
-import Summary from './Summary.js';
-import learnSQL from './Images/learnSQL.png'
-import learnSQL2 from './Images/learnSQL2.png'
-import DSA from './Images/DSA.jpg'
+import '../App.css';
+import Icon from '../Images/ThumbnailImage';
+import Thumbnail from '../components/Thumbnail.js';
+import Summary from '../components/Summary.js';
+import learnSQL from '../Images/learnSQL.png'
+import learnSQL2 from '../Images/learnSQL2.png'
+import DSA from '../Images/DSA.jpg'
  
 function Extra(props) {
   return (

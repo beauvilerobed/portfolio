@@ -3,7 +3,7 @@
 import React from 'react';
 // Import the BrowserRouter, Route and Link components
 import { BrowserRouter, Route } from 'react-router-dom'; 
-import HomePage from './HomePage.js'; 
+import HomePage from './content/HomePage.js'; 
 import './App.css';
  
 function App() {

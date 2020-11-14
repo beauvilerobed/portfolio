@@ -1,6 +1,6 @@
 import React from 'react';
-import NavigationBar from './NavigationBar'
-import './App.css';
+import NavigationBar from '../components/NavigationBar'
+import '../App.css';
  
 function AboutMe(props) {
   return (

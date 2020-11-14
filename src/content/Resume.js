@@ -1,8 +1,8 @@
 import React from 'react';
-import Thumbnail from './Thumbnail'
-import Icon from './Images/ThumbnailImage'
-import resume from './Images/resume.png'
-import './App.css';
+import Thumbnail from '../components/Thumbnail'
+import Icon from '../Images/ThumbnailImage'
+import resume from '../Images/resume.png'
+import '../App.css';
  
 function Resume(props) {
   return (
