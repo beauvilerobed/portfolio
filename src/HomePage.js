@@ -11,7 +11,7 @@ import learnSQL2 from './Images/learnSQL2.png'
 import TWITTY from './Images/TWITTY.png'
 import DSA from './Images/DSA.jpg'
 
-function Projects(props) {
+function HomePage(props) {
   return (
     <div>
         <AboutMe />
@@ -126,4 +126,4 @@ function Projects(props) {
   )
 }
  
-export default Projects;
+export default HomePage;
