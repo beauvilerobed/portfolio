@@ -6,6 +6,7 @@ import Projects from './Projects.js'
 function HomePage(props) {
   return (
     <div>
+      
         <AboutMe />
         <Projects/>
         <ContactMe />
