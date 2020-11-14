@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/" component={Projects} />
   
         <div className="navigation">
-          <div className="navigation-sub">
+        <div className="navigation-sub">
                                   
   
           </div>

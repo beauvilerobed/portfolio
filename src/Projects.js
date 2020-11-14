@@ -1,5 +1,5 @@
 import React from "react"
-import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
+import Thumbnail from './Thumbnail.js';
 import Summary from './Summary.js';
 
 function Projects(props) {
@@ -16,19 +16,18 @@ function Projects(props) {
             <div className="w3-padding-64 w3-animate-top">
             <a href="#about" className="w3-button w3-black w3-block w3-hover-light-grey w3-padding-16">About Me</a>
             <a href="#work" className="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Projects</a>
-            <a href="#resume" className="w3-button w3-black w3-block w3-hover-light-grey w3-padding-16">Resume</a>
-            <a href="#contact" className="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Contact</a>
             <a href="#extracurricular" className="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Extracurricular</a>
+            <a href="#contact" className="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Contact</a>
+            <a href="#resume" className="w3-button w3-black w3-block w3-hover-light-grey w3-padding-16">Resume</a>
+            
             </div>
         </div>
         <div className="w3-half w3-light-grey w3-container" style={{height: "700px"}} id="about">
             <div className="w3-padding-64 w3-animate-left w3-center">
             <h1><strong>About Me</strong></h1>
             <div className="w3-left-align w3-padding-large">
-                <p>Dedicated to using science, technology,  and mathematics to further the pursuit of knowledge  and impact as many people as possible.</p>
-                <p>Robust background in logical thinking, complex problem solving, analytical thinking,  and a working knowledge of computer programming.</p>
-                <p>Ability to build  and maintain relationships, collaborate with others, engage in constructive conflict, manage interpersonal dynamics, quickly learn new systems,  and work in a fast-paced  and collaborative environment
-                </p>
+                <p>I am a disciplined and persistent problem-solver, open to new opportunities, and comfortable with being uncomfortable.</p>
+                <p>Highly motivated and well-versed in various programming languages, with a master's degree in Applied Mathematics and work experience in academia and tech. </p>
             </div>
             </div>
         </div>
@@ -41,9 +40,9 @@ function Projects(props) {
                 <h1><strong>Projects</strong></h1>
                     <Thumbnail 
                     link="http://sfitnessco.com"
-                    image="./sFITNESS.jpg"
+                    image="/sFITNESS.jpg"
                     title="sFITNESS"
-                    category="Fitness  and Wellness App"
+                    category="Fitness and Wellness App"
                     />
 
                     <Summary
@@ -99,10 +98,6 @@ function Projects(props) {
         <div className="w3-half w3-brown w3-container w3-center" id="extracurricular">
             <div className="w3-padding-64 w3-animate-right">
             <h1><strong>Extra Extra... Read all about it!</strong></h1>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
                     <Thumbnail
                     link="https://pitt.zoom.us/rec/play/u5R_dbz--Do3Gd2X4gSDU_R9W9W_LPqs1SNM__IOzEfgW3ZRZAWgY7QbM7ZsjCo61KohPPaTmdLMf2oU?startTime=1588968239000&_x_zm_rtaid=bp79UOdnQVuamy3OCN4kYA.1590750115444.5c8cc25b682ee9418e7b3c1b891685f8&_x_zm_rhtaid=897"
                     image="learnSQL.png"
@@ -115,10 +110,6 @@ function Projects(props) {
                     title="Now, I know what you’re asking; what the heck is SQL? It stand s for Structured Query Language. It’s a stand ard computer lan- guage used for accessing  and manipulating databases. Wait! Manipulate databases? Computer language? I thought this was a math talk! Don’t worry this is a math talk and sort of. In this talk we will be learning the basics of a computer language (SQL) using mathematics (set theory). Whether you know some computer languages or none at all, it’s always fun to learn one, so let’s do that!"
                     category="SQL and Powerpoint, Zoom"
                     />
-                     <br></br>
-                     <br></br>
-                     <br></br>
-                     <br></br>
                     <Thumbnail
                     link="https://pitt.zoom.us/rec/play/vpB5Ju6hrzI3HNadswSDBqctW9W8fams0yEa8vYPmk6wB3gGO1H0N7pHYbBk9jUj4awd6dVPRweaSm8y?startTime=1588795106000&_x_zm_rtaid=bp79UOdnQVuamy3OCN4kYA.1590750115444.5c8cc25b682ee9418e7b3c1b891685f8&_x_zm_rhtaid=897/"
                     image="learnSQL2.png"
