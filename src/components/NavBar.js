@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Link } from "react-scroll";
  
-function NavigationBar(props) {
+function NavBar(props) {
   return (
         <div className="w3-half w3-black w3-container w3-center" style={{height: "700px"}}>
             <div className="w3-padding-64">
@@ -65,4 +65,4 @@ function NavigationBar(props) {
   )
 }
  
-export default NavigationBar;
+export default NavBar;

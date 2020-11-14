@@ -1,12 +1,12 @@
 import React from 'react';
-import NavigationBar from '../components/NavigationBar'
+import NavBar from '../components/NavBar'
 import '../App.css';
  
 function AboutMe(props) {
   return (
     <div className="NavigationAndAbout">
         <div className="w3-row w3-animate-left container1">
-        <NavigationBar />
+        <NavBar />
         <div className="w3-half w3-light-grey w3-container" style={{height: "700px"}} id="about">
             <div className="w3-padding-64 w3-animate-right w3-center">
             <h1><strong>About Me</strong></h1>
