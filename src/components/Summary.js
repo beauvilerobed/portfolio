@@ -8,7 +8,8 @@ function Summary(props) {
       <a href={props.link} className="github-link" data-hover="GITHUB"><div className="github-link-filler"/></a>
       <div className="summary">
               <div className="summary-title">{props.title}</div>
-              <div className="summary-tools"><strong>Languages and Tools:</strong>{props.category}</div>
+              <div className="summary-tools"><strong>Languages and Tools:</strong></div>
+              <div>{props.category}</div>
 
       </div>
     </div>

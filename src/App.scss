@@ -79,3 +79,46 @@
     -o-transition-delay: .4s;
     transition-delay: .4s;
 }
+
+
+#work {
+    background: linear-gradient(90deg, red, yellow, green, orange, purple);
+    background-size: 10000% 4%;
+    animation: gradient 10s ease infinite;
+}
+
+#about {
+    background: linear-gradient(90deg, red, yellow, green, orange, purple);
+    background-size: 10000% 40%;
+    animation: gradient 10s ease infinite;
+}
+
+#extracurricular {
+    background: linear-gradient(90deg, red, yellow, green, orange, purple);
+    background-size: 10000% 40%;
+    animation: gradient 10s ease infinite;
+}
+
+#contact {
+    background: linear-gradient(90deg, red, yellow, green, orange, purple);
+    background-size: 10000% 40%;
+    animation: gradient 10s ease infinite;
+}
+
+#resume {
+    background: linear-gradient(90deg, red, yellow, green, orange, purple);
+    background-size: 10000% 40%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
