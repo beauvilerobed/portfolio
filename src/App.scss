@@ -67,16 +67,6 @@
     transform: translate(0,0);
 }
 
-.github-link:after {
-    content: attr(data-active);
-    -webkit-transform: translate(150%,0);
-    -moz-transform: translate(150%,0);
-    -ms-transform: translate(150%,0);
-    -o-transform: translate(150%,0);
-    transform: translate(150%,0);
-    font-family: 'times';
-}
-
 .github-link:hover:before {
     opacity: 1;
     -webkit-transform: translate(0,0);
