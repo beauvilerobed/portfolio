@@ -20,14 +20,15 @@ function Extra(props) {
                 category="Data Structures and Algorithms"
                 />
                 <Summary
-                link="https://github.com/beauvilerobed/data-structures_and_algorithms"
-                title="Topics from Stanford's and UCS's Algorithms and Data Structures course"
-                category="Python3, unittest, Javascript, QUnit API"
+                link="https://github.com/beauvilerobed/algo_practice"
+                title="Fun algorithm problems and data structure constructions that will keep your mind sharp!"
+                category="Python3, unittest"
                 />
                 <Summary
                 link="https://github.com/beauvilerobed/data-structures_and_algorithms"
-                title="Fun algorithm problems and data structure constructions that will keep your mind sharp!"
-                category="Python3, unittest"
+                title="Topics from Stanford's and UCS's Algorithms and Data Structures course. 
+                        Constructed data structures including graphs for algorithms such as Dijkstra’s shortest path.        "
+                category="Python3, unittest, Javascript, QUnit API"
                 />
 
 
