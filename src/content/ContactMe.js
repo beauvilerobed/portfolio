@@ -9,7 +9,7 @@ function ContactMe(props) {
         <div className="w3-padding-64 w3-animate-right">
         <h1><strong>Contact</strong></h1>
         </div>
-        <div className="w3-padding-64 w3-animate-left">
+        <div className="w3-padding-64 w3-animate-top">
         <p>..for a cup of coffee, or whatever.</p>
         <p>Orlando, FL</p>
         <p>(850) 354-0565</p>

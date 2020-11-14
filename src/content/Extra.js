@@ -10,7 +10,7 @@ import DSA from '../Images/DSA.jpg'
 function Extra(props) {
   return (
     <div className="w3-half w3-brown w3-container w3-center" id="extracurricular">
-        <div className="w3-padding-64 w3-animate-right">
+        <div className="w3-padding-64 w3-animate-left">
         <h1><strong>Extra Extra!</strong></h1>
 
                 <Icon icon={DSA} />
