@@ -39,17 +39,23 @@ h1,h2,h3,h4,h5,h6{
 }
 
 img {
+  border-radius: 20px;
   max-width: 90%;
   max-height: 100%;
-  border: 2px solid black;
+  border: 1px solid black;
   transition: 0.5s;
   align-items: center;
   position: relative;
 
 }
 
+.w3-button {
+  border-radius: 20px;
+}
+
 .summary-title ,.project-title {
   border: 2px solid black;
+  border-radius: 20px;
   margin: 10px;
   align-items: center;
   background-color: #ffff;
