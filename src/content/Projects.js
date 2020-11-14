@@ -11,7 +11,7 @@ import Extra from './Extra'
 function Projects(props) {
   return (
     <div className="w3-row w3-animate-right container2">
-    <div className="w3-half w3-blue-grey and w3-center" id="work">
+    <div className="w3-half and w3-center" id="work">
         <div className="w3-padding-64 w3-animate-right">
             <h1><strong>Projects</strong></h1>
                 

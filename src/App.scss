@@ -82,43 +82,51 @@
 
 
 #work {
-    background: linear-gradient(90deg, red, yellow, green, orange, purple);
-    background-size: 10000% 4%;
-    animation: gradient 10s ease infinite;
+    animation:work 5s infinite
 }
 
-#about {
-    background: linear-gradient(90deg, red, yellow, green, orange, purple);
-    background-size: 10000% 40%;
-    animation: gradient 10s ease infinite;
-}
-
-#extracurricular {
-    background: linear-gradient(90deg, red, yellow, green, orange, purple);
-    background-size: 10000% 40%;
-    animation: gradient 10s ease infinite;
-}
-
-#contact {
-    background: linear-gradient(90deg, red, yellow, green, orange, purple);
-    background-size: 10000% 40%;
-    animation: gradient 10s ease infinite;
+@keyframes work {
+    0% {background-color: #607d8b; color: white}
+    50% {background-color: #795548;}
+    100% {background-color: #607d8b; color: white}
 }
 
 #resume {
-    background: linear-gradient(90deg, red, yellow, green, orange, purple);
-    background-size: 10000% 40%;
-    animation: gradient 10s ease infinite;
+    animation:resume 5s infinite
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+@keyframes resume {
+    0% {background-color: #000; color:white}
+    50% {background-color: #607d8b; color: white}
+    100% {background-color: #000; color:white}
+}
+
+#extracurricular {
+    animation:extracurricular 5s infinite
+}
+
+@keyframes extracurricular {
+    0% {background-color: #795548;}
+    50% {background-color: #616161;}
+    100% {background-color: #795548;}
+}
+
+#contact {
+    animation:contact 5s infinite
+}
+
+@keyframes contact {
+    0% {background-color: #616161;}
+    50% {background-color: #D3D3D3; color: black}
+    100% {background-color: #616161;}
+}
+
+#about {
+    animation:about 5s infinite
+}
+
+@keyframes about {
+    0% {background-color: #D3D3D3; color: black}
+    50% {background-color: #607d8b; color: white}
+    100% {background-color: #D3D3D3; color: black}
 }
