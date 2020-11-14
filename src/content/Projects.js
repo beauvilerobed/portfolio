@@ -1,9 +1,5 @@
 import React from 'react';
 import '../App.css';
-import Icon from '../Images/ThumbnailImage';
-import sFITNESS from '../Images/sFITNESS.jpg'
-import calc_bot from '../Images/calc_bot.png'
-import TWITTY from '../Images/TWITTY.png'
 import Thumbnail from '../components/Thumbnail.js';
 import Summary from '../components/Summary.js';
 import Extra from './Extra'
@@ -15,7 +11,8 @@ function Projects(props) {
         <div className="w3-padding-64 w3-animate-right">
             <h1><strong>Projects</strong></h1>
                 
-                <Icon icon={calc_bot} />
+                <img scr={require('../Images/calc_bot.png')} alt="" 
+                    style={{width: 100, height: 100}}/>
                 <Thumbnail
                 title="Calculus-Calculator"
                 category="E-learning App"
@@ -27,7 +24,8 @@ function Projects(props) {
                 />
 
 
-                <Icon icon={TWITTY} />
+                <img scr={require('../Images/TWITTY.png')} alt="" 
+                    style={{width: 100, height: 100}}/>
                 <Thumbnail
                 title="TWITY"
                 category=" Microblogging App"
@@ -39,7 +37,8 @@ function Projects(props) {
                 />
 
 
-                <Icon icon={sFITNESS} />
+                <img scr={require('../Images/sFITNESS.jpg')} alt="" 
+                    style={{width: 100, height: 100}}/>
                 <Thumbnail 
                 title="sFITNESS"
                 category="Fitness and Wellness App"

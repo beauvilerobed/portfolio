@@ -1,7 +1,5 @@
 import React from 'react';
 import Thumbnail from '../components/Thumbnail'
-import Icon from '../Images/ThumbnailImage'
-import resume from '../Images/resume.png'
 import '../App.css';
  
 function Resume(props) {
@@ -10,7 +8,8 @@ function Resume(props) {
     <div className="w3-padding-64 w3-animate-right w3-center">
         <h1><strong>Resume</strong></h1>
 
-                <Icon icon={resume} />
+                <img scr={require('../Images/resume.png')} alt="" 
+                    style={{width: 100, height: 100}}/>
 
                 <Thumbnail
                 link="https://github.com/beauvilerobed/Resume"
