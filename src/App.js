@@ -10,13 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-  
         <Route exact path="/" component={Projects} />
-  
-        <div className="navigation">
-        <div className="navigation-sub">
-                                  
-  
+            <div className="navigation">
+            <div className="navigation-sub">
           </div>
         </div>
       </div>
