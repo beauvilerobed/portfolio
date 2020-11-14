@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#work, .w3-indigo {
+  min-height: 800px;
+}
+
+img {
+  max-width: 90%;
+  max-height: 100%;
+  border: 2px solid black;
+  transition: 0.5s;
+  align-items: center;
+  position: relative;
+
+}
+
+.summary-title ,.project-title {
+  border: 2px solid black;
+  margin: 10px;
+  align-items: center;
+  background-color: #ffff;
+  color: #000000;
+  padding: 10px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+  
+}
+
+a {
+  text-decoration: unset;
+  transition: 0.5s;
+}
+
+.summary-title:hover, .project-title:hover {
+  background-color: #282c34;
+  color: white;
+  max-width: 100%;
+}
+
+
+@media( min-width: 600px) { 
+  .w3-row {
+    display: flex; /* equal height of the children */
+  }
+}
+
+.w3-row {
+  animation-duration: 1.5s;
+}
+
+.w3-padding-64 {
+  animation-duration: 2s;
+}
