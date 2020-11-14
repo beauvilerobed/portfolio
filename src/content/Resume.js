@@ -13,8 +13,8 @@ function Resume(props) {
                 <Icon icon={resume} />
 
                 <Thumbnail
-                link="https://github.com/beauvilerobed/Robed-Beauvile/blob/master/Robed%20Beauvil2.pdf"
-                title="See in Github"
+                link="https://github.com/beauvilerobed/Resume"
+                title="Github"
                 />
         </div>
     </div>

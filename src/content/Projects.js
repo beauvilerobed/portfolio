@@ -17,7 +17,6 @@ function Projects(props) {
                 
                 <Icon icon={calc_bot} />
                 <Thumbnail
-                link="https://calctutor123.herokuapp.com/"
                 title="Calculus-Calculator"
                 category="E-learning App"
                 />
@@ -30,7 +29,6 @@ function Projects(props) {
 
                 <Icon icon={TWITTY} />
                 <Thumbnail
-                link="https://twityclone.herokuapp.com"
                 title="TWITY"
                 category=" Microblogging App"
                 />
@@ -43,7 +41,6 @@ function Projects(props) {
 
                 <Icon icon={sFITNESS} />
                 <Thumbnail 
-                link="http://sfitnessco.com"
                 title="sFITNESS"
                 category="Fitness and Wellness App"
                 />
