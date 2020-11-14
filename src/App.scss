@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* .summary */
+
+.summary {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+    background-color: #ffff;
+    color: #000000;
+    padding: 10px;
+    margin-bottom: 30px;
+    transition: 0.5s ease;
+    z-index: 0;
+}
+
+.github-link {
+    margin-top: 25px;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    z-index:3;
+}
+
+.github-link:hover ~ .summary {
+    background-color: #282c34;
+    height: 7em;
+    color: #282c34;
+}
+
+.github-link:before,
+.github-link:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: .4s,opacity .6s;
+    -moz-transition: .4s,opacity .6s;
+    -o-transition: .4s,opacity .6s;
+    transition: .4s,opacity .6s;
+    z-index: 11;
+}
+
+.github-link:before {
+    content: attr(data-hover);
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+.github-link:after {
+    content: attr(data-active);
+    -webkit-transform: translate(150%,0);
+    -moz-transform: translate(150%,0);
+    -ms-transform: translate(150%,0);
+    -o-transform: translate(150%,0);
+    transform: translate(150%,0);
+    font-family: 'times';
+}
+
+.github-link:hover:before {
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition-delay: .4s;
+    -moz-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    transition-delay: .4s;
+}

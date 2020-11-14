@@ -1,14 +1,16 @@
 import React from 'react';
 import '../App.css';
+import '../App.scss'
  
 function Summary(props) {
   return (
-    <div className="summary">
-        <a href={props.link}>
-            <div className="summary-title">{props.title}
-            <div className="summary-tools"><strong>Languages and Tools:</strong><br></br> {props.category}</div>
-            </div>
-        </a>
+    <div>
+      <a href={props.link} className="github-link" data-hover="GITHUB"><div className="github-link-filler"/></a>
+      <div className="summary">
+              <div className="summary-title">{props.title}</div>
+              <div className="summary-tools"><strong>Languages and Tools:</strong>{props.category}</div>
+
+      </div>
     </div>
   )
 }

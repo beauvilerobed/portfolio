@@ -53,8 +53,8 @@ img {
   border-radius: 20px;
 }
 
-.summary-title ,.project-title {
-  border: 2px solid black;
+.project-title {
+  border: 1px solid black;
   border-radius: 20px;
   margin: 10px;
   align-items: center;
@@ -69,12 +69,6 @@ img {
 a {
   text-decoration: unset;
   transition: 0.5s;
-}
-
-.summary-title:hover, .project-title:hover {
-  background-color: #282c34;
-  color: white;
-  max-width: 100%;
 }
 
 
