@@ -62,11 +62,13 @@ function NavBar(props) {
               </Link>
         </div>
           <div>
-              <p id="contact-links">
-                <a href="https://github.com/beauvilerobed">Github   </a>
-                <a href="https://www.linkedin.com/in/robed-beauvil/">Linkedin   </a>
-                <a href="mailto: robedbeauvile001@gmail.com">Gmail</a>
-              </p>
+              <div>
+                <p>
+                  <span className="contact-links w3-button w3-hover-light-grey"><a href="https://github.com/beauvilerobed">Github</a></span>
+                  <span className="contact-links w3-button w3-hover-light-grey"><a href="https://www.linkedin.com/in/robed-beauvil/">Linkedin</a></span>
+                  <span className="contact-links w3-button w3-hover-light-grey"><a href="mailto: robedbeauvile001@gmail.com">Gmail</a></span>
+                </p>
+              </div>
           </div>
     </div>
   )

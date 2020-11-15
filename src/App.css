@@ -46,13 +46,11 @@ h1,h2,h3,h4,h5,h6,p{
   font-size: 16px;
 }
 
-#contact-links {
+.contact-links {
   font-family: 'Courier New', Courier, monospace;
-  word-spacing: 100px;
+  margin-right: 30px;
+  margin-left: 30px;
   font-weight: bold;
-  border: 1px solid #eaedf3;
-  border-radius: 10px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset
 }
 
 .about-me-container,
