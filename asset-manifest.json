@@ -1,29 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8ca9938b.chunk.css",
-    "main.js": "/portfolio/static/js/main.ba7fe26c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ba7fe26c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.7aa274ea.chunk.css",
+    "main.js": "/portfolio/static/js/main.99e8ed57.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.99e8ed57.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
-    "static/js/2.45d997d1.chunk.js": "/portfolio/static/js/2.45d997d1.chunk.js",
-    "static/js/2.45d997d1.chunk.js.map": "/portfolio/static/js/2.45d997d1.chunk.js.map",
+    "static/js/2.a99c60c3.chunk.js": "/portfolio/static/js/2.a99c60c3.chunk.js",
+    "static/js/2.a99c60c3.chunk.js.map": "/portfolio/static/js/2.a99c60c3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.a979bf8f3133c5285e6baeaed6ce7cd2.js": "/portfolio/precache-manifest.a979bf8f3133c5285e6baeaed6ce7cd2.js",
+    "precache-manifest.b5efb18cdf9deb5aef97feb7456d7f86.js": "/portfolio/precache-manifest.b5efb18cdf9deb5aef97feb7456d7f86.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.8ca9938b.chunk.css.map": "/portfolio/static/css/main.8ca9938b.chunk.css.map",
-    "static/js/2.45d997d1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.45d997d1.chunk.js.LICENSE.txt",
-    "static/media/DSA.jpg": "/portfolio/static/media/DSA.1ab691bc.jpg",
-    "static/media/TWITTY.png": "/portfolio/static/media/TWITTY.4250a6eb.png",
-    "static/media/calc_bot.png": "/portfolio/static/media/calc_bot.d5d26ca2.png",
-    "static/media/learnSQL.png": "/portfolio/static/media/learnSQL.ad4cad71.png",
-    "static/media/learnSQL2.png": "/portfolio/static/media/learnSQL2.2ae1bdcc.png",
-    "static/media/resume.png": "/portfolio/static/media/resume.973dab18.png",
-    "static/media/sFITNESS.jpg": "/portfolio/static/media/sFITNESS.dc5546a5.jpg"
+    "static/css/main.7aa274ea.chunk.css.map": "/portfolio/static/css/main.7aa274ea.chunk.css.map",
+    "static/js/2.a99c60c3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a99c60c3.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/portfolio/static/media/sFITNESS.dc5546a5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fb1b3dac.js",
-    "static/js/2.45d997d1.chunk.js",
-    "static/css/main.8ca9938b.chunk.css",
-    "static/js/main.ba7fe26c.chunk.js"
+    "static/js/2.a99c60c3.chunk.js",
+    "static/css/main.7aa274ea.chunk.css",
+    "static/js/main.99e8ed57.chunk.js"
   ]
 }
