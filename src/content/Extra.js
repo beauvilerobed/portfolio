@@ -8,9 +8,7 @@ function Extra(props) {
     <div className="w3-half w3-container w3-center" id="extracurricular">
         <div className="w3-padding-64 w3-animate-left">
         <h1><strong>Extra Extra!</strong></h1>
-
-                <img scr={require('../Images/DSA.jpg')} alt="" 
-                    style={{width: 100, height: 100}}/>
+                <div id="DSA" />
                 <Thumbnail
                 link=""
                 title="Design and Analysis of Algorithms and Fun with Algorithms"
@@ -28,9 +26,7 @@ function Extra(props) {
                 category="Python3, unittest, Javascript, QUnit API"
                 />
 
-
-                <img scr={require('../Images/learnSQL.png')} alt="" 
-                    style={{width: 100, height: 100}}/>
+                <div id="learnSQL" />
                 <Thumbnail
                 link="https://pitt.zoom.us/rec/play/u5R_dbz--Do3Gd2X4gSDU_R9W9W_LPqs1SNM__IOzEfgW3ZRZAWgY7QbM7ZsjCo61KohPPaTmdLMf2oU?startTime=1588968239000&_x_zm_rtaid=bp79UOdnQVuamy3OCN4kYA.1590750115444.5c8cc25b682ee9418e7b3c1b891685f8&_x_zm_rhtaid=897"
                 title="Let’s Learn SQL through Set Theory! Part 1"
@@ -42,9 +38,7 @@ function Extra(props) {
                 category="SQL, Microsoft Office"
                 />
 
-
-                <img scr={require('../Images/learnSQL2.png')} alt="" 
-                    style={{width: 100, height: 100}}/>
+                <div id="learnSQL2" />
                 <Thumbnail
                 link="https://pitt.zoom.us/rec/play/vpB5Ju6hrzI3HNadswSDBqctW9W8fams0yEa8vYPmk6wB3gGO1H0N7pHYbBk9jUj4awd6dVPRweaSm8y?startTime=1588795106000&_x_zm_rtaid=bp79UOdnQVuamy3OCN4kYA.1590750115444.5c8cc25b682ee9418e7b3c1b891685f8&_x_zm_rhtaid=897/"
                 title="Let's Learn SQL through Set Theory! Part 2 Application "

@@ -11,8 +11,7 @@ function Projects(props) {
         <div className="w3-padding-64 w3-animate-right">
             <h1><strong>Projects</strong></h1>
                 
-                <img scr={require('../Images/calc_bot.png')} alt="" 
-                    style={{width: 100, height: 100}}/>
+                <div id="calbot"/>
                 <Thumbnail
                 title="Calculus-Calculator"
                 category="E-learning App"
@@ -23,9 +22,7 @@ function Projects(props) {
                 category="Python3, HTML/CSS, Javascript, Django, Bootstrap, D3.js, Keras, NLTK, Tensorflow, JSON, Sympy, Numpy"
                 />
 
-
-                <img scr={require('../Images/TWITTY.png')} alt="" 
-                    style={{width: 100, height: 100}}/>
+                <div id="TWITTY"/>
                 <Thumbnail
                 title="TWITY"
                 category=" Microblogging App"
@@ -36,9 +33,7 @@ function Projects(props) {
                 category="Python3, HTML/CSS, Javascript, Flask, Bootstrap, Jinja2, SQLAlchemy"
                 />
 
-
-                <img scr={require('../Images/sFITNESS.jpg')} alt="" 
-                    style={{width: 100, height: 100}}/>
+                <div id="sFITNESS" />
                 <Thumbnail 
                 title="sFITNESS"
                 category="Fitness and Wellness App"

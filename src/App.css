@@ -38,19 +38,12 @@ h1,h2,h3,h4,h5,h6{
   min-height: 800px;
 }
 
-img {
-  border-radius: 20px;
-  max-width: 90%;
-  max-height: 100%;
-  border: 1px solid black;
-  transition: 0.5s;
-  align-items: center;
-  position: relative;
-
-}
-
 .w3-button {
   border-radius: 20px;
+}
+
+.about-me-container {
+  font-size: 15px;
 }
 
 .about-me-container,
