@@ -18,8 +18,8 @@ function Projects(props) {
                 />
                 <Summary
                 link="https://github.com/beauvilerobed/calctutor123"
-                title="Artificial math tutor that helps you find derivatives  and indefinite integrals through a step-by-step process with optional c."
-                category="Python3, HTML/CSS, Javascript, Django, Bootstrap, D3.js, Keras, NLTK, Tensorflow, JSON, Sympy, Numpy"
+                title="Artificial math tutor that helps you find derivatives and indefinite integrals through a step-by-step process with optional chatbot."
+                category="Python3, HTML5/CSS3, Javascript, Django, D3.js, Keras, NLTK, Tensorflow, JSON, Sympy, Numpy"
                 />
 
                 <div id="TWITTY"/>
@@ -30,7 +30,7 @@ function Projects(props) {
                 <Summary
                 link="https://github.com/beauvilerobed/twity-app"
                 title="Allow users to exchange small elements of content such as short sentences, short posts, quick thoughts ranging from followers to everyone."
-                category="Python3, HTML/CSS, Javascript, Flask, Bootstrap, Jinja2, SQLAlchemy"
+                category="Python3, HTML5/CSS3, Javascript, Flask, Jinja2, SQLAlchemy"
                 />
 
                 <div id="sFITNESS" />
@@ -40,9 +40,9 @@ function Projects(props) {
                 />
                 <Summary
                 link="https://github.com/beauvilerobed/sFITNESS"
-                title="sFITNESS is an automated personal trainer that wants to make exercise  and wellness simple.
-                Health  and fitness should not need to be difficult  and it should be sustainable."
-                category="PHP, MySQL, CSS, Javascript, phpMyAdmin, React, MAMP, Bootstrap"
+                title="sFITNESS is an automated personal trainer that wants to make exercise and wellness simple.
+                Health and fitness should not need to be difficult and it should be sustainable."
+                category="PHP, MySQL, CSS3, Javascript, phpMyAdmin, React, MAMP"
                 />
             <p><strong>Just call me awesome!</strong></p>
     </div>

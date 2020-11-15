@@ -1,5 +1,5 @@
-h1,h2,h3,h4,h5,h6{
-  font-family: Georgia, 'Times New Roman', Times;
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'Georgia', 'Times New Roman', Times;
   font-weight:400;
   margin:10px 0
 }
@@ -43,12 +43,21 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .about-me-container {
-  font-size: 15px;
+  font-size: 16px;
+}
+
+#contact-links {
+  font-family: 'Courier New', Courier, monospace;
+  word-spacing: 100px;
+  font-weight: bold;
+  border: 1px solid #eaedf3;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset
 }
 
 .about-me-container,
 .project-title {
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 20px;
   margin: 10px;
   align-items: center;
@@ -57,14 +66,12 @@ h1,h2,h3,h4,h5,h6{
   padding: 10px;
   margin-bottom: 30px;
   transition: 0.5s;
-  
 }
 
 a {
   text-decoration: unset;
   transition: 0.5s;
 }
-
 
 @media( min-width: 600px) { 
   .w3-row {

@@ -10,7 +10,7 @@ function Resume(props) {
                 <div id="robedbeauvile" />
                 <Thumbnail
                 link="https://github.com/beauvilerobed/Resume"
-                title="Github"
+                title="Resume on Github"
                 />
         </div>
     </div>

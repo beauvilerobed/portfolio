@@ -61,6 +61,13 @@ function NavBar(props) {
                 Resume
               </Link>
         </div>
+          <div>
+              <p id="contact-links">
+                <a href="https://github.com/beauvilerobed">Github   </a>
+                <a href="https://www.linkedin.com/in/robed-beauvil/">Linkedin   </a>
+                <a href="mailto: robedbeauvile001@gmail.com">Gmail</a>
+              </p>
+          </div>
     </div>
   )
 }

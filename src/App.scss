@@ -12,7 +12,7 @@
     display: inline-block;
     position: relative;
     overflow: hidden;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     margin: 10px;
     width: 95%;
@@ -27,7 +27,7 @@
 
 .github-link {
     margin-top: 25px;
-    height: 50px;
+    height: 100px;
     width: 100%;
     position: absolute;
     background-color: transparent;
@@ -39,6 +39,8 @@
     background-color: #282c34;
     height: 7em;
     color: #282c34;
+    border: 1px solid #eaedf3;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
 }
 
 .github-link:before,
@@ -66,6 +68,7 @@
     -ms-transform: translate(0,0);
     -o-transform: translate(0,0);
     transform: translate(0,0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .github-link:hover:before {
@@ -109,7 +112,7 @@
 @keyframes extracurricular {
     0% {background-color: #616161; color: white}
     30% {background-color: #607d8b; color: white}
-    60% {background-color: #795548;}
+    60% {background-color: #583c32;}
     100% {background-color: #616161; color: white}
 }
 
@@ -193,6 +196,6 @@
     @extend %image-props;
     background-image: url("./Images/resume.png");
     background-repeat: no-repeat;
-    width: 22em;
-    height: 28.4em;
+    width: 18em;
+    height: 23.2em;
 }
