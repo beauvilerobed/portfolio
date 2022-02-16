@@ -20,7 +20,7 @@ function NavBar(props) {
               >
                 About Me
               </Link>
-              
+
               <Link
                 to='work'
                 spy={true}
@@ -38,7 +38,7 @@ function NavBar(props) {
                 duration={500}
                 className='w3-button w3-black w3-block w3-hover-brown w3-padding-16'
               >
-                Extracurricular
+                Extra Extra!
               </Link>
 
               <Link
@@ -49,6 +49,16 @@ function NavBar(props) {
                 className='w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16'
               >
                 Contact
+              </Link>
+
+              <Link
+                to='ResearchAndTeachings'
+                spy={true}
+                smooth={true}
+                duration={500}
+                className='w3-button w3-black w3-block w3-hover-light-grey w3-padding-16'
+              >
+                Research and Teachings
               </Link>
         </div>
           <div>

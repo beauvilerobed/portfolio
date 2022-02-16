@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from './Resume.js'
+import ResearchAndTeachings from './ResearchAndTeachings.js'
 import '../App.css';
  
 function ContactMe(props) {
@@ -15,7 +15,7 @@ function ContactMe(props) {
         <p>robedbeauvil@gmail.com</p>
         </div>
     </div>
-    <Resume />
+    <ResearchAndTeachings/>
     </div>
   )
 }
