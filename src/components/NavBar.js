@@ -8,10 +8,10 @@ function NavBar(props) {
             <div className="w3-padding-64">
             <h1><strong>Robed Beauvile</strong></h1>
             <div id="container" className="container-fluid"></div>
-            <h3><strong>Welcome!</strong></h3>
+
             </div>
             <div className="w3-padding-64 w3-animate-top">
-              <Link
+            <Link
                 to='about'
                 spy={true}
                 smooth={true}
@@ -20,7 +20,7 @@ function NavBar(props) {
               >
                 About Me
               </Link>
-
+              
               <Link
                 to='work'
                 spy={true}
@@ -50,23 +50,12 @@ function NavBar(props) {
               >
                 Contact
               </Link>
-
-              <Link
-                to='resume'
-                spy={true}
-                smooth={true}
-                duration={500}
-                className='w3-button w3-black w3-block w3-hover-light-grey w3-padding-16'
-              >
-                Resume
-              </Link>
         </div>
           <div>
               <div>
                 <p>
                   <span className="contact-links w3-button w3-hover-light-grey"><a href="https://github.com/beauvilerobed">Github</a></span>
                   <span className="contact-links w3-button w3-hover-light-grey"><a href="https://www.linkedin.com/in/robed-beauvil/">Linkedin</a></span>
-                  <span className="contact-links w3-button w3-hover-light-grey"><a href="mailto: robedbeauvile001@gmail.com">Gmail</a></span>
                 </p>
               </div>
           </div>

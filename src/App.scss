@@ -199,3 +199,11 @@
     width: 18em;
     height: 23.2em;
 }
+
+#robedbeauvile_pic {
+    @extend %image-props;
+    background-image: url("./Images/robed_pic.jpg");
+    background-repeat: no-repeat;
+    width: 18em;
+    height: 18em;
+}

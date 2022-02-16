@@ -12,7 +12,7 @@ function ContactMe(props) {
         <div className="w3-padding-64 w3-animate-top">
         <p>..for a cup of coffee, or whatever.</p>
         <p>(850) 354-0565</p>
-        <p>robedbeauvile001@gmail.com</p>
+        <p>robedbeauvil@gmail.com</p>
         </div>
     </div>
     <Resume />
