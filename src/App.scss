@@ -95,11 +95,11 @@
     100% {background-color: #607d8b; color: white}
 }
 
-#ResearchAndTeachings {
-    animation:ResearchAndTeachings 30s infinite
+#Research {
+    animation:Research 30s infinite
 }
 
-@keyframes ResearchAndTeachings {
+@keyframes Research {
     0% {background-color: #000; color:white}
     50% {background-color: #607d8b; color: white}
     100% {background-color: #000; color:white}
@@ -153,20 +153,28 @@
     height: 12em;
 }
 
-#TWITTY {
+#starbucks {
     @extend %image-props;
-    background-image: url("./Images/TWITTY.png");
+    background-image: url("./Images/download_1.png");
     background-repeat: no-repeat;
-    width: 13em;
-    height: 4em;
+    width: 18.5em;
+    height: 23.8em;
 }
 
-#sFITNESS {
+#dogbreeds {
     @extend %image-props;
-    background-image: url("./Images/sFITNESS.jpg");
+    background-image: url("./Images/cNN.jpeg");
     background-repeat: no-repeat;
-    width: 13em;
-    height: 13em;
+    width: 19.5em;
+    height: 11.2em;
+}
+
+#pyMatrix {
+    @extend %image-props;
+    background-image: url("./Images/logo2.gif");
+    background-repeat: no-repeat;
+    width: 17.6em;
+    height: 11em;
 }
 
 #DSA {
@@ -188,10 +196,14 @@
 
 #robedbeauvile {
     @extend %image-props;
-    background-image: url("./Images/robed_pic_work.jpg");
+    background-image: url("./Images/work.jpg");
     background-repeat: no-repeat;
     width: 18em;
     height: 18em;
+}
+
+#robedbeauvile.noHover{
+    pointer-events: none;
 }
 
 #robedbeauvile_pic {

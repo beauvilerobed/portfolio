@@ -1,11 +1,11 @@
 import React from 'react';
-import ResearchAndTeachings from './ResearchAndTeachings.js'
+import Research from './Research.js'
 import '../App.css';
  
 function ContactMe(props) {
   return (
     <div className="w3-row w3-animate-right container3">    
-    <ResearchAndTeachings/>
+    <Research/>
     <div className="w3-half w3-container w3-center"id="contact">
         <div className="w3-padding-64 w3-animate-right">
         <h1><strong>Contact Me</strong></h1>

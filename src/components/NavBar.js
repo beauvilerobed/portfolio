@@ -42,15 +42,15 @@ function NavBar(props) {
               </Link>
 
               <Link
-                to='ResearchAndTeachings'
+                to='Research'
                 spy={true}
                 smooth={true}
                 duration={500}
                 className='w3-button w3-black w3-block w3-hover-light-grey w3-padding-16'
               >
-                Research and Teachings
+                Research
               </Link>
-              
+
               <Link
                 to='contact'
                 spy={true}

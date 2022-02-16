@@ -14,35 +14,45 @@ function Projects(props) {
                 <div id="calbot"/>
                 <Thumbnail
                 title="Calculus-Calculator"
-                category="E-learning App"
+                category="E-learning Application"
                 />
                 <Summary
                 link="https://github.com/beauvilerobed/calctutor123"
-                title="Artificial math tutor that helps you find derivatives and indefinite integrals through a step-by-step process with optional chatbot."
-                category="Python3, HTML5/CSS3, Javascript, Django, D3.js, Keras, NLTK, Tensorflow, JSON, Sympy, Numpy"
+                title="Designed and launched a website illustrating a multi-step visualization of integrals and derivatives. Used a chatbot, built from scratch, to assist students with topics such as integrating by parts."
+                category="Python3, JavaScript, NLTK, Django, Keras, NumPy"
                 />
 
-                <div id="TWITTY"/>
+                <div id="starbucks"/>
                 <Thumbnail
-                title="TWITY"
-                category=" Microblogging App"
+                title="Starbucks Rewards: Predicting Consumer Responses"
+                category="Machine Learning/Data Science"
                 />
                 <Summary
-                link="https://github.com/beauvilerobed/twity-app"
-                title="Allow users to exchange small elements of content such as short sentences, short posts, quick thoughts ranging from followers to everyone."
-                category="Python3, HTML5/CSS3, Javascript, Flask, Jinja2, SQLAlchemy"
+                link="https://github.com/beauvilerobed/predict-consumer-responses"
+                title="Utilized Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
+                category="Python3, AWS Sagemaker, S3, XGBoost, pandas, scikit-learn"
                 />
 
-                <div id="sFITNESS" />
+                <div id="dogbreeds" />
                 <Thumbnail 
-                title="sFITNESS"
-                category="Fitness and Wellness App"
+                title="Dog Breeds Image Classification"
+                category="Machine Learning/Deep Learning"
                 />
                 <Summary
-                link="https://github.com/beauvilerobed/sFITNESS"
-                title="sFITNESS is an automated personal trainer that wants to make exercise and wellness simple.
-                Health and fitness should not need to be difficult and it should be sustainable."
-                category="PHP, MySQL, CSS3, Javascript, phpMyAdmin, React, MAMP"
+                link="https://github.com/beauvilerobed/dog-breed-image-classification"
+                title="Applied profiling, debugging, and hyperparameter tuning to refine the performance of a convolutional neural network for image classification."
+                category="Python3, AWS Sagemaker, S3, Pytorch, matplotlib"
+                />
+
+                <div id="pyMatrix" />
+                <Thumbnail 
+                title="PyMatrix-package"
+                category="OOP/Python Package"
+                />
+                <Summary
+                link="https://github.com/beauvilerobed/py-matrix-package"
+                title="Retrieves matrix dimensions, their trace, and performs matrix addition, subtraction, multiplication, and scalar multiplication."
+                category="Python3"
                 />
             <p><strong>Just call me awesome!</strong></p>
     </div>
