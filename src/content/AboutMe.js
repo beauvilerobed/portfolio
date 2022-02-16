@@ -13,7 +13,7 @@ function AboutMe(props) {
             <br></br>
             <h1><strong>About Me</strong></h1>
             <div className="w3-left-align w3-padding-large about-me-container">
-              I am a disciplined and persistent problem-solver, open to new opportunities, 
+              I'm a disciplined and persistent problem-solver, open to new opportunities, 
               and comfortable with being uncomfortable. Highly motivated and well-versed in various 
               programming languages with work experience in academia and tech.
             </div>

@@ -4,7 +4,8 @@ import '../App.css';
  
 function ContactMe(props) {
   return (
-    <div className="w3-row w3-animate-right container3">
+    <div className="w3-row w3-animate-right container3">    
+    <ResearchAndTeachings/>
     <div className="w3-half w3-container w3-center"id="contact">
         <div className="w3-padding-64 w3-animate-right">
         <h1><strong>Contact Me</strong></h1>
@@ -15,7 +16,6 @@ function ContactMe(props) {
         <p>robedbeauvil@gmail.com</p>
         </div>
     </div>
-    <ResearchAndTeachings/>
     </div>
   )
 }

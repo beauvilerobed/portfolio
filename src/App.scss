@@ -141,7 +141,8 @@
 
 %image-props  {
   margin: auto;
-  border: 2px solid black;
+  border-radius: 25px;
+  border: 3px solid black;
   background-size: contain;
 }
 
@@ -176,28 +177,21 @@
     height: 7.7em;
 }
 
-#learnSQL {
+#learnSQL, #learnSQL2 {
     @extend %image-props;
     background-image: url("./Images/learnSQL.png");
     background-repeat: no-repeat;
-    width: 15em;
-    height: 11.7em;
-}
-
-#learnSQL2 {
-    @extend %image-props;
-    background-image: url("./Images/learnSQL2.png");
-    background-repeat: no-repeat;
+    border-radius: 0px;
     width: 15em;
     height: 11.7em;
 }
 
 #robedbeauvile {
     @extend %image-props;
-    background-image: url("./Images/resume.png");
+    background-image: url("./Images/robed_pic_work.jpg");
     background-repeat: no-repeat;
     width: 18em;
-    height: 23.2em;
+    height: 18em;
 }
 
 #robedbeauvile_pic {
