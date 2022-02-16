@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c288cc01.chunk.css",
-    "main.js": "/portfolio/static/js/main.94b64d78.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.94b64d78.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
-    "static/js/2.a99c60c3.chunk.js": "/portfolio/static/js/2.a99c60c3.chunk.js",
-    "static/js/2.a99c60c3.chunk.js.map": "/portfolio/static/js/2.a99c60c3.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.14e9fd0c.css",
+    "main.js": "/portfolio/static/js/main.829e3cd3.js",
+    "static/media/robed_pic.jpg": "/portfolio/static/media/robed_pic.7ef75d61b11f1cebe64e.jpg",
+    "static/media/learnSQL.png": "/portfolio/static/media/learnSQL.37f004ed981678634c03.png",
+    "static/media/download_1.png": "/portfolio/static/media/download_1.01d5b1fbc198190d1023.png",
+    "static/media/work.jpg": "/portfolio/static/media/work.f0a0bb92cb0365557771.jpg",
+    "static/media/cNN.jpeg": "/portfolio/static/media/cNN.5e7bfb729f6ac90e43ca.jpeg",
+    "static/media/DSA.jpg": "/portfolio/static/media/DSA.1111b9e65075a8f891a1.jpg",
+    "static/media/logo2.gif": "/portfolio/static/media/logo2.7ee10d4ea5a3b0ff7007.gif",
+    "static/media/calc_bot.png": "/portfolio/static/media/calc_bot.37859323c5db526631b5.png",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.181f95e1e92d7c39c00f3b7f07d7ec60.js": "/portfolio/precache-manifest.181f95e1e92d7c39c00f3b7f07d7ec60.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.c288cc01.chunk.css.map": "/portfolio/static/css/main.c288cc01.chunk.css.map",
-    "static/js/2.a99c60c3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a99c60c3.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/portfolio/static/media/sFITNESS.dc5546a5.jpg"
+    "main.14e9fd0c.css.map": "/portfolio/static/css/main.14e9fd0c.css.map",
+    "main.829e3cd3.js.map": "/portfolio/static/js/main.829e3cd3.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.fb1b3dac.js",
-    "static/js/2.a99c60c3.chunk.js",
-    "static/css/main.c288cc01.chunk.css",
-    "static/js/main.94b64d78.chunk.js"
+    "static/css/main.14e9fd0c.css",
+    "static/js/main.829e3cd3.js"
   ]
 }
