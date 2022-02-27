@@ -18,7 +18,7 @@ function NavBar(props) {
                 duration={500}
                 className='w3-button w3-black w3-block w3-hover-light-grey w3-padding-16'
               >
-                About Me
+                Bio
               </Link>
 
               <Link
