@@ -9,8 +9,7 @@ function AboutMe(props) {
         <NavBar />
         <div className="w3-half w3-container" style={{height: "700px"}} id="about">
             <div className="w3-padding-64 w3-animate-right w3-center">
-            <br></br>
-            <h2><strong>Bio</strong></h2>
+            <h4><strong>Bio</strong></h4>
             <div className="w3-left-align w3-padding-large about-me-container">
               <p>
               Robed Beauvile is finishing his Ph.D. in Mathematics at the University of Pittsburgh.
