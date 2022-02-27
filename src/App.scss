@@ -213,3 +213,11 @@
     width: 18em;
     height: 18em;
 }
+
+#sFITNESS {
+    @extend %image-props;
+    background-image: url("./Images/sFITNESS.jpeg");
+    background-repeat: no-repeat;
+    width: 18em;
+    height: 18em;
+}
