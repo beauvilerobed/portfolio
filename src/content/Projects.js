@@ -1,77 +1,96 @@
-import React from 'react';
-import '../App.css';
-import Thumbnail from '../components/Thumbnail.js';
-import Summary from '../components/Summary.js';
-import Extra from './Extra'
- 
-function Projects(props) {
-  return (
-    <div className="w3-row w3-animate-right container2">
-    <div className="w3-half and w3-center" id="work">
-        <div className="w3-padding-64 w3-animate-right">
-            <h1><strong>Projects</strong></h1>
-            <h4><strong>From Machine learning to Web Development</strong></h4>
-                
-                <div id="calbot"/>
-                <Thumbnail
-                title="Calculus-Calculator"
-                category="E-learning Web Application"
-                />
-                <Summary
-                link="https://github.com/beauvilerobed/calctutor123"
-                title=""
-                category="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                />
+import React from 'react';  
+import '../style.css';  
 
-                <div id="starbucks"/>
-                <Thumbnail
-                title="Starbucks Rewards: Predicting Consumer Responses"
-                category="Machine Learning/Data Science Project"
-                />
-                <Summary
-                link="https://github.com/beauvilerobed/predict-consumer-responses"
-                title=""
-                category="Python3, AWS Sagemaker, S3, XGBoost, pandas, scikit-learn"
-                />
+class Projects extends React.Component {  
+    constructor(props) {
+        super(props);
+        this.handleClick.bind(this);
+    } 
 
-                <div id="dogbreeds" />
-                <Thumbnail 
-                title="Dog Breeds Image Classification"
-                category="Machine Learning/Deep Learning Project"
-                />
-                <Summary
-                link="https://github.com/beauvilerobed/dog-breed-image-classification"
-                title=""
-                category="Python3, AWS Sagemaker, S3, Pytorch, matplotlib"
-                />
+    handleClick = () =>  {
+        this.props.setStateOfParent("0");
+    }
 
-                <div id="pyMatrix" />
-                <Thumbnail 
-                title="PyMatrix"
-                category="OOP/Python Package"
-                />
-                <Summary
-                link="https://github.com/beauvilerobed/py-matrix-package"
-                title=""
-                category="Python3"
-                />
-
-                <div id="sFITNESS" />
-                <Thumbnail 
-                title="sFITNESS"
-                category="Automated Exercise and Diet Scheduler"
-                />
-                <Summary
-                link="https://github.com/beauvilerobed/fullstack-fitness-trainer"
-                title=""
-                category="PHP, CSS3, JavaScript (React.js)"
-                />
-            <p><strong>Just call me awesome!</strong></p>
-    </div>
-    </div>
-        <Extra />
-    </div>
-  )
-}
- 
+    render() {  
+    return (
+    <div className='popup' style={(this.props.show) ? {display: "block"} : {display: "none"}} >  
+    <div className='popup_open'> 
+    <div id="gallery" className="tm-bg-gray">
+            <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
+                return home
+                <i className="fas fa-times"></i>
+            </a>
+                {/* <!-- Gallery navigation and description --> */}
+                <div className="nav-gallery">
+                    <h2 className="tm-color-primary tm-mt-35 tm-page-title">Projects</h2>
+                        <ul className="tm-gallery-links">
+                            <li>
+                                <a href="#/" className="active tm-gallery-link" data-filter="*">
+                                    <i className="fas fa-layer-group tm-gallery-link-icon"></i>
+                                    All
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#/" className="tm-gallery-link" data-filter="portrait">
+                                    <i className="fas fa-portrait tm-gallery-link-icon"></i>
+                                    Machine Learning/Data Science
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#/" className="tm-gallery-link" data-filter="nature">
+                                    <i className="fas fa-leaf tm-gallery-link-icon"></i>
+                                    Data Structures and Algorithms
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#/" className="tm-gallery-link" data-filter="animal">
+                                    <i className="fas fa-paw tm-gallery-link-icon"></i>
+                                    Web Developement
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#/" className="tm-gallery-link" data-filter="building">
+                                    <i className="far fa-building tm-gallery-link-icon"></i>
+                                    Miscellaneous
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            <div>
+                <div align="center">                    
+                    <img src={require("../img/about.jpg")} alt=""></img>
+                    <p>
+                        Suspendisse sit amet pellentesque nunc. Vivamus fringilla
+                        tellus finibus lacus blandit, siet amet aliquet augue sagittis.
+                        Duis nec auctor felis, nec ornare ex. In non ante ligula.
+                    </p>
+                    <p>
+                        Curabitur non augue dignissim est pulvibar lobortis. Nunc
+                        vulputate, mi vel cursus mollis, justo mauris rutrum dui, id
+                        egestas ante ligula id nunc. Interdum et malesuada fames
+                        ac ante ipsum primis in faucibus.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        You are NOT allowed to re-distribute this template ZIP file
+                        on any website that <span className="tm-color-primary">collects and reposts</span> free templates
+                        from many different websites.
+                    </p>
+                    <p>
+                        Pellentesque vitae ipsum vel risus molestie cursus nec quis
+                        lectus. Duis egestas lorem eu nisi finibus, sit amet
+                        elementum lacus pretium. In tempor felis vitae nulla feugiat aliquam.
+                    </p>
+                    <p>
+                If you need a working HTML contact form, 
+                please visit our <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact page</a>. </p>
+                </div>               
+            </div>
+        </div>
+    </div>  
+</div>  
+);  
+}  
+}  
 export default Projects;
