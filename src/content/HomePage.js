@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import '../css/templatemo-ocean-vibes.css';
+import '../App.css';
+import '../App.scss';
 import '../fontawesome/css/all.min.css';
 import Teaching from '../content/Teaching';  
 import Intro from '../content/Intro';  
@@ -35,7 +37,6 @@ class HomePage extends Component {
         <em className="tm-color-gray-2">Ph.D. Candidate at University of Pittsburgh | Aspiring Machine Learning Engineer | Mathematics and Computer Science Fanatic</em>
     </header>
 
-    {/* <!-- Video banner 400 px height --> */}
     <div id="tm-video-container">
         <video autoPlay muted loop id="tm-video">
             <source src={require("../video/Network.mp4")} type="video/mp4"></source>
@@ -51,7 +52,7 @@ class HomePage extends Component {
                         </a>    
                     </div>            
                 </li>
-                <Intro show={(this.state.disabled === "1") ? true : false } setStateOfParent = {this.setStateOfParent}/>  
+                    <Intro show={(this.state.disabled === "1") ? true : false } setStateOfParent = {this.setStateOfParent}/>  
                 <li className="tm-nav-item">
                     <a href="#Projects" data-effect="mfp-move-from-top" className="tm-nav-link tm-gallery-link" id="2">
                         Projects
@@ -82,7 +83,7 @@ class HomePage extends Component {
 
     <footer className="tm-footer">
         <span>Copyright &copy;  2021. All rights reserved. Hosted on GitHub</span>
-        <span>Free Web Template by 
+        <span>Free CSS Template by 
         <a href="https://templatemo.com" title="free website templates" target="_parent" rel="nofollow">TemplateMo</a></span>
     </footer>
     </div>

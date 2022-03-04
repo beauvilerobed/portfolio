@@ -181,8 +181,9 @@ a {
 
 /* Intro */
 .tm-intro-img {
-    max-width: 500px;
-    max-height: 500px;
+    margin-top: 50px; 
+    max-width: 400px;
+    max-height: 400px;
 }
 
 /* Gallery */
@@ -212,27 +213,6 @@ a {
     width: 30px;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.tm-gallery-container figure h2 {
-	word-spacing: -0.15em;
-	font-weight: 300;
-}
-
-.tm-gallery-container figure h2 span {
-	font-weight: 800;
-}
-
-.tm-gallery-container figure h2,
-.tm-gallery-container figure p {
-	margin: 0;
-}
-
-.tm-gallery-container figure p {
-	letter-spacing: 1px;
-	font-size: 68.5%;
-}
-
 /* contact */
 .tm-contact-row {
     max-width: 1045px;
@@ -245,9 +225,9 @@ a {
 
 /* Contact */
 #contact {
-    margin: auto;
-    width: 50%;
     padding: 10px;
+    text-align: center;
+    overflow: hidden;
 }
 .tm-contact-col {
     flex: 100%;
@@ -280,6 +260,11 @@ select:not([multiple]) {
     padding-right: 20px;
     color: #666;
 }
+.tm-contact-links {
+    width: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 .tm-contact-links li {
     list-style: none;
@@ -288,7 +273,7 @@ select:not([multiple]) {
 }
 
 .tm-contact-link-icon {
-    margin-right: auto;
+    margin-right: 5px;
     margin-left: auto;
 }
 

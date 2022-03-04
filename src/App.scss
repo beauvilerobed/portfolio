@@ -1,223 +1,25 @@
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-/* .summary */
-
-.summary {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin: 10px;
-    width: 95%;
-    align-items: center;
-    background-color: #ffff;
-    color: #000000;
-    padding: 10px;
-    margin-bottom: 30px;
-    transition: 0.5s ease;
-    z-index: 0;
-}
-
-.github-link {
-    margin-top: 25px;
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    background-color: transparent;
-    color: white;
-    z-index:3;
-}
-
-.github-link:hover ~ .summary {
-    background-color: #282c34;
-    height: 7em;
-    color: #282c34;
-    border: 1px solid #eaedf3;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
-}
-
-.github-link:before,
-.github-link:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    opacity: 0;
-    -webkit-transition: .4s,opacity .6s;
-    -moz-transition: .4s,opacity .6s;
-    -o-transition: .4s,opacity .6s;
-    transition: .4s,opacity .6s;
-    z-index: 11;
-}
-
-.github-link:before {
-    content: attr(data-hover);
-    -webkit-transform: translate(0,0);
-    -moz-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    -o-transform: translate(0,0);
-    transform: translate(0,0);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.github-link:hover:before {
-    opacity: 1;
-    -webkit-transform: translate(0,0);
-    -moz-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    -o-transform: translate(0,0);
-    transform: translate(0,0);
-    -webkit-transition-delay: .4s;
-    -moz-transition-delay: .4s;
-    -o-transition-delay: .4s;
-    transition-delay: .4s;
-}
-
-
-#work {
-    animation:work 5s infinite
-}
-
-@keyframes work {
-    0% {background-color: #607d8b; color: white}
-    50% {background-color: #795548;}
-    100% {background-color: #607d8b; color: white}
-}
-
-#Research {
-    animation:Research 30s infinite
-}
-
-@keyframes Research {
-    0% {background-color: #000; color:white}
-    50% {background-color: #607d8b; color: white}
-    100% {background-color: #000; color:white}
-}
-
-#extracurricular {
-    animation:extracurricular 7s infinite
-}
-
-@keyframes extracurricular {
-    0% {background-color: #616161; color: white}
-    30% {background-color: #607d8b; color: white}
-    60% {background-color: #583c32;}
-    100% {background-color: #616161; color: white}
-}
-
-#contact {
-    animation:contact 10s infinite
-}
-
-@keyframes contact {
-    0% {background-color: #616161; color: white}
-    50% {background-color: #D3D3D3; color: black}
-    100% {background-color: #616161; color: white}
-}
-
-#about {
-    animation:about 20s infinite
-}
-
-@keyframes about {
-    0% {background-color: #D3D3D3; color: black}
-    50% {background-color: #607d8b; color: white}
-    100% {background-color: #D3D3D3; color: black}
-}
-
-
-/* Images */
-
-%image-props  {
+#projects {
+  width: 70%;
   margin: auto;
-  border-radius: 25px;
-  border: 3px solid black;
-  background-size: contain;
-}
 
-#calbot {
-    @extend %image-props;
-    background-image: url("./Images/calc_bot.png");
-    width: 10em;
-    height: 12em;
-}
-
-#starbucks {
-    @extend %image-props;
-    background-image: url("./Images/download_1.png");
-    background-repeat: no-repeat;
-    width: 18.5em;
-    height: 23.8em;
-}
-
-#dogbreeds {
-    @extend %image-props;
-    background-image: url("./Images/cNN.jpeg");
-    background-repeat: no-repeat;
-    width: 19.5em;
-    height: 11.2em;
-}
-
-#pyMatrix {
-    @extend %image-props;
-    background-image: url("./Images/logo2.gif");
-    background-repeat: no-repeat;
-    width: 17.6em;
-    height: 11em;
-}
-
-#DSA {
-    @extend %image-props;
-    background-image: url("./Images/DSA.jpg");
-    background-repeat: no-repeat;
-    width: 14em;
-    height: 7.7em;
-}
-
-#learnSQL, #learnSQL2 {
-    @extend %image-props;
-    background-image: url("./Images/learnSQL.png");
-    background-repeat: no-repeat;
-    border-radius: 0px;
-    width: 15em;
-    height: 11.7em;
-}
-
-#robedbeauvile {
-    @extend %image-props;
-    background-image: url("./Images/work.jpg");
-    background-repeat: no-repeat;
-    width: 18em;
-    height: 18em;
-}
-
-#robedbeauvile.noHover{
-    pointer-events: none;
-}
-
-#robedbeauvile_pic {
-    @extend %image-props;
-    background-image: url("./Images/robed_pic.jpg");
-    background-repeat: no-repeat;
-    width: 18em;
-    height: 18em;
-}
-
-#sFITNESS {
-    @extend %image-props;
-    background-image: url("./Images/sFITNESS.jpeg");
-    background-repeat: no-repeat;
-    width: 18em;
-    height: 18em;
+  .project {
+    margin-bottom: auto;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .project {
+      img {
+          width: 170px;
+          height: 170px;
+          margin: 0 15px 0 0;
+          align-items: center;
+          float: left;
+        }
+  }
+    
+  .project:hover {
+    background: rgb(210, 208, 208);
+    cursor: pointer;
+  }
 }

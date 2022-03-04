@@ -1,5 +1,4 @@
 import React from 'react';  
-import '../style.css';  
 
 class Teaching extends React.Component {  
     constructor(props) {
@@ -20,9 +19,9 @@ class Teaching extends React.Component {
                 return home
                 <i className="fas fa-times"></i>
             </a>
-            <h2 className="tm-color-primary tm-mb-40 tm-page-title">Teaching</h2>
-            <div className="tm-row tm-about-row">
-                <div className="tm-col tm-about-col tm-about-left">                    
+            <h2 className="tm-color-primary tm-page-title tm-text-center">Teaching</h2>
+            <div className="tm-row tm-about-row .tm-text-center">
+                <div className="tm-col tm-about-col">                    
                     <img src={require("../img/about.jpg")} alt="" className="tm-mb-30"></img>
                     <p className="tm-mb-40">
                         Suspendisse sit amet pellentesque nunc. Vivamus fringilla

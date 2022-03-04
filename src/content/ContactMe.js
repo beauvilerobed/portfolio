@@ -1,5 +1,4 @@
 import React from 'react';  
-import '../style.css';  
 
 class ContactMe extends React.Component {  
     constructor(props) {
@@ -20,7 +19,7 @@ class ContactMe extends React.Component {
                 return home
                 <i className="fas fa-times"></i>
             </a>
-            <h2 className="tm-contact-col tm-color-primary tm-page-title tm-mb-40">Contact Me</h2>
+            <h2 className="tm-color-primary">Contact Me</h2>
                                 {/* <!-- Links --> */}
                     <ul className="tm-contact-links">
                         <li>
@@ -50,9 +49,6 @@ class ContactMe extends React.Component {
                     </ul>
             <div>
                 <div>
-                
-                {/* <!-- Do you need a working HTML contact form? */}
-                	{/* Please visit https://templatemo.com/contact page --> */}
                     
                     <form id="contact-form" action="" method="POST" className="tm-contact-form">
                         <div className="form-group">

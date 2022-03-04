@@ -1,5 +1,4 @@
 import React from 'react';  
-import '../style.css';  
 
 class Research extends React.Component {  
     constructor(props) {
@@ -21,7 +20,7 @@ class Research extends React.Component {
                 <i className="fas fa-times"></i>
             </a>
             <div className="tm-testimonials-inner">
-                <h2 className="tm-color-gray tm-testimonial-col tm-page-title">Research</h2>
+                <h2 className="tm-color-primary tm-page-title">Research</h2>
                 <div className="tm-row tm-testimonial-row">                
                     <div className="tm-col tm-testimonial-col">
                         <p>
