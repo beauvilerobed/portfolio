@@ -136,7 +136,7 @@ class Projects extends React.Component {
                         pictureId="DSA"
                         headline="Topics from Stanford University and UCS Algorithms and Data Stuctures Coursera Course."
                         link="https://github.com/beauvilerobed/data-structures-and-algorithms"
-                        summary=" Data Structures, Algorithms on Graphs, Algorithms on Strings, Divide and Concquer, Sorting and Seaching, Randomized Algorithms, Graph Search, Shortest Path, Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming, NP-Complete Problems"
+                        summary=" Data Structures, Algorithms on Graphs, Algorithms on Strings, Divide and Concquer, Sorting and Seaching, Randomized Algorithms, Graph Search, Shortest Path, Greedy Algorithms, Minimum Spanning Trees, Dynamic Programming, and NP-Complete Problems"
                         show={true}
                     />     
                 </div>
@@ -144,24 +144,39 @@ class Projects extends React.Component {
 
                 <div id="web-development" style={this.isState("3")  ? {display: "block"} : {display: "none"}}>
                 <Project
-                        pictureId="sFITNESS"
-                        headline="fitness"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
+                        pictureId="calbot"
+                        headline="Calculus-Tutor-Bot"
+                        link="https://github.com/beauvilerobed/calc-tutor-bot"
+                        summary=" Set Up Django Virtual Environment, Train and Integrate Model for Chatbot, Set Up CAS for Computation Logic, Develop Front-End Visualization"
+                        tools=" Python3, JavaScript, NLTK, Django, Keras, NumPy"
                     />
                 <Project
                         pictureId="sFITNESS"
-                        headline="fitness"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
+                        headline="Full-stack Automated Exercise and Diet Scheduler"
+                        link="https://github.com/beauvilerobed/sfitness"
+                        summary=" Data Insertion using SQL, API development for Video Rendering from Youtube, Develop Front-end"
+                        tools=" PHP, React, CSS, MAMP web Stack, MySQL, Youtube Iframe API"
                     />
                 <Project
-                        pictureId="sFITNESS"
-                        headline="fitness"
+                        pictureId="search-image"
+                        headline="Search Image Web Application"
+                        link="https://github.com/beauvilerobed/search-image-app"
+                        summary=" Get Flickr API key, Set Up Backend to Process Request, Develop Front-End for Search Results"
+                        tools=" React, Node.js, Flickr Photo Search API, AJAX"
+                    />
+                <Project
+                        pictureId="micro-blog"
+                        headline="Micro-blog Web Application"
+                        link="https://github.com/beauvilerobed/microblog-app"
+                        summary="Create Virtual Environment, Add Database, Add Routes for CRUD Architecture, Develop Front-End"
+                        tools="Python3, Flask, HTML, CSS"
+                    />
+
+                <Project
+                        pictureId="search-image"
+                        headline="Personal Website"
                         link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
+                        summary=" Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
                         tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
                     />
                 </div>

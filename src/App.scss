@@ -96,6 +96,13 @@ div[disabled]
     height: 14em;
 }
 
+#search-image {
+  @extend %image-props;
+  background-image: url("./img/search_image.png");
+  background-repeat:no-repeat;
+  width: 13.5em;
+  height: 10em;
+}
 
 #ml-workflow {
   @extend %image-props;
@@ -103,6 +110,14 @@ div[disabled]
   background-repeat:no-repeat;
   width: 18em;
   height: 13.6em;
+}
+
+#micro-blog {
+  @extend %image-props;
+  background-image: url("./img/microblog.jpeg");
+  background-repeat:no-repeat;
+  width: 14.9em;
+  height: 11em;
 }
 
 #bike-sharing {
@@ -146,6 +161,6 @@ div[disabled]
     @extend %image-props;
     background-image: url("./img/sFITNESS.jpeg");
     background-repeat: no-repeat;
-    width: 18em;
-    height: 18em;
+    width: 10em;
+    height: 10em;
 }
