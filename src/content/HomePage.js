@@ -46,11 +46,9 @@ class HomePage extends Component {
         <nav className="tm-main-nav">
             <ul className="align-list" onClick={(this.state.disabled === "0") ? this.viewId.bind(this) : null}>
                 <li className="tm-nav-item">
-                    <div id="1">
                         <a href="#Intro" className="tm-nav-link" id="1">
                         Introduction
-                        </a>    
-                    </div>            
+                        </a>               
                 </li>
                     <Intro show={(this.state.disabled === "1") ? true : false } setStateOfParent = {this.setStateOfParent}/>  
                 <li className="tm-nav-item">
@@ -78,7 +76,7 @@ class HomePage extends Component {
                     <ContactMe show={(this.state.disabled === "5") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
                 </li>
                 <li className="tm-nav-item">
-                    <a href="#downloadme" className="tm-nav-link" id="6">
+                    <a href="#downloadme" className="tm-nav-link" id="0">
                         Download Resume
                     </a>
                 </li>
