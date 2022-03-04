@@ -77,6 +77,11 @@ class HomePage extends Component {
                     </a>
                     <ContactMe show={(this.state.disabled === "5") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
                 </li>
+                <li className="tm-nav-item">
+                    <a href="#downloadme" className="tm-nav-link" id="6">
+                        Download Resume
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
