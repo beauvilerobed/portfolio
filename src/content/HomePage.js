@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../css/templatemo-ocean-vibes.css';
 import '../App.css';
 import '../App.scss';
-import '../fontawesome/css/all.min.css';
+import '../fontawesome/css/all.css';
 import Teaching from '../content/Teaching';  
 import Intro from '../content/Intro';  
 import Projects from '../content/Projects'; 
@@ -76,7 +76,7 @@ class HomePage extends Component {
                     <ContactMe show={(this.state.disabled === "5") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
                 </li>
                 <li className="tm-nav-item">
-                    <a href="#downloadme" className="tm-nav-link" id="0">
+                    <a href={'/resume/robed_resume.pdf'} className="tm-nav-link" id="0" download="Robed Beauvile Resume">
                         Download Resume
                     </a>
                 </li>
