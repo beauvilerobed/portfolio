@@ -157,6 +157,14 @@ div[disabled]
     height: 18em;
 }
 
+#robedbeauvile_pic_2 {
+  @extend %image-props;
+  background-image: url("./img/robed_pic.jpg");
+  background-repeat: no-repeat;
+  width: 12em;
+  height: 12em;
+}
+
 #sFITNESS {
     @extend %image-props;
     background-image: url("./img/sFITNESS.jpeg");

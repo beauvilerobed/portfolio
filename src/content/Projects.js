@@ -90,7 +90,7 @@ class Projects extends React.Component {
                         pictureId="starbucks"
                         headline="Starbucks Rewards: Predicting Consumer Responses"
                         link="https://github.com/beauvilerobed/predict-consumer-responses"
-                        summary=" Exploratory Data Analysis, feature Engineering, Model Training, Hyperparameter Tuning, Deployment, Testing and Evaluation, Cleanup Cloud Resources, Write Report"
+                        summary=" Exploratory Data Analysis, Feature Engineering, Model Training, Hyperparameter Tuning, Deployment, Testing and Evaluation, Cleanup Cloud Resources, Write Report"
                         tools=" Python3, S3, XGBoost, pandas, scikit-learn"
                     />
                     <Project
@@ -137,7 +137,7 @@ class Projects extends React.Component {
                         headline="Topics from Stanford University and UCS Algorithms and Data Stuctures Coursera Course."
                         link="https://github.com/beauvilerobed/data-structures-and-algorithms"
                         summary=" Data Structures, Algorithms on Graphs, Algorithms on Strings, Divide and Concquer, Sorting and Seaching, Randomized Algorithms, Graph Search, Shortest Path, Greedy Algorithms, Minimum Spanning Trees, Dynamic Programming, and NP-Complete Problems"
-                        show={true}
+                        dontShowTools={true}
                     />     
                 </div>
 
@@ -154,7 +154,7 @@ class Projects extends React.Component {
                         pictureId="sFITNESS"
                         headline="Full-stack Automated Exercise and Diet Scheduler"
                         link="https://github.com/beauvilerobed/sfitness"
-                        summary=" Data Insertion using SQL, API development for Video Rendering from Youtube, Develop Front-end"
+                        summary=" Data Insertion using SQL, API development for Video Rendering from Youtube, Develop Front-end for Presenting Schedule and Diet"
                         tools=" PHP, React, CSS, MAMP web Stack, MySQL, Youtube Iframe API"
                     />
                 <Project
@@ -168,16 +168,16 @@ class Projects extends React.Component {
                         pictureId="micro-blog"
                         headline="Micro-blog Web Application"
                         link="https://github.com/beauvilerobed/microblog-app"
-                        summary="Create Virtual Environment, Add Database, Add Routes for CRUD Architecture, Develop Front-End"
-                        tools="Python3, Flask, HTML, CSS"
+                        summary=" Create Virtual Environment, Add Database, Add Routes for CRUD Architecture, Develop Front-End for User Interface"
+                        tools=" Python3, Flask, HTML, CSS"
                     />
 
                 <Project
-                        pictureId="search-image"
+                        pictureId="robedbeauvile_pic_2"
                         headline="Personal Website"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary=" Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
+                        link="https://github.com/beauvilerobed/portfolio"
+                        tools=" React, SCSS, CSS, HTML, node.js"
+                        dontShowSummary={true}
                     />
                 </div>
 
@@ -191,7 +191,7 @@ class Projects extends React.Component {
                         tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
                     />
                 <Project
-                        pictureId="learnSQL"
+                        pictureId="learnSQL2"
                         headline="SQL"
                         link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
                         summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
@@ -202,7 +202,7 @@ class Projects extends React.Component {
                         headline="SQL"
                         link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
                         summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
+                        tools=" Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
                     />
 
                 </div>
