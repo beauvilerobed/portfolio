@@ -87,25 +87,46 @@ class Projects extends React.Component {
             <div id="projects">
                 <div id="machine-learning" style={this.isState("1")? {display: "block"} : {display: "none"}}>
                     <Project
-                        pictureId="calbot"
-                        headline="Calculus Tutor Bot"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                    />
-                        <Project
-                        pictureId="calbot"
-                        headline="Calculus Tutor Bot"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
+                        pictureId="starbucks"
+                        headline="Starbucks Rewards: Predicting Consumer Responses"
+                        link="https://github.com/beauvilerobed/predict-consumer-responses"
+                        summary=" Exploratory Data Analysis, feature Engineering, Model Training, Hyperparameter Tuning, Deployment, Testing and Evaluation, Cleanup Cloud Resources, Write Report"
+                        tools=" Python3, S3, XGBoost, pandas, scikit-learn"
                     />
                     <Project
                         pictureId="calbot"
-                        headline="Calculus Tutor Bot"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
+                        headline="Calculus Chatbot"
+                        link="https://github.com/beauvilerobed/calc-tutor-bot/tree/master/chatbot"
+                        summary=" Tokenization, Stemming, Word Lemmatization, Model Training, Testing and Evaluation"
+                        tools=" Python3, NLTK, Django, Keras, NumPy"
+                    />
+                        <Project
+                        pictureId="dogbreeds"
+                        headline="Dog Breeds Image Classification"
+                        link="https://github.com/beauvilerobed/dog-breed-image-classification"
+                        summary=" Data staging, Model training, Hyperparameter Tuning, Deployment, Testing and Evaluation, Cleanup Cloud Resources"
+                        tools=" Python3, S3, Pytorch, matplotlib"
+                    />
+                    <Project
+                        pictureId="bike-sharing"
+                        headline="Predict Bike Sharing Demand with AutoGluon"
+                        link="https://github.com/beauvilerobed/predict-bike-sharing-demand"
+                        summary=" Exploratory Data Analysis, Feature Engineering, Hyperparameter Tunning, Submit Predictions on Kaggle, Write Report"
+                        tools=" Python3, AutoGluon, Pandas, MXNet"
+                    />
+                    <Project
+                        pictureId="ml-workflow"
+                        headline="Build a ML Workflow for Scones Unlimited"
+                        link="https://github.com/beauvilerobed/ml-workflow-build-for-scones-unlimited"
+                        summary=" Data Staging, Model Training and Deployment, Lambdas and Step Function Workflow, Testing and Evaluation, Cleanup Cloud Resources"
+                        tools=" Python3, AWS SageMaker, Lambdas, Step Functions, S3, NumPy, Pandas, matplotlib"
+                    />
+                    <Project
+                        pictureId="operationalize-ml-project"
+                        headline="Operationalizing an AWS ML Project"
+                        link="https://github.com/beauvilerobed/operationalize-ml-project"
+                        summary=" Train and Deploy a Model, Adjust on EC2, Set up Lambda Functions and Auto-Scaling, Ensure Security on ML Pipeline"
+                        tools=" Python3, AWS SageMaker, Lambdas, Step Functions, S3, PyTorch,NumPy, Pandas, matplotlib"
                     />
                 </div>
 
@@ -113,25 +134,11 @@ class Projects extends React.Component {
                 <div id="data-structure" style={this.isState("2")  ? {display: "block"} : {display: "none"}}>
                 <Project
                         pictureId="DSA"
-                        headline="DSA"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                    />
-                <Project
-                        pictureId="DSA"
-                        headline="DSA"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                    />
-                <Project
-                        pictureId="DSA"
-                        headline="DSA"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                    />       
+                        headline="Topics from Stanford University and UCS Algorithms and Data Stuctures Coursera Course."
+                        link="https://github.com/beauvilerobed/data-structures-and-algorithms"
+                        summary=" Data Structures, Algorithms on Graphs, Algorithms on Strings, Divide and Concquer, Sorting and Seaching, Randomized Algorithms, Graph Search, Shortest Path, Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming, NP-Complete Problems"
+                        show={true}
+                    />     
                 </div>
 
 

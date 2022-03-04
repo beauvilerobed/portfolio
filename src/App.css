@@ -1,6 +1,8 @@
 .set-width-100 { width: 100%; }
 .set-font-1 { font-size: 1em; }
 .set-hidden-overflow { overflow: hidden; }
+.set-white {color: white}
+.hide-this {display: none}
 
 .align-list {
   display: flex;

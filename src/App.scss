@@ -19,8 +19,6 @@
   
   .project {
     .image-size {
-          width: 200px;
-          height: 200px;
           margin: 0 15px 0 0;
           align-items: center;
           float: left;
@@ -48,6 +46,7 @@ div[disabled]
   border: 5px solid #309AFD;
   background-size: contain;
   float: left;
+  border-radius: 10px;
 }
 
 #calbot {
@@ -61,16 +60,24 @@ div[disabled]
     @extend %image-props;
     background-image: url("./img/download_1.png");
     background-repeat: no-repeat;
-    width: 18.5em;
-    height: 23.8em;
+    width: 10em;
+    height: 12.9em;
+}
+
+#operationalize-ml-project {
+  @extend %image-props;
+  background-image: url("./img/operationalize.png");
+  background-repeat: no-repeat;
+  width: 15.8em;
+  height: 13.5em;
 }
 
 #dogbreeds {
     @extend %image-props;
-    background-image: url("./img/cNN.jpeg");
+    background-image: url("./img/cNN.png");
     background-repeat: no-repeat;
-    width: 19.5em;
-    height: 11.2em;
+    width: 15.7em;
+    height: 10em;
 }
 
 #pyMatrix {
@@ -83,10 +90,27 @@ div[disabled]
 
 #DSA {
     @extend %image-props;
-    background-image: url("./img/DSA.jpg");
-    background-repeat:repeat;
+    background-image: url("./img/DSA.png");
+    background-repeat:no-repeat;
     width: 14em;
     height: 14em;
+}
+
+
+#ml-workflow {
+  @extend %image-props;
+  background-image: url("./img/ml_workflow.png");
+  background-repeat:no-repeat;
+  width: 18em;
+  height: 13.6em;
+}
+
+#bike-sharing {
+  @extend %image-props;
+  background-image: url("./img/bike_sharing.png");
+  background-repeat:no-repeat;
+  width: 19em;
+  height: 12em;
 }
 
 #learnSQL, #learnSQL2 {

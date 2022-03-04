@@ -8,9 +8,9 @@ function Project(props) {
           <div className="summary">
           <h3>{props.headline}</h3>
           <h2>
-          <strong><button  className="tm-btn" href={props.link}>GitHub</button></strong>
+          <a href={props.link} className="et-white"><button className="tm-btn"><strong>GitHub</strong></button></a>
           </h2>
-          <p> {props.summary} <br></br><strong>Tools:</strong>{props.tools}</p>
+          <p> <strong>Project includes:</strong>{props.summary} <br></br><strong className={(props.show === true) ? "hide-this" : ""}>Tools:</strong>{props.tools}</p>
           </div>
       </div>
     </div> 
