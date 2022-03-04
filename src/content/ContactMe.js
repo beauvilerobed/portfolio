@@ -29,7 +29,7 @@ class ContactMe extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:info@company.com">
+                            <a href="mailto:Robedbeauvile@gmail.com">
                                 <i className="fas fa-at tm-contact-link-icon"></i>
                                 Robedbeauvile@gmail.com
                             </a>

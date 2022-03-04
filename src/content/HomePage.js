@@ -47,32 +47,32 @@ class HomePage extends Component {
             <ul id="inline-popups" onClick={(this.state.disabled === "0") ? this.viewId.bind(this) : null}>
                 <li className="tm-nav-item">
                     <div id="1">
-                        <a href="#Intro" data-effect="mfp-move-from-top" className="tm-nav-link" id="1">
+                        <a href="#Intro" className="tm-nav-link" id="1">
                         Introduction
                         </a>    
                     </div>            
                 </li>
                     <Intro show={(this.state.disabled === "1") ? true : false } setStateOfParent = {this.setStateOfParent}/>  
                 <li className="tm-nav-item">
-                    <a href="#Projects" data-effect="mfp-move-from-top" className="tm-nav-link tm-gallery-link" id="2">
+                    <a href="#Projects" className="tm-nav-link tm-gallery-link" id="2">
                         Projects
                     </a>
                     <Projects show={(this.state.disabled === "2") ? true : false } setStateOfParent = {this.setStateOfParent}/>  
                 </li>
                 <li className="tm-nav-item">
-                    <a href="#Research" data-effect="mfp-move-from-top" className="tm-nav-link" id="3">
+                    <a href="#Research" className="tm-nav-link" id="3">
                         Research
                     </a>
                     <Research show={(this.state.disabled === "3") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
                 </li>
                 <li className="tm-nav-item">
-                    <a href="#Teaching" data-effect="mfp-move-from-top" className="tm-nav-link" id="4">
+                    <a href="#Teaching" className="tm-nav-link" id="4">
                     Teaching
                     </a>
                     <Teaching show={(this.state.disabled === "4") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
                 </li>
                 <li className="tm-nav-item">
-                    <a href="#Contact" data-effect="mfp-move-from-top" className="tm-nav-link" id="5">
+                    <a href="#Contact" className="tm-nav-link" id="5">
                         Contact Me
                     </a>
                     <ContactMe show={(this.state.disabled === "5") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
@@ -87,7 +87,6 @@ class HomePage extends Component {
         <a href="https://templatemo.com" title="free website templates" target="_parent" rel="nofollow">TemplateMo</a></span>
     </footer>
     </div>
-    
 );  
 }
 }
