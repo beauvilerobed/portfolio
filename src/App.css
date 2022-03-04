@@ -1,3 +1,19 @@
+.set-width-100 { width: 100%; }
+.set-font-1 { font-size: 1em; }
+.set-hidden-overflow { overflow: hidden; }
+
+.align-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-div { 
+  width: 70% ;
+  margin: auto;
+}
+
 .popup {  
     position: fixed;  
     top: 0;  
@@ -15,4 +31,26 @@
     z-index: 10001;
     display: block;
     width: 100%;
+    overflow: hidden;
   }
+
+
+/* layout */
+#navigation li {
+    list-style: none;
+}
+
+#wrapper {
+    float: right;
+    width: 70%;
+}
+
+#navigation {
+    float: left;
+    width: 29.9%;
+}
+
+#extra {
+    clear: both;
+    width: 100%;
+}

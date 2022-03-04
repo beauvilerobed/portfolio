@@ -1,12 +1,20 @@
+#container {
+  padding: 30px;
+  ul li {
+    list-style: none;
+    padding-right: 10px;
+    line-height: 1.6;
+}
+}
+
 #projects {
-  width: 70%;
-  margin: auto;
 
   .project {
     margin-bottom: auto;
     text-align: center;
     padding: 50px;
     display: flex;
+    transition: all 0.4s ease;
   }
   
   .project {
@@ -20,7 +28,7 @@
   }
     
   .project:hover {
-    background: rgb(210, 208, 208);
+    background: rgb(226, 224, 224);
     cursor: pointer;
   }
 }
