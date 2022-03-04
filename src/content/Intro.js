@@ -14,7 +14,7 @@ class Intro extends React.Component {
     return (
     <div className="popup" style={(this.props.show) ? {display: "block"} : {display: "none"}} >  
         <div className="popup_open"> 
-        <div id="gallery" className="tm-bg-gray">
+        <div id="gallery" className="tm-bg-gray set-hidden-overflow">
         <div id="intro">
             <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
                 return home

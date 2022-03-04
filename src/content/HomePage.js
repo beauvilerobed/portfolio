@@ -33,7 +33,7 @@ class HomePage extends Component {
     return ( 
     <div> 
     <header className="tm-site-header">
-        <h1 className="tm-mt-0 tm-mb-15"><span className="tm-color-primary">Robed Beauvile</span> <span className="tm-tagline tm-color-light-gray">"You only fail when you stop trying." -Unknown</span></h1>
+        <h1 className=""><span className="tm-color-primary">Robed Beauvile</span> <span className="tm-tagline tm-color-light-gray tm-text-right">"You only fail if you stop trying." -Unknown</span></h1>
         <em className="tm-color-gray-2">Ph.D. Candidate at University of Pittsburgh | Aspiring Machine Learning Engineer | Mathematics and Computer Science Fanatic</em>
     </header>
 
@@ -44,7 +44,7 @@ class HomePage extends Component {
     </div>
     <div className="tm-container">
         <nav className="tm-main-nav">
-            <ul id="inline-popups" onClick={(this.state.disabled === "0") ? this.viewId.bind(this) : null}>
+            <ul className="align-list" onClick={(this.state.disabled === "0") ? this.viewId.bind(this) : null}>
                 <li className="tm-nav-item">
                     <div id="1">
                         <a href="#Intro" className="tm-nav-link" id="1">

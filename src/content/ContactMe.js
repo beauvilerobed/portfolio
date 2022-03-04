@@ -14,14 +14,13 @@ class ContactMe extends React.Component {
     return (
     <div className='popup' style={(this.props.show) ? {display: "block"} : {display: "none"}} >  
     <div className='popup_open'> 
-    <div id="contact" className="tm-bg-gray">
+    <div id="contact" className="tm-bg-gray set-hidden-overflow">
             <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
                 return home
                 <i className="fas fa-times"></i>
             </a>
             <h2 className="tm-color-primary">Contact Me</h2>
-                                {/* <!-- Links --> */}
-                    <ul className="tm-contact-links">
+                    <ul className="tm-contact-links align-list">
                         <li>
                             <a href="tel:8503540565">
                                 <i className="fas fa-phone tm-contact-link-icon"></i>
@@ -62,7 +61,7 @@ class ContactMe extends React.Component {
                         </div>
 
                         <div className="form-group tm-text-right">
-                            <button type="submit" className="tm-btn tm-btn-primary">Send</button>
+                            <button type="submit" className="tm-btn tm-btn-primary set-width-100 set-font-1"><strong>Send</strong></button>
                         </div>
                     </form>
                 </div>

@@ -5,8 +5,8 @@ class Projects extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
-            project: null,
-            all: true,
+            project: "1",
+            all: false,
             machineLearning: "1",
             datastructure: "2",
             webdev: "3",
@@ -44,14 +44,14 @@ class Projects extends React.Component {
     return (
     <div className='popup' style={(this.props.show) ? {display: "block"} : {display: "none"}} >  
     <div className='popup_open'> 
-    <div id="gallery" className="tm-bg-gray">
+    <div id="gallery" className="tm-bg-gray set-hidden-overflow">
             <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
                 return home
                 <i className="fas fa-times"></i>
             </a>
                 <div className="nav-gallery">
                     <h2 className="tm-color-primary tm-mt-35 tm-page-title">Projects</h2>
-                        <ul className="tm-gallery-links">
+                        <ul className="tm-gallery-links align-list">
                             <li>
                                 <a href="#/" className={`${(this.state.all) ? "active" : ""} tm-gallery-link` } onClick={() => this.showAllDiv(!this.state.all)}>
                                     <i className="fas fa-layer-group tm-gallery-link-icon"></i>
