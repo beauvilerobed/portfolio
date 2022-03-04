@@ -60,25 +60,25 @@ class Projects extends React.Component {
                             </li>
                             <li>
                                 <a href="#/"className={`${this.isState("1") ? "active" : ""} tm-gallery-link` } onClick={() => this.enableDiv(this.state.machineLearning)}>
-                                    <i className="fas fa-portrait tm-gallery-link-icon"></i>
+                                    <i className="fas fa-solid fa-robot tm-gallery-link-icon"></i>
                                     Machine Learning/Data Science
                                 </a>
                             </li>
                             <li>
                                 <a href="#/" className={`${this.isState("2") ? "active" : ""} tm-gallery-link` }  onClick={() => this.enableDiv(this.state.datastructure)}>
-                                    <i className="fas fa-leaf tm-gallery-link-icon"></i>
+                                    <i className="fas fa-code tm-gallery-link-icon"></i>
                                     Data Structures and Algorithms
                                 </a>
                             </li>
                             <li>
                                 <a href="#/" className={`${this.isState("3") ? "active" : ""} tm-gallery-link` }  onClick={() => this.enableDiv(this.state.webdev)}>
-                                    <i className="fas fa-paw tm-gallery-link-icon"></i>
+                                    <i className="fa-solid fa-window-restore tm-gallery-link-icon"></i>
                                     Web Developement
                                 </a>
                             </li>
                             <li>
                                 <a href="#/" className={`${this.isState("4") ? "active" : ""} tm-gallery-link` }  onClick={() => this.enableDiv(this.state.misc)}>
-                                    <i className="far fa-building tm-gallery-link-icon"></i>
+                                    <i className="fa-solid fa-database tm-gallery-link-icon"></i>
                                     Miscellaneous
                                 </a>
                             </li>

@@ -19,7 +19,6 @@ class ContactMe extends React.Component {
                 return home
                 <i className="fas fa-times"></i>
             </a>
-            <h2 className="tm-color-primary">Contact Me</h2>
                     <ul className="tm-contact-links align-list">
                         <li>
                             <a href="tel:8503540565">
@@ -35,17 +34,18 @@ class ContactMe extends React.Component {
                         </li>
                         <li>
                             <a href="https://github.com/beauvilerobed">
-                                <i className="fas fa-link tm-contact-link-icon"></i>
+                                <i className="fa-brands fa-github tm-contact-link-icon"></i>
                                 GitHub
                             </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/robed-beauvil/">
-                                <i className="fas fa-link tm-contact-link-icon"></i>
+                                <i className="fa-brands fa-linkedin tm-contact-link-icon"></i>
                                 LinkedIn
                             </a>
                         </li>
                     </ul>
+                    <h2 className="tm-color-primary">Contact Me</h2>
             <div>
                 <div>
                     
