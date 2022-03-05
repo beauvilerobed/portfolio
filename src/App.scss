@@ -34,8 +34,8 @@
 // cross fading image
 #cf {
   position:relative;
-  height:27em;
-  width: 27em;
+  height:30em;
+  width: 20em;
   margin: auto;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -44,38 +44,96 @@
 #cf {
   img {
   border-radius: 10px;
-  border: 2px solid #309AFD;
+  border: 5px solid #309AFD;
   position:absolute;
   left:0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
+  opacity: 0;
   }
 }
 
 
-@keyframes cf3FadeInOut {
-0% {
-opacity:1;
-}
-45% {
-opacity:1;
-}
-55% {
-opacity:0;
-}
-100% {
-opacity:0;
-}
+@keyframes cfFadeInOut {
+  0% {
+    opacity:1;
+  }
+  3% {
+    opacity:1;
+  }
+  5% {
+    opacity:0;
+  }
+  98% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-#cf3 {
-  img.top {
-  animation-name: cf3FadeInOut;
+#cf {
+    img:nth-of-type(1) {
+    animation-delay: 48s;
+  }
+    img:nth-of-type(2) {
+    animation-delay: 45s;
+  }
+    img:nth-of-type(3) {
+    animation-delay: 42s;
+  }
+    img:nth-of-type(4) {
+    animation-delay: 39;
+  }
+    img:nth-of-type(5) {
+    animation-delay: 36s;
+  }
+    img:nth-of-type(6) {
+    animation-delay: 33s;
+  }
+    img:nth-of-type(7) {
+    animation-delay: 30s;
+  }
+    img:nth-of-type(8) {
+    animation-delay: 27s;
+  }
+    img:nth-of-type(9) {
+    animation-delay: 24s;
+  }
+    img:nth-of-type(10) {
+    animation-delay: 21s;
+  }
+    img:nth-of-type(11) {
+    animation-delay: 18s;
+  }
+    img:nth-of-type(12) {
+    animation-delay: 15s;
+  }
+    img:nth-of-type(13) {
+    animation-delay: 12s;
+  }
+    img:nth-of-type(14) {
+    animation-delay: 9s;
+  }
+    img:nth-of-type(15) {
+    animation-delay: 6s;
+  }
+    img:nth-of-type(16) {
+    animation-delay: 3s;
+  }
+    img:nth-of-type(17) {
+    animation-delay: 0;
+  }
+}
+
+#cf {
+    img {
+  animation-name: cfFadeInOut;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 3s;
+  animation-duration: 51s;
   animation-direction: alternate;
   }
 }
@@ -202,19 +260,6 @@ opacity:0;
   height: 11.6em;
 }
 
-
-
-#robedbeauvile {
-    background-image: url("./img/work.jpg");
-    background-repeat: no-repeat;
-    width: 25em;
-    height: 25em;
-    margin: auto;
-    border: 5px solid #309AFD;
-    background-size: contain;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
 
 #robedbeauvile_pic {
     @extend %image-props;
