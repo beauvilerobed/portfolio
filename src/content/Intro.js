@@ -23,7 +23,7 @@ class Intro extends React.Component {
                 <i className="fas fa-times"></i>
             </a>
             <div className="tm-row tm-intro-row tm-color-light-gray">
-                <img src={require("../img/robed_pic.jpg")} alt="" className="tm-intro-img"></img>
+                <img src={require("../img/intro_pic.jpg")} alt="" className="tm-intro-img"></img>
 
                 <div className="tm-col tm-intro-pad">
                     <h2 className="tm-color-primary tm-page-title">Introducing Robed Beauvile</h2>

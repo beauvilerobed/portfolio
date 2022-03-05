@@ -51,7 +51,6 @@
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-  opacity: 0;
   }
 }
 
@@ -144,86 +143,70 @@
   border: 5px solid #309AFD;
   background-size: contain;
   float: left;
+  margin-right: 10px;
   border-radius: 10px;
+  height:12.6em;
+  width: 15.1em;
 }
 
 #calbot {
     @extend %image-props;
     background-image: url("./img/calc_bot.png");
-    width: 10em;
-    height: 12em;
+    background-repeat: no-repeat;
 }
 
 #starbucks {
     @extend %image-props;
     background-image: url("./img/download_1.png");
     background-repeat: no-repeat;
-    width: 10em;
-    height: 12.9em;
 }
 
 #operationalize-ml-project {
   @extend %image-props;
   background-image: url("./img/operationalize.png");
   background-repeat: no-repeat;
-  width: 15.8em;
-  height: 13.5em;
 }
 
 #dogbreeds {
     @extend %image-props;
     background-image: url("./img/cNN.png");
     background-repeat: no-repeat;
-    width: 15.7em;
-    height: 10em;
 }
 
 #pyMatrix {
     @extend %image-props;
     background-image: url("./img/logo2.png");
     background-repeat: no-repeat;
-    width: 15.6em;
-    height: 11em;
 }
 
 #DSA {
     @extend %image-props;
     background-image: url("./img/DSA.png");
     background-repeat:no-repeat;
-    width: 14em;
-    height: 14em;
 }
 
 #search-image {
   @extend %image-props;
   background-image: url("./img/search_image.png");
   background-repeat:no-repeat;
-  width: 13.5em;
-  height: 10em;
 }
 
 #ml-workflow {
   @extend %image-props;
   background-image: url("./img/ml_workflow.png");
   background-repeat:no-repeat;
-  width: 18em;
-  height: 13.6em;
 }
 
 #micro-blog {
   @extend %image-props;
   background-image: url("./img/microblog.jpeg");
   background-repeat:no-repeat;
-  width: 14.9em;
-  height: 11em;
 }
 
 #bike-sharing {
   @extend %image-props;
   background-image: url("./img/bike_sharing.png");
   background-repeat:no-repeat;
-  width: 19em;
-  height: 12em;
 }
 
 #learnSQL, #learnSQL2 {
@@ -231,33 +214,18 @@
     background-image: url("./img/learnSQL.png");
     background-repeat: no-repeat;
     border-radius: 0px;
-    width: 15em;
-    height: 11.7em;
-}
-
-#learnSQL2 {
-  @extend %image-props;
-  background-image: url("./img/learnSQL2.png");
-  background-repeat: no-repeat;
-  border-radius: 0px;
-  width: 15em;
-  height: 11.7em;
 }
 
 #automobile {
   @extend %image-props;
   background-image: url("./img/automobiles.jpeg");
   background-repeat: no-repeat;
-  width: 14.7em;
-  height: 10em;
 }
 
 #hangman {
   @extend %image-props;
   background-image: url("./img/hangman.jpeg");
   background-repeat: no-repeat;
-  width: 13.2em;
-  height: 11.6em;
 }
 
 
@@ -265,22 +233,16 @@
     @extend %image-props;
     background-image: url("./img/robed_pic.jpg");
     background-repeat: no-repeat;
-    width: 18em;
-    height: 18em;
 }
 
 #robedbeauvile_pic_2 {
   @extend %image-props;
   background-image: url("./img/robed_pic.jpg");
   background-repeat: no-repeat;
-  width: 12em;
-  height: 12em;
 }
 
 #sFITNESS {
     @extend %image-props;
     background-image: url("./img/sFITNESS.jpeg");
     background-repeat: no-repeat;
-    width: 10em;
-    height: 10em;
 }
