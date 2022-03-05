@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eb7e2582.css",
-    "main.js": "/portfolio/static/js/main.c7c52b73.js",
+    "main.css": "/portfolio/static/css/main.e3581ebd.css",
+    "main.js": "/portfolio/static/js/main.38c31a08.js",
     "static/media/Network.mp4": "/portfolio/static/media/Network.bb16b49a332ddf926e5a.mp4",
     "static/media/robed_pic.jpg": "/portfolio/static/media/robed_pic.7ef75d61b11f1cebe64e.jpg",
     "static/media/bike_sharing.png": "/portfolio/static/media/bike_sharing.285fea309a04c3b4cfe9.png",
@@ -13,7 +13,6 @@
     "static/media/search_image.png": "/portfolio/static/media/search_image.11c33e79ab1b0d64088d.png",
     "static/media/cNN.png": "/portfolio/static/media/cNN.0bca87f50981e9dae624.png",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.0a1b701f5563c2288281.ttf",
-    "static/media/work.jpg": "/portfolio/static/media/work.f0a0bb92cb0365557771.jpg",
     "static/media/DSA.png": "/portfolio/static/media/DSA.e43ad0b6ff5ae766ac4d.png",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.4896d4b04430cc3dfb06.woff2",
     "static/media/robed_pic_work.jpg": "/portfolio/static/media/robed_pic_work.bb2b86384d4f1f3bf8a1.jpg",
@@ -30,11 +29,11 @@
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.52eba2c567c521b8d58a.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.3d503f89ccaf1b224aa5.woff2",
     "index.html": "/portfolio/index.html",
-    "main.eb7e2582.css.map": "/portfolio/static/css/main.eb7e2582.css.map",
-    "main.c7c52b73.js.map": "/portfolio/static/js/main.c7c52b73.js.map"
+    "main.e3581ebd.css.map": "/portfolio/static/css/main.e3581ebd.css.map",
+    "main.38c31a08.js.map": "/portfolio/static/js/main.38c31a08.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb7e2582.css",
-    "static/js/main.c7c52b73.js"
+    "static/css/main.e3581ebd.css",
+    "static/js/main.38c31a08.js"
   ]
 }
