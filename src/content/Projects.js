@@ -185,26 +185,32 @@ class Projects extends React.Component {
                 <div id="miscellaneous" style={this.isState("4")  ? {display: "block"} : {display: "none"}}>
                 <Project
                         pictureId="learnSQL"
-                        headline="SQL"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
+                        headline="Lets Learn SQL Through Set Theory"
+                        link="https://github.com/beauvilerobed/sql-seminar"
+                        summary=" Seminar talk about learning the basics of a computer language (SQL) using mathematics (set theory)."
+                        tools=" Microsoft Powerpoint"
                     />
                 <Project
                         pictureId="learnSQL2"
-                        headline="SQL"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
+                        headline="Lets Learn SQL Through Set Theory (Part 2 Applications)"
+                        link="https://github.com/beauvilerobed/sql-seminar"
+                        summary=" Seminar talk for a walkthrough of an application SQL Database."
+                        tools="MAMP, MySQL, Microsoft Powerpoint"
                     />
                 <Project
-                        pictureId="learnSQL"
-                        headline="SQL"
-                        link="Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
-                        summary="Extreme Gradient Boosting and Data Mining techniques to optimize promotion targeting for Starbucks' simulated data."
-                        tools=" Python3, JavaScript, NLTK, Django, Keras, NumPy, Pandas"
+                        pictureId="hangman"
+                        headline="26 Level guessing Game (Hang Man 2.0)"
+                        link="https://github.com/beauvilerobed/guessing-game"
+                        dontShowSummary={true}
+                        tools=" C++"
                     />
-
+                <Project
+                        pictureId="automobile"
+                        headline="Auto Tracker"
+                        link="https://github.com/beauvilerobed/auto-tracker"
+                        summary=" Tracking Automobiles Data."
+                        tools=" PHP, MySQL, MAMP, CSS"
+                    />               
                 </div>
             </div>
         </div>

@@ -137,6 +137,33 @@ div[disabled]
     height: 11.7em;
 }
 
+#learnSQL2 {
+  @extend %image-props;
+  background-image: url("./img/learnSQL2.png");
+  background-repeat: no-repeat;
+  border-radius: 0px;
+  width: 15em;
+  height: 11.7em;
+}
+
+#automobile {
+  @extend %image-props;
+  background-image: url("./img/automobiles.jpeg");
+  background-repeat: no-repeat;
+  width: 14.7em;
+  height: 10em;
+}
+
+#hangman {
+  @extend %image-props;
+  background-image: url("./img/hangman.jpeg");
+  background-repeat: no-repeat;
+  width: 13.2em;
+  height: 11.6em;
+}
+
+
+
 #robedbeauvile {
     @extend %image-props;
     background-image: url("./img/work.jpg");
