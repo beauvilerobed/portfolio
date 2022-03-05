@@ -51,8 +51,11 @@ class Research extends React.Component {
                                 </ul>
                             </div>
                             <div id="extra" className="tm-bg-gray">
-                                <h3>Amazing Papers to Read!</h3>
                                 <table>
+                                <tbody>
+                                <tr>
+                                    <th>Amazing Papers to Read!</th>
+                                </tr>
                                 <tr>
                                     <td>[1] D.E. Alspach, A fixed point free nonexpansive map, Proc. Amer. Math. Soc. 82 (1981), 423-424. MR 82j:47070</td>
                                 </tr>
@@ -74,6 +77,7 @@ class Research extends React.Component {
                                 <tr>
                                     <td>[7] Murdock, Calvin and Cazenavette, George and Lucey, Simon. (2022). Reframing Neural Networks: Deep Structure in Overcomplete Representations. IEEE Transactions on Pattern Analysis and Machine Intelligence. PP. 1-1. 10.1109/TPAMI.2022.3149445</td>
                                 </tr>
+                                </tbody>
                                 </table>
                             </div>
                     </div> 

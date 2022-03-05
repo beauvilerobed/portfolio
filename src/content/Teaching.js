@@ -21,6 +21,7 @@ class Teaching extends React.Component {
             </a>
             <h2 className="tm-color-primary tm-page-title tm-text-center">Teaching</h2>
             <table>
+            <tbody>
             <tr>
                 <th>Subject</th>
                 <th>Semester</th>
@@ -53,6 +54,7 @@ class Teaching extends React.Component {
                 <td>INTRO THEORETICAL MATHEMATICS (Recitation)</td>
                 <td>Fall Term 2021-2022</td>
             </tr>
+            </tbody>
             </table>
         </div>
 
