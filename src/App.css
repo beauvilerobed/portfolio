@@ -37,24 +37,6 @@
     transition: all 5s ease-in-out;
   }
 
-.popup_open {
-    animation: openModal 0.4s ease-out forwards;
-}
-/* .ModalClosed {
-    animation: closeModal 0.4s ease-out forwards;
-} */
-
-@keyframes openModal {
-    0% { transform: translateY(-100%); }
-    100% { transform: translateY(0);   }
-}
-
-/* @keyframes closeModal {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-100%);}
-} */
-
-
 /* layout */
 #navigation li {
     list-style: none;

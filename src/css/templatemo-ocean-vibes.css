@@ -283,30 +283,6 @@ i {
     }
 }
 
-@media (max-width: 992px) {
-    .tm-testimonial-row {
-        flex-wrap: wrap;
-    }
-    .tm-testimonial-col {
-        flex: 100%;
-        margin-bottom: 50px;
-    }    
-
-    .tm-testimonial-col:last-child {
-        margin-bottom: 0;
-    }
-
-    .tm-testimonial-col-2 {
-        flex: 50%;
-    }
-}
-
-@media (max-width: 635px) {
-    .tm-testimonial-col-2 {
-        flex: 100%;
-    }
-}
-
 @media (max-width: 850px) {
     .tm-content-row {
         flex-direction: column;
