@@ -34,8 +34,17 @@
     display: block;
     width: 100%;
     overflow: hidden;
-    transition: all 5s ease-in-out;
   }
+
+.popup_open {
+    animation: openModal 1s ease-out forwards;
+}
+
+@keyframes openModal {
+    0% { transform: translateY(-100%); }
+    100% { transform: translatY(0);   }
+}
+
 
 /* layout */
 #navigation li {
