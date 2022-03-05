@@ -31,16 +31,56 @@
   }
 }
 
-// disable div
+// cross fading image
+#cf {
+  position:relative;
+  height:27em;
+  width: 27em;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 
-div[disabled]
-{
-  pointer-events: none;
-  opacity: 0.7;
+#cf {
+  img {
+  border-radius: 10px;
+  border: 2px solid #309AFD;
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  }
+}
+
+
+@keyframes cf3FadeInOut {
+0% {
+opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf3 {
+  img.top {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  }
 }
 
 /* img */
-
 %image-props  {
   margin: auto;
   border: 5px solid #309AFD;
@@ -82,9 +122,9 @@ div[disabled]
 
 #pyMatrix {
     @extend %image-props;
-    background-image: url("./img/logo2.gif");
+    background-image: url("./img/logo2.png");
     background-repeat: no-repeat;
-    width: 17.6em;
+    width: 15.6em;
     height: 11em;
 }
 
@@ -165,15 +205,15 @@ div[disabled]
 
 
 #robedbeauvile {
-    @extend %image-props;
     background-image: url("./img/work.jpg");
     background-repeat: no-repeat;
-    width: 18em;
-    height: 18em;
-}
-
-#robedbeauvile.noHover{
-    pointer-events: none;
+    width: 25em;
+    height: 25em;
+    margin: auto;
+    border: 5px solid #309AFD;
+    background-size: contain;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 #robedbeauvile_pic {

@@ -4,7 +4,7 @@ function Project(props) {
   return (
     <div className="project">
       <div className="center-div">
-        <div id={props.pictureId} className="image-size"/>
+        <div id={props.pictureId}/>
           <div className="summary">
           <h3>{props.headline}</h3>
           <h2>
