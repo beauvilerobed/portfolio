@@ -147,28 +147,28 @@ class Projects extends React.Component {
                         pictureId="calbot"
                         headline="Calculus-Tutor-Bot"
                         link="https://github.com/beauvilerobed/calc-tutor-bot"
-                        summary=" Set Up Django Virtual Environment, Train and Integrate Model for Chatbot, Set Up CAS for Computation Logic, Develop Front-End Visualization"
+                        summary=" Virtual Environment, Model Training and Integration, CAS for Computation Logic, Front-End Visualization"
                         tools=" Python3, JavaScript, NLTK, Django, Keras, NumPy"
                     />
                 <Project
                         pictureId="sFITNESS"
                         headline="Full-stack Automated Exercise and Diet Scheduler"
                         link="https://github.com/beauvilerobed/sfitness"
-                        summary=" Data Insertion using SQL, API development for Video Rendering from Youtube, Develop Front-end for Presenting Schedule and Diet"
+                        summary=" Relational database schemas, API development, Front-end Visualization and Presentation"
                         tools=" PHP, React, CSS, MAMP web Stack, MySQL, Youtube Iframe API"
                     />
                 <Project
                         pictureId="search-image"
                         headline="Search Image Web Application"
                         link="https://github.com/beauvilerobed/search-image-app"
-                        summary=" Get Flickr API key, Set Up Backend to Process Request, Develop Front-End for Search Results"
+                        summary=" API key, Backend to Process Request, Front-End Presentation"
                         tools=" React, Node.js, Flickr Photo Search API, AJAX"
                     />
                 <Project
                         pictureId="micro-blog"
                         headline="Micro-blog Web Application"
                         link="https://github.com/beauvilerobed/microblog-app"
-                        summary=" Create Virtual Environment, Add Database, Add Routes for CRUD Architecture, Develop Front-End for User Interface"
+                        summary=" Virtual Environment, Database Modelling, Routes for CRUD Architecture, Front-End for User Interface"
                         tools=" Python3, Flask, HTML, CSS"
                     />
 
@@ -187,15 +187,15 @@ class Projects extends React.Component {
                         pictureId="learnSQL"
                         headline="Lets Learn SQL Through Set Theory"
                         link="https://github.com/beauvilerobed/sql-seminar"
-                        summary=" Seminar talk about learning the basics of a computer language (SQL) using mathematics (set theory)."
+                        summary=" A seminar talk about learning the basics SQL using Set Theory."
                         tools=" Microsoft Powerpoint"
                     />
                 <Project
                         pictureId="learnSQL2"
                         headline="Lets Learn SQL Through Set Theory (Part 2 Applications)"
                         link="https://github.com/beauvilerobed/sql-seminar"
-                        summary=" Seminar talk for a walkthrough of an application SQL Database."
-                        tools="MAMP, MySQL, Microsoft Powerpoint"
+                        summary=" A seminar talk using a SQL Database."
+                        tools=" MAMP, MySQL, Microsoft Powerpoint"
                     />
                 <Project
                         pictureId="hangman"
@@ -206,10 +206,10 @@ class Projects extends React.Component {
                     />
                 <Project
                         pictureId="automobile"
-                        headline="Auto Tracker"
+                        headline="Automobile Data Tracker"
                         link="https://github.com/beauvilerobed/auto-tracker"
-                        summary=" Tracking Automobiles Data."
                         tools=" PHP, MySQL, MAMP, CSS"
+                        dontShowSummary={true}
                     />               
                 </div>
             </div>
