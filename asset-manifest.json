@@ -1,22 +1,39 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.92837bb6.css",
-    "main.js": "/portfolio/static/js/main.2098c7f9.js",
+    "main.css": "/portfolio/static/css/main.f06a9731.css",
+    "main.js": "/portfolio/static/js/main.5be64cb6.js",
+    "static/media/Network.mp4": "/portfolio/static/media/Network.bb16b49a332ddf926e5a.mp4",
     "static/media/robed_pic.jpg": "/portfolio/static/media/robed_pic.7ef75d61b11f1cebe64e.jpg",
+    "static/media/bike_sharing.png": "/portfolio/static/media/bike_sharing.285fea309a04c3b4cfe9.png",
     "static/media/learnSQL.png": "/portfolio/static/media/learnSQL.37f004ed981678634c03.png",
+    "static/media/learnSQL2.png": "/portfolio/static/media/learnSQL2.38c402dcfa2ddb1f7570.png",
+    "static/media/microblog.jpeg": "/portfolio/static/media/microblog.d7baf745940e907a0fa3.jpeg",
     "static/media/download_1.png": "/portfolio/static/media/download_1.01d5b1fbc198190d1023.png",
+    "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.79da213423ac0def2058.ttf",
+    "static/media/search_image.png": "/portfolio/static/media/search_image.11c33e79ab1b0d64088d.png",
+    "static/media/cNN.png": "/portfolio/static/media/cNN.0bca87f50981e9dae624.png",
+    "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.0a1b701f5563c2288281.ttf",
     "static/media/work.jpg": "/portfolio/static/media/work.f0a0bb92cb0365557771.jpg",
-    "static/media/cNN.jpeg": "/portfolio/static/media/cNN.5e7bfb729f6ac90e43ca.jpeg",
+    "static/media/DSA.png": "/portfolio/static/media/DSA.e43ad0b6ff5ae766ac4d.png",
+    "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.4896d4b04430cc3dfb06.woff2",
+    "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.f77bcc98bb7468c8b15a.woff2",
+    "static/media/ml_workflow.png": "/portfolio/static/media/ml_workflow.9c7ddbdb143a39bb57d4.png",
     "static/media/sFITNESS.jpeg": "/portfolio/static/media/sFITNESS.8b73fa0cef4d8d2214f9.jpeg",
-    "static/media/DSA.jpg": "/portfolio/static/media/DSA.1111b9e65075a8f891a1.jpg",
+    "static/media/operationalize.png": "/portfolio/static/media/operationalize.a4601fff5c190f31a115.png",
+    "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.15d98c18221c8bcb2334.ttf",
+    "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.d79c2ec96ab9ff1161a2.woff2",
     "static/media/logo2.gif": "/portfolio/static/media/logo2.7ee10d4ea5a3b0ff7007.gif",
+    "static/media/automobiles.jpeg": "/portfolio/static/media/automobiles.fe02179fd3c77f36cfb6.jpeg",
+    "static/media/hangman.jpeg": "/portfolio/static/media/hangman.87cbefbcdc77877b85aa.jpeg",
     "static/media/calc_bot.png": "/portfolio/static/media/calc_bot.37859323c5db526631b5.png",
+    "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.52eba2c567c521b8d58a.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.3d503f89ccaf1b224aa5.woff2",
     "index.html": "/portfolio/index.html",
-    "main.92837bb6.css.map": "/portfolio/static/css/main.92837bb6.css.map",
-    "main.2098c7f9.js.map": "/portfolio/static/js/main.2098c7f9.js.map"
+    "main.f06a9731.css.map": "/portfolio/static/css/main.f06a9731.css.map",
+    "main.5be64cb6.js.map": "/portfolio/static/js/main.5be64cb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.92837bb6.css",
-    "static/js/main.2098c7f9.js"
+    "static/css/main.f06a9731.css",
+    "static/js/main.5be64cb6.js"
   ]
 }
