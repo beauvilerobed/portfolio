@@ -19,6 +19,7 @@ class ContactMe extends React.Component {
                 return home
                 <i className="fas fa-times"></i>
             </a>
+            <h2 className="tm-color-primary">Contact Me</h2>
                     <ul className="tm-contact-links align-list">
                         <li>
                             <a href="tel:8503540565">
@@ -45,31 +46,13 @@ class ContactMe extends React.Component {
                             </a>
                         </li>
                     </ul>
-                    <h2 className="tm-color-primary">Contact Me</h2>
-            <div>
-                <div>
-                    
-                    <form id="contact-form" action="" method="POST" className="tm-contact-form">
-                        <div className="form-group">
-                            <input type="text" name="name" className="form-control rounded-0" placeholder="Full Name" required />
-                        </div>
-                        <div className="form-group">
-                            <input type="email" name="email" className="form-control rounded-0" placeholder="Email" required />
-                        </div>
-                        <div className="form-group">
-                            <textarea rows="8" name="message" className="form-control rounded-0" placeholder="Message" required=""></textarea>
-                        </div>
 
-                        <div className="form-group tm-text-right">
-                            <button type="submit" className="tm-btn tm-btn-primary set-width-100 set-font-1"><strong>Send</strong></button>
-                        </div>
-                    </form>
-                </div>
-                <div>
-                </div>
-            </div>
+                    <div id="cf">
+                        <img className="bottom" src={require("../img/calc_bot.png")} alt=""/>
+                        <img className="top" src={require("../img/robed_pic_work.jpg")} alt=""/>
+                    </div>
         </div>
-    </div>  
+    </div> 
 </div>  
 );  
 }  
