@@ -134,7 +134,7 @@ class Projects extends React.Component {
                 <div id="data-structure" style={this.isState("2")  ? {display: "block"} : {display: "none"}}>
                 <Project
                         pictureId="DSA"
-                        headline="Topics from Stanford University and UCS Algorithms and Data Stuctures Coursera Course."
+                        headline="Topics from Data Stuctures and Algorithms Online Courses."
                         link="https://github.com/beauvilerobed/data-structures-and-algorithms"
                         summary=" Data Structures, Algorithms on Graphs, Algorithms on Strings, Divide and Concquer, Sorting and Seaching, Randomized Algorithms, Graph Search, Shortest Path, Greedy Algorithms, Minimum Spanning Trees, Dynamic Programming, and NP-Complete Problems"
                         dontShowTools={true}
