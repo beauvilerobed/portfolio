@@ -198,6 +198,13 @@ class Projects extends React.Component {
                         tools=" MAMP, MySQL, Microsoft Powerpoint"
                     />
                 <Project
+                        pictureId="pyMatrix"
+                        headline="Py-Matrix Python Package"
+                        link="https://github.com/beauvilerobed/py-matrix-package"
+                        summary=" A Matrix Class: Retrieve matrix dimensions, its trace, perform matrix algebra."
+                        tools=" Python3, Unittest"
+                    />
+                <Project
                         pictureId="hangman"
                         headline="26 Level guessing Game (Hang Man 2.0)"
                         link="https://github.com/beauvilerobed/guessing-game"
