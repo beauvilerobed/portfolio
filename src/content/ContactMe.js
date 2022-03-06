@@ -28,9 +28,9 @@ class ContactMe extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:Robedbeauvile@gmail.com">
+                            <a href="mailto:Robedbeauvil@gmail.com">
                                 <i className="fas fa-at tm-contact-link-icon"></i>
-                                Robedbeauvile@gmail.com
+                                Robedbeauvil@gmail.com
                             </a>
                         </li>
                         <li>
