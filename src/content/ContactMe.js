@@ -46,7 +46,7 @@ class ContactMe extends React.Component {
                             </a>
                         </li>
                     </ul>
-                    <h7 className="tm-color-grey">Let's take a moment to commemerate the pictures that were used for this website...</h7>
+                    <h7 className="tm-color-grey">Let's take a moment to commemorate the pictures that were used for this website...</h7>
                     <div id="cf">
                         <img src={require("../img/calc_bot.png")} alt=""/>
                         <img src={require("../img/robed_pic_work.jpg")} alt=""/>
