@@ -39,7 +39,7 @@ class Intro extends React.Component {
                         </div>
                         <div className="tm-col-6">
                             <p>
-                            Outside of research and academics, I am currently developing Cal-Tutor, an AI-powered calculus tutor. The idea came from my need to make differentiation and integration straightforward and more interactive for students. In Addition, I intend on becoming a Machine Learning developer or engineer for innovative and inspiring product development projects.
+                            Outside of research and academics, I am currently developing Cal-Tutor, an AI-powered calculus tutor. The idea came from my need to make differentiation and integration straightforward and more interactive for students. In Addition, I intend on becoming a Machine Learning developer or engineer for innovative and inspiring product development projects in the future.
                             </p>
                             <div className="tm-mb-80">
                                 <strong>
