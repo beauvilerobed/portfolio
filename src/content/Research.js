@@ -26,21 +26,22 @@ class Research extends React.Component {
                 <div id="container">
                     <div id="wrapper">
                         <div id="content">
-                                    <h3>Fixed Point Theory</h3>
+                                    <h3><strong>Fixed Point Theory</strong></h3>
                                         <p>
-                                        I am currently investigating examples of weakly compact convex subsets that do not possess the fixed point property for nonexpansive maps [1][3]. We analyzed specific matrix structures using NumPy, which were representations of linear combinations of simple functions in <Latex>$L^1[0, 1]$</Latex>. We used Convex Analysis, Measure Theory, and Linear Algebra to construct an asymptotically isometric copy of <Latex>$L^1[0, 1]$</Latex> in a the minimal invariant set <Latex>$D_\infty$</Latex>, where <Latex>$D_\infty$</Latex> a minimal invariant subset <Latex>$L^1[0, 1]$</Latex>.[2] 
+                                        I am currently investigating examples of weakly compact convex subsets that do not possess the fixed point property for nonexpansive maps [1][3]. In one important result I analyzed specific matrix structures using NumPy, which were representations of linear combinations of simple functions in <Latex>$L^1[0, 1]$</Latex>. I used Convex Analysis, Measure Theory, and Linear Algebra to construct an asymptotically isometric copy of <Latex>$L^1[0, 1]$</Latex> in a particular weakly compact convex set denoted as <Latex>$D_\infty(h)$</Latex>, where <Latex>$h(t) = 1/2$</Latex> for all <Latex>$t \in [0,1]$</Latex>. Note that <Latex>$D_\infty(h)$</Latex> is an example of a subset <Latex>$L^1[0, 1]$</Latex> that fails to have the fix point property for a non-expansive mapping.[2] 
                                         </p>
-                                    <h3>Local Optimization</h3>
+                                    <h3><strong>Local Optimization</strong></h3>
                                         <p>
-                                        I am also studying how the theory of finite normalized tight frames (FNTFs) is developed in Hilbert spaces, finite and infinite-dimensional. An influential theorem is the characterization of all FNTFs in terms of the minima of a potential energy function. This was designed to measure the total orthogonality of a Bessel sequence [4]. I am particularly focused on their connections in Deep Learning and Sparse Approximation [5][6]. A fascinating observation is that finite normalized tight frames are constructed by using frame potential minimization. It provides for effective optimization using gradient descent. I am also considering the deep frame potential: a measure of coherence that is approximately related to representation stability but has minimizers based solely on the network structure [7]. 
+                                        I am also studying how the theory of finite normalized tight frames (FNTFs) is developed in Hilbert spaces (both finite and infinite-dimensional). An influential theorem is the characterization of all FNTFs in terms of the minima of a potential energy function. This was designed to measure the total orthogonality of a Bessel sequence [4]. I am particularly interested in their connections in Deep Learning and Sparse Approximation [5][6]. One fascinating connection is the deep frame potential: it's a measure of coherence that is approximately related to representation stability but has minimizers based solely on the network structure [7]. 
                                         </p>
                                 </div>
                             </div>
                             <div id="navigation">
-                                <h3>Key Words</h3>
+                                <h3><strong>Key Words</strong></h3>
                                 <ul>
                                     <li>Weakly Compact</li>
                                     <li>Non-Expansive Mappings</li>
+                                    <li>Asymptotically Isometric Copy</li>
                                     <li>Deep Learning</li>
                                     <li>Deep Frames</li>
                                     <li>Convex subsets</li>
@@ -48,6 +49,9 @@ class Research extends React.Component {
                                     <li>Frame Potential</li>
                                     <li>Finite Normalized Tight Frames</li>
                                     <li>Bessel Sequences</li>
+                                    <li>Sparse Approximation</li>
+                                    <li>Potential Energy Function</li>
+                                    <li>Minimizers</li>
                                 </ul>
                             </div>
                             <div id="extra" className="tm-bg-gray">
