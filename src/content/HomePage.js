@@ -33,8 +33,8 @@ class HomePage extends Component {
     return ( 
     <div> 
     <header className="tm-site-header">
-        <h1 className=""><span className="tm-color-primary">Robed Beauvile</span> <span className="tm-tagline tm-color-light-gray tm-text-right">"You only fail if you stop trying." -Unknown</span></h1>
-        <em className="tm-color-gray-2">Ph.D. Candidate at University of Pittsburgh | Mathematics | Machine Learning Fanatic</em>
+        <h1 className=""><span className="tm-color-primary">Robed Beauvile</span> <span className="tm-tagline tm-color-light-gray tm-text-right">"Like what you do, and then you'll do your best” -Katherine Johnson</span></h1>
+        <em className="tm-color-gray-2">Ph.D. Candidate at University of Pittsburgh | Software Engineer | Machine Learning Fanatic</em>
     </header>
 
     <div id="tm-video-container">
