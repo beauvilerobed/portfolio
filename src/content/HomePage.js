@@ -34,7 +34,7 @@ class HomePage extends Component {
     <div> 
     <header className="tm-site-header">
         <h1 className=""><span className="tm-color-primary">Robed Beauvile</span> <span className="tm-tagline tm-color-light-gray tm-text-right">"Like what you do, and then you'll do your best” -Katherine Johnson</span></h1>
-        <em className="tm-color-gray-2">Ph.D. Candidate at University of Pittsburgh | Software Engineer | Machine Learning Fanatic</em>
+        <em className="tm-color-gray-2">Ph.D. Candidate at University of Pittsburgh | Data Scientist | Machine Learning Fanatic</em>
     </header>
 
     <div id="tm-video-container">
