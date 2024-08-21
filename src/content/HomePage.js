@@ -64,12 +64,6 @@ class HomePage extends Component {
                     <Research show={(this.state.disabled === "3") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
                 </li>
                 <li className="tm-nav-item">
-                    <a href="#Teaching" className="tm-nav-link" id="4">
-                    Teaching
-                    </a>
-                    <Teaching show={(this.state.disabled === "4") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
-                </li>
-                <li className="tm-nav-item">
                     <a href="#Contact" className="tm-nav-link" id="5">
                         Contact Me
                     </a>
@@ -85,9 +79,9 @@ class HomePage extends Component {
     </div>
 
     <footer className="tm-footer">
-        <span>Copyright &copy;  2021. All rights reserved. Hosted on GitHub</span>
-        <span>Free CSS Template by 
-        <a href="https://templatemo.com" title="free website templates" target="_parent" rel="nofollow">TemplateMo</a></span>
+        <span>Copyright &copy;  2024. All rights reserved. Hosted on GitHub</span>
+        <span>CSS Template by 
+        <a href="https://templatemo.com" title="website templates" target="_parent" rel="nofollow">TemplateMo</a></span>
     </footer>
     </div>
 );  
