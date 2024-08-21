@@ -47,7 +47,7 @@ class ContactMe extends React.Component {
                         <img src={require("../img/automobiles.jpeg")} alt=""/>
                         <img src={require("../img/bike_sharing.png")} alt=""/>
                         <img src={require("../img/cNN.png")} alt=""/>
-                        <img src={require("../img/download_1.png")} alt=""/>
+                        <img src={require("../img/startbucks.avif")} alt=""/>
                         <img src={require("../img/DSA.png")} alt=""/>
                         <img src={require("../img/hangman.jpeg")} alt=""/>
                         <img src={require("../img/learnSQL.png")} alt=""/>

@@ -86,6 +86,20 @@ class Projects extends React.Component {
                     </div>
             <div id="projects">
                 <div id="machine-learning" style={this.isState("1")? {display: "block"} : {display: "none"}}>
+                <Project
+                        pictureId="practicalstats"
+                        headline="Statistics for Data Science"
+                        link="https://github.com/beauvilerobed/statistics-for-data-science-and-machine-learning"
+                        summary=" This is a composition of practical statistics notes, projects, and tutorials needed for data science. For academic and self-learning purposes.."
+                        tools=" Python3, S3, XGBoost, pandas, scikit-learn, statsmodels, SciPy, numpy"
+                    />
+                    <Project
+                        pictureId="dsmlprojects"
+                        headline="Data Science and Machine Learning Projects and Tutorials"
+                        link="https://github.com/beauvilerobed/ds-ml-notes-projects-and-tutorials"
+                        summary=" This is a project of projects that includes Data Science/Machine Learning/Deep Learning notes, and tutorials for academic and self-learning purposes."
+                        tools=" Python3, S3, XGBoost, pandas, scikit-learn, tensorflow, Latex"
+                    />
                     <Project
                         pictureId="starbucks"
                         headline="Starbucks Rewards: Predicting Consumer Responses"
