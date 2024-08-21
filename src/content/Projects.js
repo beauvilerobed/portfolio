@@ -46,7 +46,7 @@ class Projects extends React.Component {
     <div className='popup_open'> 
     <div id="gallery" className="tm-bg-gray set-hidden-overflow">
             <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
-                return home
+                Return Home
                 <i className="fas fa-times"></i>
             </a>
                 <div className="nav-gallery">

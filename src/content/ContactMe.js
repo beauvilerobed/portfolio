@@ -16,7 +16,7 @@ class ContactMe extends React.Component {
     <div className='popup_open'> 
     <div id="contact" className="tm-bg-gray set-hidden-overflow">
             <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
-                return home
+                Return Home
                 <i className="fas fa-times"></i>
             </a>
             <h2 className="tm-color-primary">Contact Me</h2>

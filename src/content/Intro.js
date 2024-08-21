@@ -18,7 +18,7 @@ class Intro extends React.Component {
         <div id="gallery" className="tm-bg-gray set-hidden-overflow">
         <div id="intro">
             <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
-                return home
+                Return Home
                 <i className="fas fa-times"></i>
             </a>
             <div className="tm-row tm-intro-row tm-color-light-gray">
