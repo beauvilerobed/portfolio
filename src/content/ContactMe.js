@@ -34,7 +34,7 @@ class ContactMe extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/robed-beauvil/">
+                            <a href="https://www.linkedin.com/in/robedbeauvile">
                                 <i className="fa-brands fa-linkedin tm-contact-link-icon"></i>
                                 LinkedIn
                             </a>
