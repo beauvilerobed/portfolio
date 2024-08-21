@@ -1,5 +1,4 @@
 import React from 'react';  
-import Latex from 'react-latex';
 
 class Intro extends React.Component { 
     constructor(props) {
@@ -23,10 +22,10 @@ class Intro extends React.Component {
                 <i className="fas fa-times"></i>
             </a>
             <div className="tm-row tm-intro-row tm-color-light-gray">
-                <img src={require("../img/intro_pic.jpg")} alt="" className="tm-intro-img"></img>
+                <img src={require("../img/robed_pic.jpg")} alt="" className="tm-intro-img"></img>
 
                 <div className="tm-col tm-intro-pad">
-                    <h2 className="tm-color-primary tm-page-title">Introducing Robed Beauvile</h2>
+                    <h2 className="tm-color-primary tm-page-title">Robed Beauvil-Owen</h2>
                     <div className="tm-row tm-content-row">
                         <div className="tm-col-6 tm-intro-col-l">
                             <p>
@@ -49,7 +48,7 @@ class Intro extends React.Component {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/robed-beauvil/">
+                                        <a href="https://www.linkedin.com/in/robedbeauvile/">
                                             <i className="fa-brands fa-linkedin tm-contact-link-icon"></i>
                                             LinkedIn
                                         </a>

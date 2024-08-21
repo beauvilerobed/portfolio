@@ -1,5 +1,4 @@
 import React from 'react';  
-import Latex from 'react-latex';
 
 
 class Research extends React.Component {  
