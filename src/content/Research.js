@@ -30,15 +30,15 @@ class Research extends React.Component {
                                         In 1981, Dale Alspach produced the first example of a non-expansive mapping T
                                             on a weakly compact convex subset of a Banach space that is fixed point-free. Using Zorn’s
                                             lemma, there exists a minimally weak compact, convex subset of which is T-invariant and
-                                            fixed point free. I investigate a special closed linear span that contains a copy of the space of
-                                            Lebesgue integrable function on the unit interval.
+                                            fixed point free. I investigate special closed linear spans that "should" contains a copy of
+                                            Lebesgue integrable functions on the unit interval.
                                             of G-frames in terms of G-Riesz bases.                                        
                                         </p>
                                     <h3><strong>Frame and Generalized Frames</strong></h3>
                                         <p>
                                         Wenchang Sun introduced
-                                            generalized frames and included ordinary frames. We will use many ideas from Operator
-                                            Theory to show a characterization of Frames in terms of Riesz bases and a characterization
+                                            generalized frames and included ordinary frames. I currently use many ideas from Operator
+                                            Theory to show characterizations of Frames in terms of Riesz bases and characterizations
                                             of G-frames in terms of G-Riesz bases.                              
                                         </p>
                                         <h3><strong>Local Optimization</strong></h3>
