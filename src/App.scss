@@ -145,104 +145,101 @@
   float: left;
   margin-right: 10px;
   border-radius: 10px;
-  height:12.55em;
-  width: 15.1em;
+  height:20em;
+  width: 20em;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#practicalstats {
+  @extend %image-props;
+  background-image: url("./img/stats_ds.jpg");
+}
+
+#dsmlprojects {
+  @extend %image-props;
+  background-image: url("./img/ml_ds_tuts.png");
 }
 
 #calbot {
     @extend %image-props;
     background-image: url("./img/calc_bot.png");
-    background-repeat: no-repeat;
 }
 
 #starbucks {
     @extend %image-props;
-    background-image: url("./img/download_1.png");
-    background-repeat: no-repeat;
+    background-image: url("./img/startbucks.avif");
 }
 
 #operationalize-ml-project {
   @extend %image-props;
   background-image: url("./img/operationalize.png");
-  background-repeat: no-repeat;
 }
 
 #dogbreeds {
     @extend %image-props;
     background-image: url("./img/cNN.png");
-    background-repeat: no-repeat;
 }
 
 #pyMatrix {
     @extend %image-props;
     background-image: url("./img/logo2.png");
-    background-repeat: no-repeat;
 }
 
 #DSA {
     @extend %image-props;
     background-image: url("./img/DSA.png");
-    background-repeat:no-repeat;
 }
 
 #search-image {
   @extend %image-props;
   background-image: url("./img/search_image.png");
-  background-repeat:no-repeat;
 }
 
 #ml-workflow {
   @extend %image-props;
   background-image: url("./img/ml_workflow.png");
-  background-repeat:no-repeat;
 }
 
 #micro-blog {
   @extend %image-props;
   background-image: url("./img/microblog.jpeg");
-  background-repeat:no-repeat;
 }
 
 #bike-sharing {
   @extend %image-props;
   background-image: url("./img/bike_sharing.png");
-  background-repeat:no-repeat;
 }
 
 #learnSQL, #learnSQL2 {
     @extend %image-props;
     background-image: url("./img/learnSQL.png");
-    background-repeat: no-repeat;
     border-radius: 0px;
 }
 
 #automobile {
   @extend %image-props;
   background-image: url("./img/automobiles.jpeg");
-  background-repeat: no-repeat;
 }
 
 #hangman {
   @extend %image-props;
   background-image: url("./img/hangman.jpeg");
-  background-repeat: no-repeat;
 }
 
 
 #robedbeauvile_pic {
     @extend %image-props;
     background-image: url("./img/robed_pic.jpg");
-    background-repeat: no-repeat;
 }
 
 #robedbeauvile_pic_2 {
   @extend %image-props;
   background-image: url("./img/robed_pic.jpg");
-  background-repeat: no-repeat;
 }
 
 #sFITNESS {
     @extend %image-props;
     background-image: url("./img/sFITNESS.jpeg");
-    background-repeat: no-repeat;
 }
