@@ -30,17 +30,13 @@ class Intro extends React.Component {
                     <div className="tm-row tm-content-row">
                         <div className="tm-col-6 tm-intro-col-l">
                             <p>
-                            I am currently a graduate student at the University of Pittsburgh, I mainly work with weakly compact convex subsets of <Latex>$L^1[0,1]$</Latex> that fail the fixed point property for nonexpansive mapping. Also, I'm investigating the development of finite normalized tight frames in Hilbert Spaces and <Latex>$R^k$</Latex>, with a particular focus on their connections in Deep Learning and Sparse Approximation.
-                            </p>
+                            I'm a lifelong learner capable of handling ambiguity in an ever-changing environment. I specialize in building robust models, storytelling with data, building software, and providing insight through analytics and machine learning. I also conduct research in the areas of fixed point theory, frames, and generalized frames.                            </p>
 
                             <p>
-                            I am Haitian born and Miami raised. Naturally, I love philosophy, breakdancing, and sketching landscapes.
+                            I am Haitian born and Miami raised. I also love philosophy, breakdancing, and sketching landscapes.
                              </p>
                         </div>
                         <div className="tm-col-6">
-                            <p>
-                            Outside of research and academics, I am currently developing Cal-Tutor, an AI-powered calculus tutor. The idea came from my need to make differentiation and integration straightforward and more interactive for students. In Addition, I intend on becoming an engineer in software for innovative and inspiring projects in the future.
-                            </p>
                             <div className="tm-mb-80">
                                 <strong>
                                 Check out my LinkedIn and GitHub for more information!
