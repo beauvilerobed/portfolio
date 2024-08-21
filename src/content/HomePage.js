@@ -3,7 +3,6 @@ import '../css/templatemo-ocean-vibes.css';
 import '../App.css';
 import '../App.scss';
 import '../fontawesome/css/all.css';
-import Teaching from '../content/Teaching';  
 import Intro from '../content/Intro';  
 import Projects from '../content/Projects'; 
 import Research from '../content/Research'; 
