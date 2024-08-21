@@ -22,12 +22,6 @@ class ContactMe extends React.Component {
             <h2 className="tm-color-primary">Contact Me</h2>
                     <ul className="tm-contact-links align-list">
                         <li>
-                            <a href="tel:8503540565">
-                                <i className="fas fa-phone tm-contact-link-icon"></i>
-                                Tel: 850-354-0565
-                            </a>
-                        </li>
-                        <li>
                             <a href="mailto:Robedbeauvil@gmail.com">
                                 <i className="fas fa-at tm-contact-link-icon"></i>
                                 Robedbeauvil@gmail.com
