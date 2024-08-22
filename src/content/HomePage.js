@@ -32,7 +32,7 @@ class HomePage extends Component {
     return ( 
     <div> 
     <header className="tm-site-header">
-        <h1 className=""><span className="tm-color-primary">Robed Beauvil-Owen, PhD</span> </h1>
+        <h1 className="tm-color-primary">Robed Beauvil-Owen, PhD</h1>
         <em className="tm-color-gray-2">Data Scientist, Machine Learning Fanatic, and Mathematician</em>
         <span className="tm-tagline tm-color-light-gray tm-text-right">"Like what you do, and then you'll 
         do your best” -Katherine Johnson</span>

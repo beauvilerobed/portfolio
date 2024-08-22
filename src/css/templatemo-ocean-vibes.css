@@ -15,6 +15,11 @@ body {
     overflow-x: hidden;
 }
 
+h1 {
+    margin-left: 10px;
+    line-height: 1em;
+}
+
 p, span, em, a, address { color: Black; }
 h2, p {
     margin-top: 0;
