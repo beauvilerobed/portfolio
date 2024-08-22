@@ -53,34 +53,34 @@ class Projects extends React.Component {
                     <h2 className="tm-color-primary tm-mt-35 tm-page-title">Projects</h2>
                         <ul className="tm-gallery-links align-list">
                             <li>
-                                <a href="#/" className={`${(this.state.all) ? "active" : ""} tm-gallery-link` } onClick={() => this.showAllDiv(!this.state.all)}>
+                                <span className={`${(this.state.all) ? "active" : ""} tm-gallery-link` } onClick={() => this.showAllDiv(!this.state.all)}>
                                     <i className="fas fa-layer-group tm-gallery-link-icon"></i>
                                     All
-                                </a>
+                                </span>
                             </li>
                             <li>
-                                <a href="#/"className={`${this.isState("1") ? "active" : ""} tm-gallery-link` } onClick={() => this.enableDiv(this.state.machineLearning)}>
+                                <span className={`${this.isState("1") ? "active" : ""} tm-gallery-link` } onClick={() => this.enableDiv(this.state.machineLearning)}>
                                     <i className="fas fa-solid fa-robot tm-gallery-link-icon"></i>
                                     Machine Learning/Data Science
-                                </a>
+                                </span>
                             </li>
                             <li>
-                                <a href="#/" className={`${this.isState("2") ? "active" : ""} tm-gallery-link` }  onClick={() => this.enableDiv(this.state.datastructure)}>
+                                <span className={`${this.isState("2") ? "active" : ""} tm-gallery-link` }  onClick={() => this.enableDiv(this.state.datastructure)}>
                                     <i className="fas fa-code tm-gallery-link-icon"></i>
                                     Data Structures and Algorithms
-                                </a>
+                                </span>
                             </li>
                             <li>
-                                <a href="#/" className={`${this.isState("3") ? "active" : ""} tm-gallery-link` }  onClick={() => this.enableDiv(this.state.webdev)}>
+                                <span className={`${this.isState("3") ? "active" : ""} tm-gallery-link` }  onClick={() => this.enableDiv(this.state.webdev)}>
                                     <i className="fa-solid fa-window-restore tm-gallery-link-icon"></i>
                                     Web Developement
-                                </a>
+                                </span>
                             </li>
                             <li>
-                                <a href="#/" className={`${this.isState("4") ? "active" : ""} tm-gallery-link` }  onClick={() => this.enableDiv(this.state.misc)}>
+                                <span className={`${this.isState("4") ? "active" : ""} tm-gallery-link` }  onClick={() => this.enableDiv(this.state.misc)}>
                                     <i className="fa-solid fa-database tm-gallery-link-icon"></i>
                                     Miscellaneous
-                                </a>
+                                </span>
                             </li>
                         </ul>
                     </div>
