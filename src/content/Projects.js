@@ -45,10 +45,10 @@ class Projects extends React.Component {
     <div className='popup' style={(this.props.show) ? {display: "block"} : {display: "none"}} >  
     <div className='popup_open'> 
     <div id="gallery" className="tm-bg-gray set-hidden-overflow">
-            <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
+            <span className="tm-close-popup" onClick={this.handleClick}>
                 Return Home
                 <i className="fas fa-times"></i>
-            </a>
+            </span>
                 <div className="nav-gallery">
                     <h2 className="tm-color-primary tm-mt-35 tm-page-title">Projects</h2>
                         <ul className="tm-gallery-links align-list">

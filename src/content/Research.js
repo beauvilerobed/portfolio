@@ -16,10 +16,10 @@ class Research extends React.Component {
 <   div className='popup' style={(this.props.show) ? {display: "block"} : {display: "none"}} >  
     <div className='popup_open'> 
     <div className="tm-bg-gray set-hidden-overflow">
-            <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
+            <span className="tm-close-popup" onClick={this.handleClick}>
                 Return Home
                 <i className="fas fa-times"></i>
-            </a>
+            </span>
             <div>
                 <h2 className="tm-color-primary tm-page-title tm-text-center">Research</h2>
                 <div id="container">

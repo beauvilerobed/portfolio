@@ -17,10 +17,10 @@ class Intro extends React.Component {
         <div className="popup_open"> 
         <div id="gallery" className="tm-bg-gray set-hidden-overflow">
         <div id="intro">
-            <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
+            <span className="tm-close-popup" onClick={this.handleClick}>
                 Return Home
                 <i className="fas fa-times"></i>
-            </a>
+            </span>
             <div className="tm-row tm-intro-row tm-color-light-gray">
                 <img src={require("../img/robed_pic.jpg")} alt="" className="tm-intro-img"></img>
 

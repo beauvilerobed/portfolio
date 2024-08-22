@@ -15,10 +15,10 @@ class ContactMe extends React.Component {
     <div className='popup' style={(this.props.show) ? {display: "block"} : {display: "none"}} >  
     <div className='popup_open'> 
     <div id="contact" className="tm-bg-gray set-hidden-overflow">
-            <a href="#/" className="tm-close-popup" onClick={this.handleClick}>
+            <span className="tm-close-popup" onClick={this.handleClick}>
                 Return Home
                 <i className="fas fa-times"></i>
-            </a>
+            </span>
             <h2 className="tm-color-primary">Contact Me</h2>
                     <ul className="tm-contact-links align-list">
                         <li>

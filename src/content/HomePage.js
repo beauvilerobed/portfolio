@@ -47,27 +47,27 @@ class HomePage extends Component {
         <nav className="tm-main-nav">
             <ul className="align-list" onClick={(this.state.disabled === "0") ? this.viewId.bind(this) : null}>
                 <li className="tm-nav-item">
-                        <a href="#Intro" className="tm-nav-link" id="1">
+                        <span className="tm-nav-link" id="1">
                         Introduction
-                        </a>               
+                        </span>               
                 </li>
                     <Intro show={(this.state.disabled === "1") ? true : false } setStateOfParent = {this.setStateOfParent}/>  
                 <li className="tm-nav-item">
-                    <a href="#Projects" className="tm-nav-link tm-gallery-link" id="2">
+                    <span lassName="tm-nav-link tm-gallery-link" id="2">
                         Projects
-                    </a>
+                    </span>
                     <Projects show={(this.state.disabled === "2") ? true : false } setStateOfParent = {this.setStateOfParent}/>  
                 </li>
                 <li className="tm-nav-item">
-                    <a href="#Research" className="tm-nav-link" id="3">
+                    <span className="tm-nav-link" id="3">
                         Research
-                    </a>
+                    </span>
                     <Research show={(this.state.disabled === "3") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
                 </li>
                 <li className="tm-nav-item">
-                    <a href="#Contact" className="tm-nav-link" id="5">
+                    <span className="tm-nav-link" id="5">
                         Contact Me
-                    </a>
+                    </span>
                     <ContactMe show={(this.state.disabled === "5") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
                 </li>
                 <li className="tm-nav-item">
