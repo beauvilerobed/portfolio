@@ -53,7 +53,7 @@ class HomePage extends Component {
                 </li>
                     <Intro show={(this.state.disabled === "1") ? true : false } setStateOfParent = {this.setStateOfParent}/>  
                 <li className="tm-nav-item">
-                    <span lassName="tm-nav-link tm-gallery-link" id="2">
+                    <span className="tm-nav-link tm-gallery-link" id="2">
                         Projects
                     </span>
                     <Projects show={(this.state.disabled === "2") ? true : false } setStateOfParent = {this.setStateOfParent}/>  
