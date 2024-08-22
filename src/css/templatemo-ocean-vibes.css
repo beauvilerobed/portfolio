@@ -27,6 +27,8 @@ h2, p {
 
 a:hover, a.active { color: #309AFD; }
 
+span:hover, span.active { color: #309AFD; }
+
 .tm-btn {
     color: white;
     background-color: #3299CD;
@@ -85,7 +87,7 @@ body, ul {
     padding: 0;
 }
 
-a { 
+a,span { 
     text-decoration: none; 
     transition: all 0.3s ease;
 }
