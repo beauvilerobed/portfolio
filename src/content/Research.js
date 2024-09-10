@@ -31,8 +31,7 @@ class Research extends React.Component {
                                             on a weakly compact convex subset of a Banach space that is fixed point-free. Using Zorn’s
                                             lemma, there exists a minimally weak compact, convex subset of which is T-invariant and
                                             fixed point free. I investigate special closed linear spans that "should" contains a copy of
-                                            Lebesgue integrable functions on the unit interval.
-                                            of G-frames in terms of G-Riesz bases.                                        
+                                            Lebesgue integrable functions on the unit interval.                                      
                                         </p>
                                     <h3><strong>Frame and Generalized Frames</strong></h3>
                                         <p>
