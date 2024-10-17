@@ -32,7 +32,7 @@ class HomePage extends Component {
     return ( 
     <div> 
     <header className="tm-site-header">
-        <h1 className="tm-color-primary">Robed Beauvil-Owen, PhD</h1>
+        <h1 className="tm-color-primary">Robed Beauvile-Owen, PhD</h1>
         <em className="tm-color-gray-2">Data Scientist, Machine Learning Fanatic, and Mathematician</em>
         <span className="tm-tagline tm-color-light-gray tm-text-right">"Like what you do, and then you'll 
         do your best” -Katherine Johnson</span>
@@ -71,7 +71,7 @@ class HomePage extends Component {
                     <ContactMe show={(this.state.disabled === "5") ? true : false } setStateOfParent = {this.setStateOfParent}/> 
                 </li>
                 <li className="tm-nav-item">
-                    <a href={'./resume/robed-beauvil-owen-resume.pdf'} className="tm-nav-link" id="0" download="Robed Beauvil-Owen Resume">
+                    <a href={'./resume/robed-beauvile-owen-resume.pdf'} className="tm-nav-link" id="0" download="Robed Beauvile-Owen Resume">
                         Download Resume
                     </a>
                 </li>

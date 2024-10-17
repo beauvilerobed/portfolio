@@ -25,7 +25,7 @@ class Intro extends React.Component {
                 <img src={require("../img/robed_pic.jpg")} alt="" className="tm-intro-img"></img>
 
                 <div className="tm-col tm-intro-pad">
-                    <h2 className="tm-color-primary tm-page-title">Robed Beauvil-Owen</h2>
+                    <h2 className="tm-color-primary tm-page-title">Robed Beauvile-Owen</h2>
                     <div className="tm-row tm-content-row">
                         <div className="tm-col-6 tm-intro-col-l">
                             <p>
