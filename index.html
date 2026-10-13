@@ -65,7 +65,7 @@
   <section id="work" class="section">
     <div class="container">
       <h2>Selected work</h2>
-      <p class="sub">Production analysis and shipped products.</p>
+      <p class="sub">Experimentation, causal inference, and predictive modeling, from client work and open-source notebooks.</p>
       <div class="grid grid-feature">
         <article class="card card-feature">
           <div class="card-body">
@@ -87,26 +87,38 @@
         </article>
         <article class="card card-feature">
           <div class="card-body">
-            <p class="kicker">Open source · Live product</p>
-            <h3>CaLaun: AI Calculus Tutor</h3>
-            <p>Pairs a symbolic math engine with a Llama language model so solutions are exact and explanations are clear. Serves 400+ weekly users, backed by 90+ automated tests.</p>
-            <ul class="tags"><li>Python</li><li>Django</li><li>PostgreSQL</li><li>LLMs</li></ul>
-            <div class="links">
-              <a href="https://calaun.org" target="_blank" rel="noopener">Live site →</a>
-              <a href="https://github.com/calaun-learning/calaun" target="_blank" rel="noopener">Code →</a>
-            </div>
+            <p class="kicker">Experimentation</p>
+            <h3>End-to-End A/B Test: Player Retention</h3>
+            <p>A full experiment workflow on a mobile game test: hypotheses, outlier handling, error rates and sample sizing, significance testing, and practical significance for 1- and 7-day retention.</p>
+            <ul class="tags"><li>Python</li><li>statsmodels</li><li>SciPy</li></ul>
+            <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/complete-guide-to-ab-testing" target="_blank" rel="noopener">Code →</a></div>
           </div>
         </article>
         <article class="card card-feature">
           <div class="card-body">
-            <p class="kicker">Analytics &amp; visualization</p>
-            <h3>Python &amp; Tableau Dashboards</h3>
-            <p>Three end-to-end analyses, cleaned and modeled in Python and published as interactive Tableau dashboards: sales, loan risk, and news sentiment.</p>
-            <ul class="tags"><li>Python</li><li>pandas</li><li>Tableau</li></ul>
-            <div class="links">
-              <a href="https://public.tableau.com/app/profile/robed.beauvile" target="_blank" rel="noopener">Dashboards →</a>
-              <a href="https://github.com/beauvilerobed/python-and-tableau-data-analytics" target="_blank" rel="noopener">Code →</a>
-            </div>
+            <p class="kicker">Causal inference</p>
+            <h3>Heterogeneous Treatment Effects</h3>
+            <p>Goes beyond the average effect: estimates conditional average treatment effects (CATE), grouped effects, and causal trees to find who a treatment actually helps.</p>
+            <ul class="tags"><li>CATE</li><li>Causal ML</li><li>Python</li></ul>
+            <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/blob/master/projects/intro-to-economic-modeling-and-ds/economics-applications/heterogeneity-effects.ipynb" target="_blank" rel="noopener">Code →</a></div>
+          </div>
+        </article>
+        <article class="card card-feature">
+          <div class="card-body">
+            <p class="kicker">Survival analysis</p>
+            <h3>Customer LTV &amp; Churn Survival Modeling</h3>
+            <p>Simulates 1M customer lifetimes to show when LTV = ARPU / churn breaks down, and estimates lifetime value from empirical survival curves instead.</p>
+            <ul class="tags"><li>Python</li><li>NumPy</li><li>Survival Analysis</li></ul>
+            <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/ltv-churn-survival" target="_blank" rel="noopener">Code →</a></div>
+          </div>
+        </article>
+        <article class="card card-feature">
+          <div class="card-body">
+            <p class="kicker">Machine learning</p>
+            <h3>Starbucks Rewards: Predicting Responses</h3>
+            <p>Gradient boosting model that predicts how customers respond to promotional offers, trained and deployed on AWS SageMaker and evaluated with multi-class F1.</p>
+            <ul class="tags"><li>XGBoost</li><li>AWS SageMaker</li><li>Python</li></ul>
+            <div class="links"><a href="https://github.com/beauvilerobed/predict-consumer-responses" target="_blank" rel="noopener">Code →</a></div>
           </div>
         </article>
       </div>
@@ -122,12 +134,6 @@
       <h3 class="group-title">Experimentation &amp; causal inference</h3>
       <div class="grid">
         <article class="card">
-          <h3>End-to-End A/B Test: Player Retention</h3>
-          <p>A full experiment workflow on a mobile game test: hypotheses, outlier handling, error rates and sample sizing, significance testing, and practical significance for 1- and 7-day retention.</p>
-          <ul class="tags"><li>Python</li><li>statsmodels</li><li>SciPy</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/complete-guide-to-ab-testing" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-        <article class="card">
           <h3>Free-Trial Screener Experiment</h3>
           <p>Designs and analyzes a checkout experiment: invariant and evaluation metrics, analytic variance, sample sizing for conversion and retention, sanity checks, sign tests, and a launch recommendation.</p>
           <ul class="tags"><li>Experiment Design</li><li>Power Analysis</li><li>Python</li></ul>
@@ -139,28 +145,10 @@
           <ul class="tags"><li>Causal Inference</li><li>scikit-learn</li><li>statsmodels</li></ul>
           <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/topics-in-causal-inference" target="_blank" rel="noopener">Code →</a></div>
         </article>
-        <article class="card">
-          <h3>Heterogeneous Treatment Effects</h3>
-          <p>Goes beyond the average effect: estimates conditional average treatment effects (CATE), grouped effects, and causal trees to find who a treatment actually helps.</p>
-          <ul class="tags"><li>CATE</li><li>Causal ML</li><li>Python</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/blob/master/projects/intro-to-economic-modeling-and-ds/economics-applications/heterogeneity-effects.ipynb" target="_blank" rel="noopener">Code →</a></div>
-        </article>
       </div>
 
-      <h3 class="group-title">Machine learning &amp; forecasting</h3>
+      <h3 class="group-title">Forecasting &amp; analytics</h3>
       <div class="grid">
-        <article class="card">
-          <h3>Customer LTV &amp; Churn Survival Modeling</h3>
-          <p>Simulates 1M customer lifetimes to show when LTV = ARPU / churn breaks down, and estimates lifetime value from empirical survival curves instead.</p>
-          <ul class="tags"><li>Python</li><li>NumPy</li><li>Survival Analysis</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/ltv-churn-survival" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-        <article class="card">
-          <h3>Starbucks Rewards: Predicting Responses</h3>
-          <p>Gradient boosting model that predicts how customers respond to promotional offers, trained and deployed on AWS SageMaker and evaluated with multi-class F1.</p>
-          <ul class="tags"><li>XGBoost</li><li>AWS SageMaker</li><li>Python</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/predict-consumer-responses" target="_blank" rel="noopener">Code →</a></div>
-        </article>
         <article class="card">
           <h3>Time Series Forecasting</h3>
           <p>From stationarity tests and ACF/PACF diagnostics to ARIMA, SARIMAX, VARMAX, and exponential smoothing, compared against DNN, LSTM, and CNN forecasters.</p>
@@ -173,10 +161,28 @@
           <ul class="tags"><li>Python</li><li>NumPy</li><li>SciPy</li></ul>
           <div class="links"><a href="https://github.com/beauvilerobed/quantitative-economics-with-python" target="_blank" rel="noopener">Code →</a></div>
         </article>
+        <article class="card">
+          <h3>Python &amp; Tableau Dashboards</h3>
+          <p>Three end-to-end analyses, cleaned and modeled in Python and published as interactive Tableau dashboards: sales, loan risk, and news sentiment.</p>
+          <ul class="tags"><li>Python</li><li>pandas</li><li>Tableau</li></ul>
+          <div class="links">
+            <a href="https://public.tableau.com/app/profile/robed.beauvile" target="_blank" rel="noopener">Dashboards →</a>
+            <a href="https://github.com/beauvilerobed/python-and-tableau-data-analytics" target="_blank" rel="noopener">Code →</a>
+          </div>
+        </article>
       </div>
 
       <h3 class="group-title">LLMs &amp; deep learning</h3>
       <div class="grid">
+        <article class="card">
+          <h3>CaLaun: AI Calculus Tutor</h3>
+          <p>Pairs a symbolic math engine with a Llama language model so solutions are exact and explanations are clear. Serves 400+ weekly users, backed by 90+ automated tests.</p>
+          <ul class="tags"><li>Python</li><li>Django</li><li>PostgreSQL</li><li>LLMs</li></ul>
+          <div class="links">
+            <a href="https://calaun.org" target="_blank" rel="noopener">Live site →</a>
+            <a href="https://github.com/calaun-learning/calaun" target="_blank" rel="noopener">Code →</a>
+          </div>
+        </article>
         <article class="card">
           <h3>A Large Language Model From Scratch</h3>
           <p>Builds a LLaMA-style transformer in PyTorch, including RMSNorm, SwiGLU, rotary embeddings, grouped-query attention, and a KV cache, and explains how each differs from the original transformer.</p>
