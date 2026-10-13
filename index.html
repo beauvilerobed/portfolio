@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robed Beauvile-Owen, PhD | Senior Data Scientist</title>
+  <meta name="description" content="Senior Data Scientist with a PhD in Mathematics, specializing in experimentation, causal inference, and machine learning.">
+  <meta property="og:title" content="Robed Beauvile-Owen, PhD | Senior Data Scientist">
+  <meta property="og:description" content="Experimentation, causal inference, and machine learning, from research to production.">
+  <meta property="og:image" content="https://beauvilerobed.github.io/portfolio/assets/poster.jpg">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#top">Robed Beauvile-Owen</a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-small" href="resume/robed-beauvile-owen-resume.pdf" target="_blank" rel="noopener">Résumé</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <video class="hero-video" autoplay muted loop playsinline poster="assets/poster.jpg" aria-hidden="true">
+      <source src="assets/network.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="eyebrow">Senior Data Scientist · PhD, Mathematics</p>
+      <h1>Robed Beauvile-Owen</h1>
+      <p class="lead">Experimentation, causal inference, and machine learning, from research to production.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#projects">View projects</a>
+        <a class="btn btn-ghost" href="resume/robed-beauvile-owen-resume.pdf" target="_blank" rel="noopener">Download résumé</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about">
+      <img class="portrait" src="assets/robed.jpg" alt="Portrait of Robed Beauvile-Owen" width="320" height="320">
+      <div>
+        <h2>About</h2>
+        <p>I'm a Senior Data Scientist with a PhD in Mathematics. I design experiments, build causal and predictive models, and ship machine learning systems that change business decisions, most recently in healthcare marketing and e-commerce.</p>
+        <p>I also founded <a href="https://anipointresearch.com" target="_blank" rel="noopener">AniPoint Site Research</a>, a location intelligence consultancy that helps retail and service businesses evaluate where to expand.</p>
+        <p>I'm Haitian born and Miami raised. Outside of work I love philosophy, breakdancing, and sketching landscapes.</p>
+        <ul class="tags">
+          <li>Python</li><li>SQL</li><li>Spark</li><li>Databricks</li><li>Snowflake</li><li>Azure</li>
+          <li>Causal Inference</li><li>A/B Testing</li><li>Uplift Modeling</li><li>XGBoost</li><li>LLMs</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li>
+          <div class="when">May 2026 – Present</div>
+          <div>
+            <h3>Founder &amp; Principal Data Scientist <span>· AniPoint Site Research</span></h3>
+            <p>Site-selection research for retail and service businesses: location scoring, Monte Carlo risk modeling, and revenue projections. Identified a $1.5M expansion opportunity.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">Sep 2024 – Apr 2026</div>
+          <div>
+            <h3>Senior Data Scientist <span>· Limetree (Remote)</span></h3>
+            <p>Led the healthcare marketing analytics roadmap. Built experimentation and causal inference frameworks (CUPED cut metric variance 20%), uplift models that saved $10K per campaign, and a churn platform that runs 48% faster.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">Sep 2023 – Sep 2024</div>
+          <div>
+            <h3>Machine Learning Engineer <span>· eParts Services</span></h3>
+            <p>Built a shipping-price regression API serving 10,000+ daily requests and improved search relevance with Elasticsearch, reducing customer dissatisfaction 12%. C#, Azure, Docker.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">Apr 2022 – Sep 2023</div>
+          <div>
+            <h3>Data Scientist <span>· Limetree (Remote)</span></h3>
+            <p>Response models on millions of healthcare consumer records (+3% response rate), automated Snowflake and Power BI reporting, and GIS targeting 20% more accurate.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">2017 – 2023</div>
+          <div>
+            <h3>PhD, Mathematics <span>· University of Pittsburgh</span></h3>
+            <p>Research in optimization, functional analysis, and operator theory. Taught mathematics and statistics to classes of 75–200 students.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>CaLaun: AI Calculus Tutor</h3>
+          <p>Pairs a symbolic math engine with a Llama language model to give accurate, step-by-step calculus solutions. Serves 400+ weekly users, backed by 90+ automated tests.</p>
+          <ul class="tags"><li>Python</li><li>Django</li><li>PostgreSQL</li><li>LLMs</li></ul>
+          <div class="links">
+            <a href="https://calaun.org" target="_blank" rel="noopener">Live site →</a>
+            <a href="https://github.com/calaun-learning/calaun" target="_blank" rel="noopener">Code →</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Customer LTV &amp; Churn Survival Modeling</h3>
+          <p>Simulates 1M customer lifetimes to show when LTV = ARPU / churn breaks down, and estimates lifetime value from empirical survival curves instead.</p>
+          <ul class="tags"><li>Python</li><li>NumPy</li><li>Survival Analysis</li></ul>
+          <div class="links">
+            <a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/ltv-churn-survival" target="_blank" rel="noopener">Code →</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Quantitative Economics Platform</h3>
+          <p>Models stochastic dynamics with Markov chains, survival analysis, and Kalman filtering, the state-transition methods behind retention and churn forecasting.</p>
+          <ul class="tags"><li>Python</li><li>NumPy</li><li>SciPy</li><li>Jupyter</li></ul>
+          <div class="links">
+            <a href="https://github.com/beauvilerobed/quantitative-economics-with-python" target="_blank" rel="noopener">Code →</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Starbucks Rewards: Predicting Responses</h3>
+          <p>Predicts which customers respond to which promotional offers, to target promotions more efficiently.</p>
+          <ul class="tags"><li>Python</li><li>XGBoost</li><li>scikit-learn</li><li>AWS</li></ul>
+          <div class="links">
+            <a href="https://github.com/beauvilerobed/predict-consumer-responses" target="_blank" rel="noopener">Code →</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Python &amp; Tableau Analytics</h3>
+          <p>Real-world data analysis projects, from cleaning and exploration in Python to interactive Tableau dashboards.</p>
+          <ul class="tags"><li>Python</li><li>pandas</li><li>Tableau</li></ul>
+          <div class="links">
+            <a href="https://github.com/beauvilerobed/python-and-tableau-data-analytics" target="_blank" rel="noopener">Code →</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Data Science &amp; ML Compendium</h3>
+          <p>Notes, experiments, and implementations across machine learning, deep learning, A/B testing, causal inference, and time series.</p>
+          <ul class="tags"><li>Python</li><li>TensorFlow</li><li>scikit-learn</li></ul>
+          <div class="links">
+            <a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium" target="_blank" rel="noopener">Code →</a>
+          </div>
+        </article>
+      </div>
+      <p class="more"><a href="https://github.com/beauvilerobed" target="_blank" rel="noopener">More on GitHub →</a></p>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section section-alt">
+    <div class="container">
+      <h2>Research</h2>
+      <p class="sub">Dissertation: <em>A Minimal Invariant Set, Frames, and Operators</em> (University of Pittsburgh, 2023)</p>
+      <div class="grid grid-3">
+        <div class="card card-plain">
+          <h3>Fixed Point Theory</h3>
+          <p>Building on Alspach's fixed-point-free non-expansive map, showed that special closed linear spans of a minimal invariant set contain a copy of L<sub>1</sub>[0,1].</p>
+        </div>
+        <div class="card card-plain">
+          <h3>Frames &amp; Generalized Frames</h3>
+          <p>Used operator theory to characterize frames in terms of Riesz bases, and generalized frames (g-frames) in terms of g-Riesz bases.</p>
+        </div>
+        <div class="card card-plain">
+          <h3>Frame Potentials &amp; Optimization</h3>
+          <p>Studied finite normalized tight frames as minimizers of a potential energy function, and their links to sparse approximation and deep learning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact">
+      <h2>Get in touch</h2>
+      <p>I'm open to senior data science and machine learning roles. The fastest way to reach me is email.</p>
+      <div class="hero-actions">
+        <a class="btn" href="mailto:robedbeauvil@gmail.com">robedbeauvil@gmail.com</a>
+        <a class="btn btn-outline" href="https://www.linkedin.com/in/robedbeauvile" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-outline" href="https://github.com/beauvilerobed" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© 2026 Robed Beauvile-Owen</span>
+    <span class="quote">"Like what you do, and then you'll do your best." – Katherine Johnson</span>
+  </div>
+</footer>
+
+<script>
+  // Keep the hero still for visitors who prefer reduced motion.
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const v = document.querySelector('.hero-video');
+    v.removeAttribute('autoplay');
+    v.pause();
+  }
+</script>
+</body>
+</html>
