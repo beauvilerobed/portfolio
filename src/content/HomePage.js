@@ -33,7 +33,7 @@ class HomePage extends Component {
     <div> 
     <header className="tm-site-header">
         <h1 className="tm-color-primary">Robed Beauvile-Owen, PhD</h1>
-        <em className="tm-color-gray-2">Data Scientist, Machine Learning Fanatic, and Mathematician</em>
+        <em className="tm-color-gray-2">Senior Data Scientist and Mathematician</em>
         <span className="tm-tagline tm-color-light-gray tm-text-right">"Like what you do, and then you'll 
         do your best” -Katherine Johnson</span>
     </header>
@@ -80,7 +80,7 @@ class HomePage extends Component {
     </div>
 
     <footer className="tm-footer">
-        <span>Copyright &copy;  2024. All rights reserved. Hosted on GitHub</span>
+        <span>Copyright &copy;  2026. All rights reserved. Hosted on GitHub</span>
         <span>CSS Template by 
         <a href="https://templatemo.com" title="website templates" target="_parent" rel="nofollow">TemplateMo</a></span>
     </footer>

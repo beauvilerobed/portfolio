@@ -30,18 +30,17 @@ class Research extends React.Component {
                                         In 1981, Dale Alspach produced the first example of a non-expansive mapping T
                                             on a weakly compact convex subset of a Banach space that is fixed point-free. Using Zorn’s
                                             lemma, there exists a minimally weak compact, convex subset of which is T-invariant and
-                                            fixed point free. I investigate special closed linear spans that "should" contains a copy of
+                                            fixed point free. My dissertation investigated special closed linear spans that "should" contains a copy of
                                             Lebesgue integrable functions on the unit interval.                                      
                                         </p>
                                     <h3><strong>Frame and Generalized Frames</strong></h3>
                                         <p>
                                         Wenchang Sun introduced
-                                            generalized frames and included ordinary frames. I currently use many ideas from Operator
-                                            Theory to show characterizations of Frames in terms of Riesz bases and characterizations
+                                            generalized frames and included ordinary frames. I used many ideas from Operator Theory to show characterizations of Frames in terms of Riesz bases and characterizations
                                             of G-frames in terms of G-Riesz bases.                              
                                         </p>
                                         <h3><strong>Local Optimization</strong></h3>
-                                        <p>I am also studying how the theory of finite normalized tight frames (FNTFs) is developed in Hilbert 
+                                        <p>I also studied how the theory of finite normalized tight frames (FNTFs) is developed in Hilbert 
                                             spaces (both finite and infinite-dimensional). An influential theorem is the characterization of all 
                                             FNTFs in terms of the minima of a potential energy function. This was designed to measure the total 
                                             orthogonality of a Bessel sequence. I am particularly interested in their connections in Deep Learning 

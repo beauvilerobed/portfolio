@@ -110,7 +110,7 @@ class Projects extends React.Component {
                     <Project
                         pictureId="calbot"
                         headline="Calculus Chatbot"
-                        link="https://github.com/beauvilerobed/calc-tutor-bot/tree/master/chatbot"
+                        link="https://github.com/calaun-learning/calaun"
                         summary=" Tokenization, Stemming, Word Lemmatization, Model Training, Testing and Evaluation"
                         tools=" Python3, NLTK, Django, Keras, NumPy"
                     />
@@ -160,7 +160,7 @@ class Projects extends React.Component {
                 <Project
                         pictureId="calbot"
                         headline="Calculus-Tutor-Bot"
-                        link="https://github.com/beauvilerobed/calc-tutor-bot"
+                        link="https://github.com/calaun-learning/calaun"
                         summary=" Virtual Environment, Model Training and Integration, CAS for Computation Logic, Front-End Visualization"
                         tools=" Python3, JavaScript, NLTK, Django, Keras, NumPy"
                     />

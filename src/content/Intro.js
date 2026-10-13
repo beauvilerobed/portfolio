@@ -29,7 +29,7 @@ class Intro extends React.Component {
                     <div className="tm-row tm-content-row">
                         <div className="tm-col-6 tm-intro-col-l">
                             <p>
-                            I'm a lifelong learner capable of handling ambiguity in an ever-changing environment. I specialize in building robust models, storytelling with data, building software, and providing insight through analytics and machine learning. I also conduct research in the areas of fixed point theory, frames, and generalized frames.                            </p>
+                            I'm a Senior Data Scientist with a PhD in Mathematics. I specialize in experimentation, causal inference, and predictive modeling, and I've built production machine learning systems in healthcare marketing and e-commerce. I also founded AniPoint Site Research, a location intelligence consultancy. My doctoral research was in fixed point theory, frames, and generalized frames.                            </p>
 
                             <p>
                             I am Haitian born and Miami raised. I also love philosophy, breakdancing, and sketching landscapes.
