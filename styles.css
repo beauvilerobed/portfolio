@@ -185,9 +185,9 @@ p { margin: 0 0 1rem; }
 
 /* FEATURED WORK */
 .grid-feature { grid-template-columns: repeat(2, 1fr); gap: 24px; }
-.card-media { padding: 0; overflow: hidden; }
-.card-media img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-bottom: 1px solid var(--line); }
-.card-body { display: flex; flex-direction: column; flex: 1; padding: 24px; }
+.card-feature { padding: 0; border-top: 3px solid var(--accent); }
+.card-body { display: flex; flex-direction: column; flex: 1; padding: 28px; }
+.card-feature h3 { font-size: 1.25rem; }
 .kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.75rem; font-weight: 600; color: var(--accent); margin-bottom: 6px; }
 .group-title { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 40px 0 16px; }
 .group-title:first-of-type { margin-top: 0; }
