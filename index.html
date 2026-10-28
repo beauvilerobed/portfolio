@@ -64,11 +64,11 @@
             <dl class="case">
               <div><dt>Question</dt><dd>A client asked how much new revenue one more car wash would actually add to a county, as opposed to revenue it would just take from existing sites.</dd></div>
               <div><dt>Metric</dt><dd>Incremental county car wash revenue per added site, net of cannibalization, holding population, income, traffic, and competitors fixed. Revenue is a payroll-based proxy built from Census County Business Patterns. It is a county-level effect, not a forecast for one address.</dd></div>
-              <div><dt>Method</dt><dd>Double ML and causal forests on a 234-county County Business Patterns panel (2012&ndash;2023, six states), with county-clustered intervals, cross-checked with a Callaway&ndash;Sant&rsquo;Anna difference-in-differences (opening counties compared only with not-yet-opened ones) and a synthetic-data test that had to recover a known effect.</dd></div>
+              <div><dt>Method</dt><dd>Double ML on a 234-county County Business Patterns panel (2012&ndash;2023, six states), with county-clustered intervals, cross-checked with a Callaway&ndash;Sant&rsquo;Anna difference-in-differences (opening counties compared only with not-yet-opened ones) and a synthetic-data test that had to recover a known effect.</dd></div>
               <div><dt>Result</dt><dd>Double ML gave <strong>$533K</strong> per added site (95% CI $390K&ndash;$676K) and the DiD gave <strong>$472K</strong> ($281K&ndash;$669K), within 1.13&times; of each other. The DiD&rsquo;s placebo pre-trend check covers zero, so there&rsquo;s no sign that opening counties were already pulling ahead. Reports give a range, not a single number.</dd></div>
               <div><dt>Caveats</dt><dd>With only one control, Double ML said $795K. Adding five demand controls cut it by a third and brought it in line with the DiD, a reminder that confounding is the whole game. An earlier two-way fixed-effects cross-check ran 1.4&ndash;3.7&times; low because staggered openings used already-treated counties as controls, so I replaced it. Local shocks that drive both openings and revenue (a new highway, a big employer) remain the main untested threat.</dd></div>
             </dl>
-            <ul class="tags"><li>Double ML</li><li>Causal Forests</li><li>Difference-in-Differences</li><li>Panel Data</li></ul>
+            <ul class="tags"><li>Double ML</li><li>Difference-in-Differences</li><li>Callaway&ndash;Sant&rsquo;Anna</li><li>Panel Data</li></ul>
             <div class="links"><a href="https://anipointresearch.com/#demo-07" target="_blank" rel="noopener">Sample analysis →</a></div>
           </div>
         </article>
@@ -241,28 +241,28 @@
           <div class="when">May 2026 – Present</div>
           <div>
             <h3>Founder &amp; Data Scientist <span>· AniPoint Site Research</span></h3>
-            <p>Founded a site-selection consultancy whose feasibility screenings (car-count projections, comparable-site benchmarks) helped clients approve 2 recommended sites ($1.5M+ projected annual revenue). Built a revenue driver tree (traffic &times; capture rate &times; average ticket) and margin models that turned profit goals into car-count targets. Estimated that each new car wash adds $533K/year to its county&rsquo;s car wash revenue (payroll-based), net of cannibalization, using Double ML on a 234-county County Business Patterns panel (2012&ndash;2023), cross-checked with Callaway&ndash;Sant&rsquo;Anna difference-in-differences ($472K). Automated Python pipelines for Monte Carlo risk and low/base/high scenarios (250+ unit tests, data-quality checks).</p>
+            <p>Founded a site selection consultancy (<a href="https://anipointresearch.com" target="_blank" rel="noopener">anipointresearch.com</a>) whose feasibility screenings and car-count projections led a client to approve the recommended site ($1.5M projected yearly revenue). Behind each recommendation: a revenue driver tree (traffic &times; capture rate &times; average ticket) that turns profit goals into car-count targets, a Double ML estimate that a new car wash adds $533K a year to its county&rsquo;s car wash revenue (cross-checked with Callaway&ndash;Sant&rsquo;Anna DiD at $472K), and tested Python pipelines for Monte Carlo risk simulations and low/base/high scenarios.</p>
           </div>
         </li>
         <li>
           <div class="when">Sep 2024 – Apr 2026</div>
           <div>
             <h3>Senior Data Scientist <span>· Limetree (Remote)</span></h3>
-            <p>Developed uplift and segmentation models on millions of HIPAA-protected records, adopted in 90% of campaigns, reducing per-campaign spend by $10K (about 3%) while maintaining baseline enrollment volumes. Built an in-house experimentation platform that automated A/B test design and readouts (power analysis, CUPED, significance tests) with Power BI dashboards, saving leadership ~5 hours a week. Translated the annual retention survey analysis from R to Python and automated it end to end, cutting turnaround from 2.5 weeks to 1 day. Re-architected the churn pipeline on Spark and Databricks (partitioning, caching, removing repeated joins), cutting runtime by 48% and memory by 23%.</p>
+            <p>Developed uplift and segmentation models on millions of HIPAA-protected records, adopted in 90% of campaigns, reducing per-campaign spend by $10K (about 3%) while maintaining baseline enrollment volumes. Built an in-house experimentation platform (power analysis, CUPED, significance tests, Power BI readouts), automated the annual retention survey analysis (2.5 weeks to 1 day), and re-architected the churn pipeline on Databricks, cutting inference runtime by 48% and memory by 23%.</p>
           </div>
         </li>
         <li>
           <div class="when">Sep 2023 – Sep 2024</div>
           <div>
             <h3>Founding Machine Learning Engineer <span>· eParts Services</span></h3>
-            <p>Replaced a heuristic shipping price rule with a regression model, cutting the median price error vs. actual carrier cost from $30 to $11 (excluding extreme bulk orders) while maintaining an 18% contribution margin. Validated the pricing model offline (median absolute error, human-in-the-loop review), then shipped it as a C#/Azure pricing API (10,000+ daily requests). As the first ML hire, built drift monitoring for live inference pipelines and mentored the 16-person engineering team on production ML. Cut search complaints by 12% and raised search click-through rate from 30% to 35% by tuning Elasticsearch relevance (custom analyzers, field boosting), validated with NDCG@10, human review, and A/B tests.</p>
+            <p>As the first ML hire, replaced a heuristic shipping price rule with a regression model, cutting the median price error vs. actual carrier cost from $30 to $4 (on standard orders) while maintaining an 18% contribution margin, and shipped it as a C#/Azure pricing API (10,000+ monthly transactions). Raised search click-through rate from 30% to 35% and cut search complaints by 12% by tuning Elasticsearch relevance, built drift monitoring for live inference pipelines, and trained the 16-person product and engineering team on production ML.</p>
           </div>
         </li>
         <li>
           <div class="when">Apr 2022 – Sep 2023</div>
           <div>
             <h3>Data Scientist <span>· Limetree (Remote)</span></h3>
-            <p>Raised the offline AUC-ROC of the XGBoost lead-scoring model from 0.62 (prior model) to 0.67 and used SHAP to identify the main drivers (income, age, household composition). Confirmed the gain in an A/B test, where model-driven targeting raised gross lead rate (GLR) by 9%. Validated GLR out of sample as a 60-day leading indicator of enrollment rate (R² = 0.55). Doubled the precision of high-opportunity zone selection over legacy zoning (15% to 30%, measured against past successful campaigns) using GeoPandas spatial overlays and demographic indexing. Led monthly monitoring of up to 10 production models built for clients (accuracy, feature drift, forecast vs. actual) and built a company-wide self-service dashboard on curated Snowflake and Databricks tables.</p>
+            <p>Raised the XGBoost lead-scoring model&rsquo;s offline AUC-ROC from 0.62 to 0.67 and confirmed the gain in an A/B test, where model-driven targeting raised gross lead rate (GLR) by 9%. Validated GLR out of sample as a 60-day leading indicator of enrollment rate (R&sup2; = 0.49), doubled the precision of high-opportunity zone selection (15% to 30%), and led monthly monitoring of up to 5 production models built for clients.</p>
           </div>
         </li>
       </ol>
@@ -275,7 +275,8 @@
       <img class="portrait" src="assets/robed.jpg" alt="Portrait of Robed Beauvile-Owen" width="320" height="320" loading="lazy">
       <div>
         <h2>About</h2>
-        <p>I&rsquo;m a data scientist with 4+ years of experience in KPI frameworks, experimentation, causal inference, and measurement, and the founder of <a href="https://anipointresearch.com" target="_blank" rel="noopener">AniPoint Site Research</a>. I build the driver trees, leading indicators, and causal estimates that tie business levers to acquisition, retention, and profit. At Limetree, that meant an in-house experimentation platform and validating gross lead rate as a 60-day leading indicator of enrollment. At AniPoint, it means a revenue driver tree, Double ML estimates, and Monte Carlo risk models behind the site feasibility screenings clients use to decide where to build. I work with data science, strategy, finance, and engineering teams and ship tested SQL and Python pipelines and dashboards. My PhD in mathematics shows up in the habits: state the assumptions, test whether the method can recover a known answer, and report a range when a single number would overclaim.</p>
+        <p>I&rsquo;m a data scientist who builds the metrics a business decides with: KPI and driver trees, leading indicators, experiments, and causal estimates that separate what a lever actually changed from what merely moved with it. I have 4+ years of experience across healthcare marketing, e-commerce, and my own consultancy, <a href="https://anipointresearch.com" target="_blank" rel="noopener">AniPoint Site Research</a>.</p>
+        <p>At Limetree I built an in-house experimentation platform, uplift models adopted in 90% of campaigns, and showed that gross lead rate predicts enrollment 60 days ahead. At eParts, as the first ML hire, I shipped a pricing model that cut median shipping price error from $30 to $4. At AniPoint I turn a client&rsquo;s profit goal into car-count targets, then use Double ML and Monte Carlo risk models to show where a new site will pay off. My PhD in mathematics shows up in the habits: state the assumptions, check that a method can recover a known answer, and report a range when a single number would overclaim.</p>
         <p>I'm Haitian born and Miami raised. Outside of work I love philosophy, breakdancing, and sketching landscapes.</p>
         <ul class="tags">
           <li>Python</li><li>SQL</li><li>Spark</li><li>Databricks</li><li>Snowflake</li><li>Azure</li>
