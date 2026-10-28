@@ -176,6 +176,7 @@ p { margin: 0 0 1rem; }
 .card .links { display: flex; gap: 16px; margin-top: 16px; font-weight: 600; font-size: 0.9rem; }
 .card-plain:hover { transform: none; box-shadow: none; }
 .more { margin-top: 32px; font-weight: 600; }
+.research-note { margin: 32px 0 0; max-width: 70ch; }
 
 /* AT A GLANCE */
 .stats { border-bottom: 1px solid var(--line); background: var(--bg); }
@@ -189,6 +190,11 @@ p { margin: 0 0 1rem; }
 .card-body { display: flex; flex-direction: column; flex: 1; padding: 28px; }
 .card-feature h3 { font-size: 1.25rem; }
 .kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.75rem; font-weight: 600; color: var(--accent); margin-bottom: 6px; }
+.card-wide { grid-column: 1 / -1; }
+.case { margin: 4px 0 0; display: grid; gap: 14px; }
+.case div { display: grid; grid-template-columns: 110px 1fr; gap: 20px; }
+.case dt { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; color: var(--ink); padding-top: 3px; }
+.case dd { margin: 0; color: var(--muted); font-size: 0.95rem; }
 .group-title { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 40px 0 16px; }
 .group-title:first-of-type { margin-top: 0; }
 
@@ -230,6 +236,7 @@ p { margin: 0 0 1rem; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .grid-feature { grid-template-columns: 1fr; }
   .index-list li { grid-template-columns: 1fr; gap: 2px; }
+  .case div { grid-template-columns: 1fr; gap: 2px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
