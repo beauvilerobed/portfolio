@@ -64,9 +64,9 @@
             <dl class="case">
               <div><dt>Question</dt><dd>A client asked how much new revenue one more car wash would actually add to a county, as opposed to revenue it would just take from existing sites.</dd></div>
               <div><dt>Metric</dt><dd>Incremental county revenue per added site, holding population, income, traffic, and competitors fixed. It is a county-level effect, not a forecast for one address.</dd></div>
-              <div><dt>Method</dt><dd>Double ML and causal forests on a 234-county panel (2012&ndash;2023, six states), cross-checked with a two-way fixed-effects difference-in-differences on staggered openings and a synthetic-data test that had to recover a known effect.</dd></div>
-              <div><dt>Result</dt><dd>Double ML gave <strong>$399K</strong> per added site and the DiD gave <strong>$329K</strong>, with heavily overlapping 95% intervals. Reports give the range ($330K&ndash;$400K), not a single number.</dd></div>
-              <div><dt>Caveats</dt><dd>With only one control, Double ML said $812K. Adding five demand controls halved it and brought it within 1.2&times; of the DiD, a reminder that confounding is the whole game. TWFE can be biased when openings are staggered, so it is the cross-check and Double ML is the headline.</dd></div>
+              <div><dt>Method</dt><dd>Double ML and causal forests on a 234-county panel (2012&ndash;2023, six states), with county-clustered intervals, cross-checked with a Callaway&ndash;Sant&rsquo;Anna difference-in-differences (opening counties compared only with not-yet-opened ones) and a synthetic-data test that had to recover a known effect.</dd></div>
+              <div><dt>Result</dt><dd>Double ML gave <strong>$533K</strong> per added site (95% CI $390K&ndash;$676K) and the DiD gave <strong>$472K</strong> ($281K&ndash;$669K), within 1.13&times; of each other. The DiD&rsquo;s placebo pre-trend check covers zero, so there&rsquo;s no sign that opening counties were already pulling ahead. Reports give a range, not a single number.</dd></div>
+              <div><dt>Caveats</dt><dd>With only one control, Double ML said $795K. Adding five demand controls cut it by a third and brought it in line with the DiD, a reminder that confounding is the whole game. An earlier two-way fixed-effects cross-check ran 1.4&ndash;3.7&times; low because staggered openings used already-treated counties as controls, so I replaced it. Local shocks that drive both openings and revenue (a new highway, a big employer) remain the main untested threat.</dd></div>
             </dl>
             <ul class="tags"><li>Double ML</li><li>Causal Forests</li><li>Difference-in-Differences</li><li>Panel Data</li></ul>
             <div class="links"><a href="https://anipointresearch.com/#demo-07" target="_blank" rel="noopener">Sample analysis →</a></div>
@@ -76,7 +76,7 @@
           <div class="card-body">
             <p class="kicker">Healthcare claims</p>
             <h3>Medicare Claims Intelligence &amp; Fraud Detection</h3>
-            <p>End-to-end analytics on 790K CMS claims: a dbt warehouse with 26 data tests, forecasts that beat a seasonal-naive baseline (MASE 0.62 vs. 1.06), 81% precision on injected synthetic fraud, and a SHAP-explained risk model that finds 46% more high-cost members than a prior-year-cost baseline.</p>
+            <p>End-to-end analytics on 790K CMS claims: a dbt warehouse with 26 data tests, an out-of-time SHAP-explained risk model that finds 46% more next-year high-cost members than a prior-year-cost baseline, forecasts that beat a seasonal-naive baseline (MASE 0.62 vs. 1.06), and fraud flags validated on injected test anomalies (81% precision at review capacity).</p>
             <ul class="tags"><li>dbt</li><li>Forecasting</li><li>Fraud Detection</li><li>SHAP</li></ul>
             <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/medicare-claims-intelligence" target="_blank" rel="noopener">Code →</a></div>
           </div>
@@ -85,7 +85,7 @@
           <div class="card-body">
             <p class="kicker">AniPoint Site Research</p>
             <h3>Driver Tree &amp; Monte Carlo Site Risk</h3>
-            <p>A revenue driver tree (traffic &times; capture rate &times; average ticket) turns a client&rsquo;s profit goal into a break-even target. Monte Carlo simulation of those drivers for every census tract then reports the chance a new site loses money, value at risk, and low/base/high scenarios, before a client signs a lease.</p>
+            <p>A revenue driver tree (traffic &times; capture rate &times; average ticket) turns a client&rsquo;s profit goal into a required car-count target. Monte Carlo simulation of those drivers for every census tract then reports the chance a new site loses money, value at risk, and low/base/high scenarios, before a client signs a lease.</p>
             <ul class="tags"><li>Driver Trees</li><li>Monte Carlo</li><li>Geospatial</li><li>Census Data</li></ul>
             <div class="links"><a href="https://anipointresearch.com/#demo-05" target="_blank" rel="noopener">Sample analysis →</a></div>
           </div>
@@ -241,21 +241,21 @@
           <div class="when">May 2026 – Present</div>
           <div>
             <h3>Founder &amp; Data Scientist <span>· AniPoint Site Research</span></h3>
-            <p>Site selection consultancy for traffic-dependent businesses, whose feasibility reports (car-count projections, comparable-site benchmarks) guided client expansion decisions worth $1.5M+ in projected revenue. Built a revenue driver tree (traffic &times; capture rate &times; average ticket) and margin models that turn profit goals into break-even targets. Estimated the incremental revenue of a new car wash site with Double ML and causal forests on a 12-year county panel, and a two-way fixed-effects DiD cross-check agreed (about $330K&ndash;$400K per site). Automated Python pipelines for Monte Carlo risk and low/base/high scenarios (150+ unit tests, data-quality checks).</p>
+            <p>Car wash site selection consultancy whose feasibility reports (car-count projections, comparable-site benchmarks) led clients to approve 2 sites with $1.5M+ in projected revenue. Built a revenue driver tree (traffic &times; capture rate &times; average ticket) and margin models that turn profit goals into required car-count targets. Estimated the net revenue each new car wash adds to its county&rsquo;s car wash market with Double ML and causal forests (county-clustered CIs), cross-checked with difference-in-differences. Automated Python pipelines for Monte Carlo risk and low/base/high scenarios (230+ unit tests, data-quality checks).</p>
           </div>
         </li>
         <li>
           <div class="when">Sep 2024 – Apr 2026</div>
           <div>
             <h3>Senior Data Scientist <span>· Limetree (Remote)</span></h3>
-            <p>Built uplift and segmentation models on millions of HIPAA-protected records, used in 87% of campaigns, cutting per-campaign spend by $10K while holding enrollment volume at baseline. Built an in-house experimentation and reporting platform that automated A/B test design and readouts (power analysis, CUPED variance reduction, significance tests), metric monitoring, and Power BI dashboards. Added insurance claims and support-ticket complaints to the churn model as leading signals, raising precision 25% among members with open complaints, and overall PR-AUC 5% and AUC-ROC 2% (all relative). Automated the annual retention survey analysis in Python (2.5 weeks to 1 day) and re-architected the churn pipeline on Spark and Databricks (48% faster, 23% less memory).</p>
+            <p>Built uplift and segmentation models on millions of HIPAA-protected records, used in 87% of campaigns, cutting per-campaign spend by $10K (about 3%) while holding enrollment volume at baseline. Built an in-house experimentation and reporting platform that automated A/B test design and readouts (power analysis, CUPED variance reduction, significance tests), metric monitoring, and Power BI dashboards, used by the data science and strategy teams to set campaign budgets. Added insurance claims and support-ticket complaints to the churn model as leading signals, raising precision 25% among members with open complaints, and overall PR-AUC 5% and AUC-ROC 2% (all relative). Translated the annual retention survey analysis from R to Python and automated it (2.5 weeks to 1 day) and re-architected the churn pipeline on Spark and Databricks (48% faster, 23% less memory).</p>
           </div>
         </li>
         <li>
           <div class="when">Sep 2023 – Sep 2024</div>
           <div>
             <h3>Founding Machine Learning Engineer <span>· eParts Services</span></h3>
-            <p>First ML hire. Built a regression shipping price model, validated it offline (MAE, human-in-the-loop review) and in A/B tests, and shipped it as a pricing API (C#, Azure, 10,000+ daily requests) that replaced a heuristic rule, cutting the median shipping price error (excluding extreme bulk orders) from $30 to $11 while holding an 18% contribution margin. Tuned Elasticsearch relevance (custom analyzers, field boosting), validated with NDCG@10, human review, and A/B tests, cutting search complaints 12% and raising search click-through rate from 3.0% to 3.5%. Set up automated drift monitoring and mentored the engineering team on production ML.</p>
+            <p>First ML hire. Built a regression shipping price model, validated it offline (MAE, human-in-the-loop review) and in A/B tests, and shipped it as a pricing API (C#, Azure, 10,000+ daily requests) that replaced a heuristic rule, cutting the median shipping price error (excluding extreme bulk orders) from $30 to $11 while holding an 18% contribution margin. Tuned Elasticsearch relevance (custom analyzers, field boosting), validated with NDCG@10, human review, and A/B tests, cutting search complaints 12% and raising search click-through rate from 30% to 35%. Set up automated drift monitoring and mentored the engineering team on production ML.</p>
           </div>
         </li>
         <li>
