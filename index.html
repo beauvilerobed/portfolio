@@ -28,7 +28,8 @@
     <h1>Robed Beauvile-Owen</h1>
     <p class="lead">I use experiments, causal inference, and machine learning to show a business what&rsquo;s actually working.</p>
     <div class="actions">
-      <a class="btn" href="resume/robed-beauvile-owen-resume.pdf" target="_blank" rel="noopener">Résumé</a>
+      <a class="btn" href="#projects">See projects</a>
+      <a class="btn btn-ghost" href="resume/robed-beauvile-owen-resume.pdf" target="_blank" rel="noopener">Résumé</a>
       <a class="btn btn-ghost" href="https://www.linkedin.com/in/robedbeauvile" target="_blank" rel="noopener">LinkedIn</a>
       <a class="btn btn-ghost" href="https://github.com/beauvilerobed" target="_blank" rel="noopener">GitHub</a>
       <a class="btn btn-ghost" href="mailto:robedbeauvile@gmail.com">Email</a>
@@ -38,9 +39,101 @@
 
 <main class="page">
 
-  <section>
-    <h2>About</h2>
-    <p class="about">I&rsquo;m a data scientist with a PhD in mathematics and 4+ years of experience in healthcare marketing, e-commerce, and my own consultancy. I work on experimentation, causal inference, forecasting, and machine learning.</p>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="featured">
+      <a class="project project-feature" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/medicare-claims-intelligence" target="_blank" rel="noopener">
+        <p class="kicker">Featured · Healthcare</p>
+        <strong>Medicare Claims Intelligence</strong>
+        <span>A dbt warehouse, a high-cost member risk model, flu forecasts, and fraud flags on 790K synthetic Medicare claims.</span>
+        <ul class="tags"><li>dbt</li><li>SHAP</li><li>Forecasting</li></ul>
+      </a>
+      <a class="project project-feature" href="https://anipointresearch.com/#demo-05" target="_blank" rel="noopener">
+        <p class="kicker">Featured · AniPoint</p>
+        <strong>Driver Tree &amp; Monte Carlo Site Risk</strong>
+        <span>Turns a profit goal into a car-count target, then simulates the chance a new site loses money before a lease is signed.</span>
+        <ul class="tags"><li>Driver Trees</li><li>Monte Carlo</li><li>Census Data</li></ul>
+      </a>
+    </div>
+
+    <h3 class="group">Experimentation &amp; causal inference</h3>
+    <div class="projects">
+      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/complete-guide-to-ab-testing" target="_blank" rel="noopener">
+        <strong>A/B Test: Player Retention</strong>
+        <span>Does moving a game&rsquo;s first gate change 1- and 7-day retention?</span>
+      </a>
+      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/free-trial-screener" target="_blank" rel="noopener">
+        <strong>Free-Trial Screener Experiment</strong>
+        <span>A checkout experiment from design and sizing to a launch decision.</span>
+      </a>
+      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/blob/master/projects/intro-to-economic-modeling-and-ds/economics-applications/heterogeneity-effects.ipynb" target="_blank" rel="noopener">
+        <strong>Heterogeneous Treatment Effects</strong>
+        <span>Finding who a treatment actually helps with CATE and causal trees.</span>
+      </a>
+    </div>
+
+    <h3 class="group">Forecasting &amp; retention</h3>
+    <div class="projects">
+      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/time-series-analysis/time-series-forcasting-with-python" target="_blank" rel="noopener">
+        <strong>Time Series Forecasting</strong>
+        <span>ARIMA, SARIMAX, and smoothing benchmarked against neural forecasters.</span>
+      </a>
+      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/ltv-churn-survival" target="_blank" rel="noopener">
+        <strong>LTV &amp; Churn Survival</strong>
+        <span>When LTV = ARPU / churn breaks down, and what to use instead.</span>
+      </a>
+      <a class="project" href="https://github.com/beauvilerobed/quantitative-economics-with-python" target="_blank" rel="noopener">
+        <strong>Quantitative Economics</strong>
+        <span>Markov chains, survival analysis, and Kalman filtering.</span>
+      </a>
+    </div>
+
+    <h3 class="group">Products &amp; LLMs</h3>
+    <div class="projects">
+      <a class="project" href="https://calaun.org" target="_blank" rel="noopener">
+        <strong>CaLaun: AI Calculus Tutor</strong>
+        <span>Exact math with clear explanations, used by 300+ students a week.</span>
+      </a>
+      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/deep-learning/llm-from-scratch" target="_blank" rel="noopener">
+        <strong>An LLM From Scratch</strong>
+        <span>A LLaMA-style transformer built piece by piece in PyTorch.</span>
+      </a>
+      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/chatbots-open-closed-domain" target="_blank" rel="noopener">
+        <strong>Retrieval &amp; Generative Chatbots</strong>
+        <span>Two chatbot designs compared side by side.</span>
+      </a>
+    </div>
+
+    <details class="more">
+      <summary>More projects</summary>
+      <ul>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/conversion-rate-optimization" target="_blank" rel="noopener">Conversion Rate Optimization</a> – power analysis and a two-proportion z-test for a page redesign.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/math-behind-ab-testing" target="_blank" rel="noopener">The Math Behind A/B Testing</a> – significance, power, and sample size derived.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/topics-in-causal-inference" target="_blank" rel="noopener">Causal Inference Methods in Code</a> – matching, IV, DiD, and regression discontinuity.</li>
+        <li><a href="https://github.com/beauvilerobed/statistics-for-data-science-and-machine-learning" target="_blank" rel="noopener">Statistics for Data Science</a> – seven chapters from EDA to unsupervised learning.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/blob/master/projects/intro-to-economic-modeling-and-ds/economics-applications/case-study-recidivism.ipynb" target="_blank" rel="noopener">Fairness in Risk Scores (COMPAS)</a> – calibration and error rates across groups.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/simulation-modeling" target="_blank" rel="noopener">Simulation Modeling</a> – Monte Carlo methods and a SimPy disease-spread model.</li>
+        <li><a href="https://github.com/beauvilerobed/predict-consumer-responses" target="_blank" rel="noopener">Starbucks Rewards Offer Response</a> – XGBoost on SageMaker.</li>
+        <li><a href="https://github.com/beauvilerobed/python-and-tableau-data-analytics" target="_blank" rel="noopener">Python &amp; Tableau Dashboards</a> – sales, loan risk, and sentiment dashboards.</li>
+        <li><a href="https://github.com/beauvilerobed/data-mining-with-python" target="_blank" rel="noopener">Data Mining with Python</a> – eleven projects from recommenders to clustering.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/predicting-fuel-efficiency" target="_blank" rel="noopener">Fuel Efficiency Prediction</a> – feature engineering and random forests.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/random-forest-out-of-sample" target="_blank" rel="noopener">When Random Forests Fail</a> – why tree ensembles can&rsquo;t extrapolate.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/machine-learning/SMOTE" target="_blank" rel="noopener">Imbalanced Classification</a> – SMOTE, Borderline-SMOTE, and ADASYN.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/data-analysis" target="_blank" rel="noopener">Dimensionality Reduction</a> – PCA vs. t-SNE vs. UMAP.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/machine-learning" target="_blank" rel="noopener">ML Fundamentals From Scratch</a> – regression, regularization, and boosting.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/predict-stock-prices" target="_blank" rel="noopener">Stock Price Prediction</a> – moving averages vs. an LSTM.</li>
+        <li><a href="https://github.com/beauvilerobed/predict-bike-sharing-demand" target="_blank" rel="noopener">Bike Sharing Demand (Kaggle)</a> – AutoGluon with feature engineering.</li>
+        <li><a href="https://github.com/beauvilerobed/dog-breed-image-classification" target="_blank" rel="noopener">Dog Breed Image Classification</a> – a fine-tuned CNN on SageMaker.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/seq2seq-with-keras" target="_blank" rel="noopener">Seq2seq &amp; Encoder-Decoder Models</a> – sequence-to-sequence learning in Keras.</li>
+        <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/deep-learning" target="_blank" rel="noopener">Deep Learning Notes</a> – feedforward, CNN, and RNN networks.</li>
+        <li><a href="https://github.com/beauvilerobed/ml-workflow-build-for-scones-unlimited" target="_blank" rel="noopener">ML Workflow for Scones Unlimited</a> – SageMaker, Lambda, and Step Functions.</li>
+        <li><a href="https://github.com/beauvilerobed/operationalize-ml-project" target="_blank" rel="noopener">Operationalizing ML on SageMaker</a> – training, autoscaling, and security.</li>
+        <li><a href="https://pypi.org/project/py-Matrix-123/" target="_blank" rel="noopener">py-Matrix-123 (PyPI)</a> – a published Python package for matrix operations.</li>
+        <li><a href="https://github.com/beauvilerobed/algos-and-data-strucs" target="_blank" rel="noopener">Data Structures &amp; Algorithms</a> – algorithm problems with tests.</li>
+        <li><a href="https://github.com/beauvilerobed/sql-seminar" target="_blank" rel="noopener">Let&rsquo;s Learn SQL Through Set Theory</a> – a two-part SQL seminar.</li>
+      </ul>
+      <p><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium" target="_blank" rel="noopener">Browse the full compendium (100+ notebooks) →</a></p>
+    </details>
   </section>
 
   <section>
@@ -70,7 +163,7 @@
   </section>
 
   <section>
-    <h2>Case studies</h2>
+    <h2>Case studies from my work</h2>
     <div class="cases">
       <article class="case">
         <p class="kicker">eParts · Regression</p>
@@ -116,25 +209,8 @@
   </section>
 
   <section>
-    <h2>Projects</h2>
-    <div class="projects">
-      <a class="project" href="https://anipointresearch.com" target="_blank" rel="noopener">
-        <strong>AniPoint Site Research</strong>
-        <span>Site selection research and sample analyses.</span>
-      </a>
-      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/medicare-claims-intelligence" target="_blank" rel="noopener">
-        <strong>Medicare Claims Intelligence</strong>
-        <span>Claims warehouse, risk model, and forecasting on synthetic CMS data.</span>
-      </a>
-      <a class="project" href="https://calaun.org" target="_blank" rel="noopener">
-        <strong>CaLaun</strong>
-        <span>An AI calculus tutor.</span>
-      </a>
-      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium" target="_blank" rel="noopener">
-        <strong>Data science compendium</strong>
-        <span>100+ notebooks on statistics, experimentation, and ML.</span>
-      </a>
-    </div>
+    <h2>About</h2>
+    <p class="about">I&rsquo;m a data scientist with a PhD in mathematics and 4+ years of experience in healthcare marketing, e-commerce, and my own consultancy. I work on experimentation, causal inference, forecasting, and machine learning.</p>
   </section>
 
   <section>
