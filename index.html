@@ -7,7 +7,8 @@
   <meta name="description" content="Robed Beauvile-Owen, PhD: data scientist and founder of AniPoint Site Research.">
   <meta property="og:title" content="Robed Beauvile-Owen, PhD">
   <meta property="og:description" content="Data scientist and founder of AniPoint Site Research.">
-  <meta property="og:image" content="https://beauvilerobed.github.io/portfolio/assets/robed.jpg">
+  <meta property="og:image" content="https://beauvilerobed.github.io/portfolio/assets/poster.jpg">
+  <meta name="theme-color" content="#0b1220">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,14 +23,16 @@
   </video>
   <div class="hero-overlay"></div>
   <div class="page hero-content">
-    <h1>Robed Beauvile-Owen, Ph.D.</h1>
-    <p class="role">Founder &amp; Data Scientist</p>
-    <p class="links">
-      <a href="resume/robed-beauvile-owen-resume.pdf" target="_blank" rel="noopener">Résumé</a>
-      <a href="https://www.linkedin.com/in/robedbeauvile" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/beauvilerobed" target="_blank" rel="noopener">GitHub</a>
-      <a href="mailto:robedbeauvile@gmail.com">Email</a>
-    </p>
+    <img class="portrait" src="assets/robed.jpg" alt="Portrait of Robed Beauvile-Owen" width="88" height="88">
+    <p class="eyebrow">Founder &amp; Data Scientist · PhD, Mathematics</p>
+    <h1>Robed Beauvile-Owen</h1>
+    <p class="lead">I use experiments, causal inference, and machine learning to show a business what&rsquo;s actually working.</p>
+    <div class="actions">
+      <a class="btn" href="resume/robed-beauvile-owen-resume.pdf" target="_blank" rel="noopener">Résumé</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/robedbeauvile" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://github.com/beauvilerobed" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="mailto:robedbeauvile@gmail.com">Email</a>
+    </div>
   </div>
 </header>
 
@@ -37,87 +40,116 @@
 
   <section>
     <h2>About</h2>
-    <p>I&rsquo;m a data scientist with a PhD in mathematics and 4+ years of experience in healthcare marketing, e-commerce, and my own consultancy. I work on experimentation, causal inference, forecasting, and machine learning.</p>
+    <p class="about">I&rsquo;m a data scientist with a PhD in mathematics and 4+ years of experience in healthcare marketing, e-commerce, and my own consultancy. I work on experimentation, causal inference, forecasting, and machine learning.</p>
   </section>
 
   <section>
     <h2>Experience</h2>
-    <div class="job">
-      <h3>Founder <span>· AniPoint Site Research</span></h3>
-      <p class="meta">May 2026 – Present · Remote</p>
-      <p>Founded a site selection consultancy, developing feasibility analyses that guide clients toward top-ranked locations by connecting business goals to practical targets while using causal models and simulations to assess returns and risks.</p>
-    </div>
-    <div class="job">
-      <h3>Senior Data Scientist <span>· Limetree</span></h3>
-      <p class="meta">Sep 2024 – Apr 2026 · Remote</p>
-      <p>Delivered analytics solutions adopted in 90% of campaigns, saving $10K per campaign while maintaining enrollment. Built in-house experimentation tools, automated survey analysis, and optimized Databricks pipelines.</p>
-    </div>
-    <div class="job">
-      <h3>Founding Machine Learning Engineer <span>· eParts Services LLC</span></h3>
-      <p class="meta">Sep 2023 – Sep 2024 · Remote</p>
-      <p>As the first ML hire, reduced shipping price error 69% ($13 to $4), improved search relevance and cut complaints 12%, deployed scalable ML APIs on Azure, and trained 16 engineers and product team members in production ML.</p>
-    </div>
-    <div class="job">
-      <h3>Data Scientist <span>· Limetree</span></h3>
-      <p class="meta">Apr 2022 – Sep 2023 · Remote</p>
-      <p>Improved lead-scoring performance, validated business impact through A/B testing, and established predictive indicators. Doubled high-opportunity zone selection precision and led monthly performance monitoring for up to five client models.</p>
-    </div>
+    <ol class="timeline">
+      <li>
+        <p class="meta">May 2026 – Present · Remote</p>
+        <h3>Founder <span>· AniPoint Site Research</span></h3>
+        <p>Founded a site selection consultancy, developing feasibility analyses that guide clients toward top-ranked locations by connecting business goals to practical targets while using causal models and simulations to assess returns and risks.</p>
+      </li>
+      <li>
+        <p class="meta">Sep 2024 – Apr 2026 · Remote</p>
+        <h3>Senior Data Scientist <span>· Limetree</span></h3>
+        <p>Delivered analytics solutions adopted in 90% of campaigns, saving $10K per campaign while maintaining enrollment. Built in-house experimentation tools, automated survey analysis, and optimized Databricks pipelines.</p>
+      </li>
+      <li>
+        <p class="meta">Sep 2023 – Sep 2024 · Remote</p>
+        <h3>Founding Machine Learning Engineer <span>· eParts Services LLC</span></h3>
+        <p>As the first ML hire, reduced shipping price error 69% ($13 to $4), improved search relevance and cut complaints 12%, deployed scalable ML APIs on Azure, and trained 16 engineers and product team members in production ML.</p>
+      </li>
+      <li>
+        <p class="meta">Apr 2022 – Sep 2023 · Remote</p>
+        <h3>Data Scientist <span>· Limetree</span></h3>
+        <p>Improved lead-scoring performance, validated business impact through A/B testing, and established predictive indicators. Doubled high-opportunity zone selection precision and led monthly performance monitoring for up to five client models.</p>
+      </li>
+    </ol>
   </section>
 
   <section>
     <h2>Case studies</h2>
-    <div class="case">
-      <h3>Pricing shipping from item-level costs <span>· eParts · Regression</span></h3>
-      <dl>
-        <dt>Problem</dt><dd>Shipping prices missed actual carrier cost by $13 at the median, because cost was only recorded per bulk order.</dd>
-        <dt>Approach</dt><dd>Built SQL training tables that broke bulk orders into item-level costs, fit a regression model, and served it as an API on Azure.</dd>
-        <dt>Result</dt><dd>Median price error fell from $13 to $4 on standard orders while contribution margin held.</dd>
-      </dl>
-    </div>
-    <div class="case">
-      <h3>Faster, more sensitive A/B tests <span>· Limetree · Experimentation</span></h3>
-      <dl>
-        <dt>Problem</dt><dd>Campaign tests were noisy, so real effects took too long to detect.</dd>
-        <dt>Approach</dt><dd>Built an in-house experimentation tool with power analysis, CUPED variance reduction, and significance tests.</dd>
-        <dt>Result</dt><dd>CUPED cut metric variance 20%, so the same test reaches a decision with a smaller sample.</dd>
-      </dl>
-    </div>
-    <div class="case">
-      <h3>A leading indicator for enrollment <span>· Limetree · Metrics &amp; prediction</span></h3>
-      <dl>
-        <dt>Problem</dt><dd>Enrollment results arrived long after a campaign, and teams used conflicting definitions of gross lead rate (GLR).</dd>
-        <dt>Approach</dt><dd>Standardized the GLR definition with data engineering, then tested out of sample whether it predicts later enrollment.</dd>
-        <dt>Result</dt><dd>GLR predicted enrollment rate 60 days ahead (R&sup2; = 0.49). A retrained XGBoost lead-scoring model (AUC 0.62 to 0.67) then raised GLR 9% in an A/B test.</dd>
-      </dl>
-    </div>
-    <div class="case">
-      <h3>The true lift of a new location <span>· AniPoint · Causal inference</span></h3>
-      <dl>
-        <dt>Problem</dt><dd>How much new revenue does one more car wash add to a county, net of sales taken from existing sites?</dd>
-        <dt>Approach</dt><dd>Double ML on a 234-county panel, cross-checked with a Callaway&ndash;Sant&rsquo;Anna difference-in-differences and a synthetic-data test that had to recover a known effect.</dd>
-        <dt>Result</dt><dd>About $533K per added site (95% CI $390K&ndash;$676K), close to the DiD&rsquo;s $472K. <a href="https://anipointresearch.com/#demo-07" target="_blank" rel="noopener">Sample analysis</a></dd>
-      </dl>
+    <div class="cases">
+      <article class="case">
+        <p class="kicker">eParts · Regression</p>
+        <h3>Pricing shipping from item-level costs</h3>
+        <p class="stat">$13 → $4 <span>median price error</span></p>
+        <dl>
+          <dt>Problem</dt><dd>Shipping prices missed actual carrier cost by $13 at the median, because cost was only recorded per bulk order.</dd>
+          <dt>Approach</dt><dd>Built SQL training tables that broke bulk orders into item-level costs, fit a regression model, and served it as an API on Azure.</dd>
+          <dt>Result</dt><dd>Median price error fell from $13 to $4 on standard orders while contribution margin held.</dd>
+        </dl>
+      </article>
+      <article class="case">
+        <p class="kicker">Limetree · Experimentation</p>
+        <h3>Faster, more sensitive A/B tests</h3>
+        <p class="stat">−20% <span>metric variance</span></p>
+        <dl>
+          <dt>Problem</dt><dd>Campaign tests were noisy, so real effects took too long to detect.</dd>
+          <dt>Approach</dt><dd>Built an in-house experimentation tool with power analysis, CUPED variance reduction, and significance tests.</dd>
+          <dt>Result</dt><dd>CUPED cut metric variance 20%, so the same test reaches a decision with a smaller sample.</dd>
+        </dl>
+      </article>
+      <article class="case">
+        <p class="kicker">Limetree · Metrics &amp; prediction</p>
+        <h3>A leading indicator for enrollment</h3>
+        <p class="stat">60 days <span>of early warning</span></p>
+        <dl>
+          <dt>Problem</dt><dd>Enrollment results arrived long after a campaign, and teams used conflicting definitions of gross lead rate (GLR).</dd>
+          <dt>Approach</dt><dd>Standardized the GLR definition with data engineering, then tested out of sample whether it predicts later enrollment.</dd>
+          <dt>Result</dt><dd>GLR predicted enrollment rate 60 days ahead (R&sup2; = 0.49). A retrained XGBoost lead-scoring model (AUC 0.62 to 0.67) then raised GLR 9% in an A/B test.</dd>
+        </dl>
+      </article>
+      <article class="case">
+        <p class="kicker">AniPoint · Causal inference</p>
+        <h3>The true lift of a new location</h3>
+        <p class="stat">$533K <span>revenue per added site</span></p>
+        <dl>
+          <dt>Problem</dt><dd>How much new revenue does one more car wash add to a county, net of sales taken from existing sites?</dd>
+          <dt>Approach</dt><dd>Double ML on a 234-county panel, cross-checked with a Callaway&ndash;Sant&rsquo;Anna difference-in-differences and a synthetic-data test that had to recover a known effect.</dd>
+          <dt>Result</dt><dd>About $533K per added site (95% CI $390K&ndash;$676K), close to the DiD&rsquo;s $472K. <a href="https://anipointresearch.com/#demo-07" target="_blank" rel="noopener">Sample analysis →</a></dd>
+        </dl>
+      </article>
     </div>
   </section>
 
   <section>
     <h2>Projects</h2>
-    <ul class="list">
-      <li><a href="https://anipointresearch.com" target="_blank" rel="noopener">AniPoint Site Research</a> – site selection research and sample analyses.</li>
-      <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/medicare-claims-intelligence" target="_blank" rel="noopener">Medicare Claims Intelligence</a> – claims warehouse, risk model, and forecasting on synthetic CMS data.</li>
-      <li><a href="https://calaun.org" target="_blank" rel="noopener">CaLaun</a> – an AI calculus tutor.</li>
-      <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium" target="_blank" rel="noopener">Data science compendium</a> – 100+ notebooks on statistics, experimentation, and ML.</li>
-    </ul>
+    <div class="projects">
+      <a class="project" href="https://anipointresearch.com" target="_blank" rel="noopener">
+        <strong>AniPoint Site Research</strong>
+        <span>Site selection research and sample analyses.</span>
+      </a>
+      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/medicare-claims-intelligence" target="_blank" rel="noopener">
+        <strong>Medicare Claims Intelligence</strong>
+        <span>Claims warehouse, risk model, and forecasting on synthetic CMS data.</span>
+      </a>
+      <a class="project" href="https://calaun.org" target="_blank" rel="noopener">
+        <strong>CaLaun</strong>
+        <span>An AI calculus tutor.</span>
+      </a>
+      <a class="project" href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium" target="_blank" rel="noopener">
+        <strong>Data science compendium</strong>
+        <span>100+ notebooks on statistics, experimentation, and ML.</span>
+      </a>
+    </div>
   </section>
 
   <section>
     <h2>Education</h2>
-    <p>PhD, Mathematics, University of Pittsburgh · <a href="https://d-scholarship.pitt.edu/45561/" target="_blank" rel="noopener">Dissertation</a></p>
+    <p><strong>PhD, Mathematics</strong> · University of Pittsburgh · <a href="https://d-scholarship.pitt.edu/45561/" target="_blank" rel="noopener">Dissertation →</a></p>
   </section>
 
 </main>
 
-<footer class="page footer">© 2026 Robed Beauvile-Owen</footer>
+<footer class="footer">
+  <div class="page">
+    <span>© 2026 Robed Beauvile-Owen</span>
+    <a href="mailto:robedbeauvile@gmail.com">robedbeauvile@gmail.com</a>
+  </div>
+</footer>
 
 <script>
   // Keep the hero still for visitors who prefer reduced motion.
@@ -127,6 +159,5 @@
     v.pause();
   }
 </script>
-
 </body>
 </html>
