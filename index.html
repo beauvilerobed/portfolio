@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Robed Beauvile-Owen, PhD | Data Science Portfolio</title>
-  <meta name="description" content="Portfolio of Robed Beauvile-Owen, PhD: KPI frameworks and measurement, experimentation, causal inference, forecasting, Monte Carlo risk modeling, and machine learning.">
-  <meta property="og:title" content="Robed Beauvile-Owen, PhD | Data Science Portfolio">
-  <meta property="og:description" content="I build the metrics, driver trees, and experiments that show a business what's actually working.">
-  <meta property="og:image" content="https://beauvilerobed.github.io/portfolio/assets/poster.jpg">
-  <meta name="theme-color" content="#0b1220">
+  <title>Robed Beauvile-Owen, PhD</title>
+  <meta name="description" content="Robed Beauvile-Owen, PhD: data scientist and founder of AniPoint Site Research.">
+  <meta property="og:title" content="Robed Beauvile-Owen, PhD">
+  <meta property="og:description" content="Data scientist and founder of AniPoint Site Research.">
+  <meta property="og:image" content="https://beauvilerobed.github.io/portfolio/assets/robed.jpg">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,320 +16,108 @@
 </head>
 <body>
 
-<header class="nav">
-  <div class="container nav-inner">
-    <a class="brand" href="#top">Robed Beauvile-Owen</a>
-    <nav class="nav-links" aria-label="Main">
-      <a href="#work">Work</a>
-      <a href="#index">All projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="btn btn-small" href="resume/robed-beauvile-owen-resume.pdf" target="_blank" rel="noopener">Résumé</a>
+<header class="hero">
+  <video class="hero-video" autoplay muted loop playsinline poster="assets/poster.jpg" aria-hidden="true">
+    <source src="assets/network.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="page hero-content">
+    <h1>Robed Beauvile-Owen, Ph.D.</h1>
+    <p class="role">Founder &amp; Data Scientist</p>
+    <p class="links">
+      <a href="resume/robed-beauvile-owen-resume.pdf" target="_blank" rel="noopener">Résumé</a>
+      <a href="https://www.linkedin.com/in/robedbeauvile" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/beauvilerobed" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:robedbeauvile@gmail.com">Email</a>
+    </p>
   </div>
 </header>
 
-<main id="top">
+<main class="page">
 
-  <!-- HERO -->
-  <section class="hero">
-    <video class="hero-video" autoplay muted loop playsinline poster="assets/poster.jpg" aria-hidden="true">
-      <source src="assets/network.mp4" type="video/mp4">
-    </video>
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <p class="eyebrow">Senior Data Scientist · PhD, Mathematics</p>
-      <h1>Robed Beauvile-Owen</h1>
-      <p class="lead">I build the metrics, driver trees, and experiments that show a business what&rsquo;s actually working.</p>
-      <div class="hero-actions">
-        <a class="btn" href="resume/robed-beauvile-owen-resume.pdf" target="_blank" rel="noopener">Download résumé</a>
-      </div>
+  <section>
+    <h2>About</h2>
+    <p>I&rsquo;m a data scientist with a PhD in mathematics and 4+ years of experience in healthcare marketing, e-commerce, and my own consultancy. I work on experimentation, causal inference, forecasting, and machine learning.</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="job">
+      <h3>Founder <span>· AniPoint Site Research</span></h3>
+      <p class="meta">May 2026 – Present · Remote</p>
+      <p>Founded a site selection consultancy, developing feasibility analyses that guide clients toward top-ranked locations by connecting business goals to practical targets while using causal models and simulations to assess returns and risks.</p>
+    </div>
+    <div class="job">
+      <h3>Senior Data Scientist <span>· Limetree</span></h3>
+      <p class="meta">Sep 2024 – Apr 2026 · Remote</p>
+      <p>Delivered analytics solutions adopted in 90% of campaigns, saving $10K per campaign while maintaining enrollment. Built in-house experimentation tools, automated survey analysis, and optimized Databricks pipelines.</p>
+    </div>
+    <div class="job">
+      <h3>Founding Machine Learning Engineer <span>· eParts Services LLC</span></h3>
+      <p class="meta">Sep 2023 – Sep 2024 · Remote</p>
+      <p>As the first ML hire, reduced shipping price error 69% ($13 to $4), improved search relevance and cut complaints 12%, deployed scalable ML APIs on Azure, and trained 16 engineers and product team members in production ML.</p>
+    </div>
+    <div class="job">
+      <h3>Data Scientist <span>· Limetree</span></h3>
+      <p class="meta">Apr 2022 – Sep 2023 · Remote</p>
+      <p>Improved lead-scoring performance, validated business impact through A/B testing, and established predictive indicators. Doubled high-opportunity zone selection precision and led monthly performance monitoring for up to five client models.</p>
     </div>
   </section>
 
-
-  <!-- SELECTED WORK -->
-  <section id="work" class="section">
-    <div class="container">
-      <h2>Selected work</h2>
-      <p class="sub">Measurement, causal inference, and risk modeling from client work and an end-to-end healthcare build.</p>
-      <div class="grid grid-feature">
-        <article class="card card-feature card-wide">
-          <div class="card-body">
-            <p class="kicker">Case study · Client engagement</p>
-            <h3>Measuring the True Lift of a New Location</h3>
-            <dl class="case">
-              <div><dt>Question</dt><dd>A client asked how much new revenue one more car wash would actually add to a county, as opposed to revenue it would just take from existing sites.</dd></div>
-              <div><dt>Metric</dt><dd>Incremental county car wash revenue per added site, net of cannibalization, holding population, income, traffic, and competitors fixed. Revenue is a payroll-based proxy built from Census County Business Patterns. It is a county-level effect, not a forecast for one address.</dd></div>
-              <div><dt>Method</dt><dd>Double ML on a 234-county County Business Patterns panel (2012&ndash;2023, six states), with county-clustered intervals, cross-checked with a Callaway&ndash;Sant&rsquo;Anna difference-in-differences (opening counties compared only with not-yet-opened ones) and a synthetic-data test that had to recover a known effect.</dd></div>
-              <div><dt>Result</dt><dd>Double ML gave <strong>$533K</strong> per added site (95% CI $390K&ndash;$676K) and the DiD gave <strong>$472K</strong> ($281K&ndash;$669K), within 1.13&times; of each other. The DiD&rsquo;s placebo pre-trend check covers zero, so there&rsquo;s no sign that opening counties were already pulling ahead. Reports give a range, not a single number.</dd></div>
-              <div><dt>Caveats</dt><dd>With only one control, Double ML said $795K. Adding five demand controls cut it by a third and brought it in line with the DiD, a reminder that confounding is the whole game. An earlier two-way fixed-effects cross-check ran 1.4&ndash;3.7&times; low because staggered openings used already-treated counties as controls, so I replaced it. Local shocks that drive both openings and revenue (a new highway, a big employer) remain the main untested threat.</dd></div>
-            </dl>
-            <ul class="tags"><li>Double ML</li><li>Difference-in-Differences</li><li>Callaway&ndash;Sant&rsquo;Anna</li><li>Panel Data</li></ul>
-            <div class="links"><a href="https://anipointresearch.com/#demo-07" target="_blank" rel="noopener">Sample analysis →</a></div>
-          </div>
-        </article>
-        <article class="card card-feature">
-          <div class="card-body">
-            <p class="kicker">Healthcare claims</p>
-            <h3>Medicare Claims Intelligence &amp; Fraud Detection</h3>
-            <p>End-to-end analytics on 790K synthetic CMS claims (DE-SynPUF): a dbt warehouse with 26 data tests that caught 11,253 claims missing a service date, an out-of-time SHAP-explained risk model that finds 46% more next-year high-cost members than a prior-year-cost baseline, weekly flu-like-illness forecasts (CDC ILINet) that beat a seasonal-naive baseline (MASE 0.62 vs. 1.06), and a fraud-flagging ensemble tested on injected billing schemes.</p>
-            <ul class="tags"><li>dbt</li><li>Forecasting</li><li>Fraud Detection</li><li>SHAP</li></ul>
-            <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/medicare-claims-intelligence" target="_blank" rel="noopener">Code →</a></div>
-          </div>
-        </article>
-        <article class="card card-feature">
-          <div class="card-body">
-            <p class="kicker">AniPoint Site Research</p>
-            <h3>Driver Tree &amp; Monte Carlo Site Risk</h3>
-            <p>A revenue driver tree (traffic &times; capture rate &times; average ticket) turns a client&rsquo;s profit goal into a required car-count target. Monte Carlo simulation of those drivers for every census tract then reports the chance a new site loses money, value at risk, and low/base/high scenarios, before a client signs a lease.</p>
-            <ul class="tags"><li>Driver Trees</li><li>Monte Carlo</li><li>Geospatial</li><li>Census Data</li></ul>
-            <div class="links"><a href="https://anipointresearch.com/#demo-05" target="_blank" rel="noopener">Sample analysis →</a></div>
-          </div>
-        </article>
-      </div>
+  <section>
+    <h2>Case studies</h2>
+    <div class="case">
+      <h3>Pricing shipping from item-level costs <span>· eParts · Regression</span></h3>
+      <dl>
+        <dt>Problem</dt><dd>Shipping prices missed actual carrier cost by $13 at the median, because cost was only recorded per bulk order.</dd>
+        <dt>Approach</dt><dd>Built SQL training tables that broke bulk orders into item-level costs, fit a regression model, and served it as an API on Azure.</dd>
+        <dt>Result</dt><dd>Median price error fell from $13 to $4 on standard orders while contribution margin held.</dd>
+      </dl>
+    </div>
+    <div class="case">
+      <h3>Faster, more sensitive A/B tests <span>· Limetree · Experimentation</span></h3>
+      <dl>
+        <dt>Problem</dt><dd>Campaign tests were noisy, so real effects took too long to detect.</dd>
+        <dt>Approach</dt><dd>Built an in-house experimentation tool with power analysis, CUPED variance reduction, and significance tests.</dd>
+        <dt>Result</dt><dd>CUPED cut metric variance 20%, so the same test reaches a decision with a smaller sample.</dd>
+      </dl>
+    </div>
+    <div class="case">
+      <h3>A leading indicator for enrollment <span>· Limetree · Metrics &amp; prediction</span></h3>
+      <dl>
+        <dt>Problem</dt><dd>Enrollment results arrived long after a campaign, and teams used conflicting definitions of gross lead rate (GLR).</dd>
+        <dt>Approach</dt><dd>Standardized the GLR definition with data engineering, then tested out of sample whether it predicts later enrollment.</dd>
+        <dt>Result</dt><dd>GLR predicted enrollment rate 60 days ahead (R&sup2; = 0.49). A retrained XGBoost lead-scoring model (AUC 0.62 to 0.67) then raised GLR 9% in an A/B test.</dd>
+      </dl>
+    </div>
+    <div class="case">
+      <h3>The true lift of a new location <span>· AniPoint · Causal inference</span></h3>
+      <dl>
+        <dt>Problem</dt><dd>How much new revenue does one more car wash add to a county, net of sales taken from existing sites?</dd>
+        <dt>Approach</dt><dd>Double ML on a 234-county panel, cross-checked with a Callaway&ndash;Sant&rsquo;Anna difference-in-differences and a synthetic-data test that had to recover a known effect.</dd>
+        <dt>Result</dt><dd>About $533K per added site (95% CI $390K&ndash;$676K), close to the DiD&rsquo;s $472K. <a href="https://anipointresearch.com/#demo-07" target="_blank" rel="noopener">Sample analysis</a></dd>
+      </dl>
     </div>
   </section>
 
-  <!-- MORE PROJECTS -->
-  <section class="section section-alt">
-    <div class="container">
-      <h2>Notebooks &amp; other work</h2>
-      <p class="sub">Methods notebooks, course projects, and side projects, grouped by skill.</p>
-
-      <h3 class="group-title">Experimentation &amp; causal inference</h3>
-      <div class="grid grid-3col">
-        <article class="card">
-          <h3>A/B Test: Player Retention</h3>
-          <p>Moving a mobile game&rsquo;s first gate from level 30 to 40: hypotheses, outlier handling, sample sizing, and statistical vs. practical significance for 1- and 7-day retention.</p>
-          <ul class="tags"><li>A/B Testing</li><li>statsmodels</li><li>Python</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/complete-guide-to-ab-testing" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-        <article class="card">
-          <h3>Free-Trial Screener Experiment</h3>
-          <p>A checkout experiment from design to decision: invariant and evaluation metrics, analytic variance, sample sizing, sanity checks, sign tests, and a launch recommendation.</p>
-          <ul class="tags"><li>Sizing</li><li>Sign Tests</li><li>Python</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/free-trial-screener" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-        <article class="card">
-          <h3>Heterogeneous Treatment Effects</h3>
-          <p>Goes past the average effect with conditional average treatment effects (CATE), grouped effects, and causal trees to find who a treatment actually helps.</p>
-          <ul class="tags"><li>CATE</li><li>Causal Trees</li><li>Python</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/blob/master/projects/intro-to-economic-modeling-and-ds/economics-applications/heterogeneity-effects.ipynb" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-      </div>
-
-      <h3 class="group-title">Forecasting &amp; retention</h3>
-      <div class="grid grid-3col">
-        <article class="card">
-          <h3>Time Series Forecasting</h3>
-          <p>From stationarity tests and ACF/PACF diagnostics to ARIMA, SARIMAX, VARMAX, and exponential smoothing, benchmarked against DNN, LSTM, and CNN forecasters.</p>
-          <ul class="tags"><li>ARIMA</li><li>statsmodels</li><li>TensorFlow</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/time-series-analysis/time-series-forcasting-with-python" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-        <article class="card">
-          <h3>LTV &amp; Churn Survival</h3>
-          <p>Simulates 1M customer lifetimes to show when LTV = ARPU / churn breaks down, then estimates lifetime value from the empirical survival curve instead.</p>
-          <ul class="tags"><li>Survival Analysis</li><li>LTV</li><li>NumPy</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/ltv-churn-survival" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-        <article class="card">
-          <h3>Quantitative Economics Platform</h3>
-          <p>Stochastic dynamics with Markov chains, survival analysis, and Kalman filtering: the state-transition methods behind retention and churn forecasting.</p>
-          <ul class="tags"><li>Markov Chains</li><li>Kalman</li><li>SciPy</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/quantitative-economics-with-python" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-      </div>
-
-      <h3 class="group-title">Products &amp; LLMs</h3>
-      <div class="grid grid-3col">
-        <article class="card">
-          <h3>CaLaun: AI Calculus Tutor</h3>
-          <p>A symbolic math engine paired with a self-hosted Llama model, so solutions are exact and explanations are clear. 300+ students a week, 110 automated tests.</p>
-          <ul class="tags"><li>Django</li><li>SymPy</li><li>LLMs</li></ul>
-          <div class="links"><a href="https://calaun.org" target="_blank" rel="noopener">Live site →</a><a href="https://github.com/calaun-learning/calaun" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-        <article class="card">
-          <h3>A Large Language Model From Scratch</h3>
-          <p>A LLaMA-style transformer in PyTorch with RMSNorm, SwiGLU, rotary embeddings, grouped-query attention, and a KV cache, each compared with the original design.</p>
-          <ul class="tags"><li>PyTorch</li><li>Transformers</li><li>LLMs</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/deep-learning/llm-from-scratch" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-        <article class="card">
-          <h3>Retrieval &amp; Generative Chatbots</h3>
-          <p>Two chatbot designs side by side: an intent-classification retrieval bot for closed domains and a seq2seq generative model for open-ended conversation.</p>
-          <ul class="tags"><li>NLP</li><li>seq2seq</li><li>Keras</li></ul>
-          <div class="links"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/chatbots-open-closed-domain" target="_blank" rel="noopener">Code →</a></div>
-        </article>
-      </div>
-
-      <p class="more"><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium" target="_blank" rel="noopener">Browse the full compendium (100+ notebooks) →</a> &nbsp;·&nbsp; <a href="https://github.com/beauvilerobed" target="_blank" rel="noopener">Everything on GitHub →</a></p>
-    </div>
+  <section>
+    <h2>Projects</h2>
+    <ul class="list">
+      <li><a href="https://anipointresearch.com" target="_blank" rel="noopener">AniPoint Site Research</a> – site selection research and sample analyses.</li>
+      <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/medicare-claims-intelligence" target="_blank" rel="noopener">Medicare Claims Intelligence</a> – claims warehouse, risk model, and forecasting on synthetic CMS data.</li>
+      <li><a href="https://calaun.org" target="_blank" rel="noopener">CaLaun</a> – an AI calculus tutor.</li>
+      <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium" target="_blank" rel="noopener">Data science compendium</a> – 100+ notebooks on statistics, experimentation, and ML.</li>
+    </ul>
   </section>
 
-  <!-- PROJECT INDEX -->
-  <section id="index" class="section">
-    <div class="container">
-      <h2>Project index</h2>
-      <p class="sub">24 more projects across my repositories. Select a category to expand it.</p>
-      <details class="index-group" open>
-        <summary>Experimentation &amp; statistics <span>6</span></summary>
-        <ul class="index-list">
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/conversion-rate-optimization" target="_blank" rel="noopener">Conversion Rate Optimization</a><span>A/B test of an e-commerce product-page redesign: power analysis, sample sizing, and a two-proportion z-test.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/math-behind-ab-testing" target="_blank" rel="noopener">The Math Behind A/B Testing</a><span>Derivations behind significance, power, and sample size.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/ab-testing-inference/topics-in-causal-inference" target="_blank" rel="noopener">Causal Inference Methods in Code</a><span>Randomized trials, matching, instrumental variables (2SLS), difference-in-differences, and regression discontinuity, with worked Python examples.</span></li>
-          <li><a href="https://github.com/beauvilerobed/statistics-for-data-science-and-machine-learning" target="_blank" rel="noopener">Statistics for Data Science</a><span>Seven chapters: EDA, sampling, significance testing, regression, classification, statistical ML, and unsupervised learning.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/blob/master/projects/intro-to-economic-modeling-and-ds/economics-applications/case-study-recidivism.ipynb" target="_blank" rel="noopener">Fairness in Risk Scores (COMPAS)</a><span>Recidivism case study: calibration, balance, and false positive and negative rates across groups.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/simulation-modeling" target="_blank" rel="noopener">Simulation Modeling</a><span>Monte Carlo methods, a SimPy disease-spread model, and probability puzzles solved by simulation.</span></li>
-        </ul>
-      </details>
-      <details class="index-group">
-        <summary>Machine learning <span>10</span></summary>
-        <ul class="index-list">
-          <li><a href="https://github.com/beauvilerobed/predict-consumer-responses" target="_blank" rel="noopener">Starbucks Rewards Offer Response</a><span>XGBoost model of how rewards members respond to BOGO, discount, and informational offers, deployed on AWS SageMaker.</span></li>
-          <li><a href="https://github.com/beauvilerobed/python-and-tableau-data-analytics" target="_blank" rel="noopener">Python &amp; Tableau Dashboards</a><span>Sales, loan risk, and news sentiment analyses published as <a href="https://public.tableau.com/app/profile/robed.beauvile" target="_blank" rel="noopener">interactive Tableau dashboards</a>.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-mining-with-python" target="_blank" rel="noopener">Data Mining with Python</a><span>Eleven projects: sports prediction with trees, a movie recommender, Naive Bayes on social media, graph mining, authorship attribution, and news clustering.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/predicting-fuel-efficiency" target="_blank" rel="noopener">Fuel Efficiency Prediction</a><span>Cleaning, feature engineering, and random forest regression on two vehicle datasets (1970–1982 and 1984–2017).</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/random-forest-out-of-sample" target="_blank" rel="noopener">When Random Forests Fail</a><span>Why tree ensembles cannot extrapolate, compared with linear regression.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/machine-learning/SMOTE" target="_blank" rel="noopener">Imbalanced Classification</a><span>SMOTE, Borderline-SMOTE, and ADASYN for rare-event prediction.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/data-analysis" target="_blank" rel="noopener">Dimensionality Reduction</a><span>PCA vs. t-SNE vs. UMAP, plus k-means built from scratch.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/machine-learning" target="_blank" rel="noopener">ML Fundamentals From Scratch</a><span>Logistic regression, cross-validation, regularization, multicollinearity, and gradient boosting vs. random forests.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/predict-stock-prices" target="_blank" rel="noopener">Stock Price Prediction</a><span>Moving-average baselines compared with an LSTM forecaster.</span></li>
-          <li><a href="https://github.com/beauvilerobed/predict-bike-sharing-demand" target="_blank" rel="noopener">Bike Sharing Demand (Kaggle)</a><span>AutoGluon models improved through feature engineering and tuning.</span></li>
-        </ul>
-      </details>
-      <details class="index-group">
-        <summary>Deep learning &amp; NLP <span>3</span></summary>
-        <ul class="index-list">
-          <li><a href="https://github.com/beauvilerobed/dog-breed-image-classification" target="_blank" rel="noopener">Dog Breed Image Classification</a><span>Fine-tuned a pretrained CNN on SageMaker with hyperparameter tuning, profiling, and debugging.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/projects/seq2seq-with-keras" target="_blank" rel="noopener">Seq2seq &amp; Encoder-Decoder Models</a><span>Sequence-to-sequence learning in Keras.</span></li>
-          <li><a href="https://github.com/beauvilerobed/data-science-machine-learning-lab-and-compendium/tree/master/deep-learning" target="_blank" rel="noopener">Deep Learning Notes</a><span>Feedforward, convolutional, and recurrent networks (RNN, LSTM), plus regularization and optimization.</span></li>
-        </ul>
-      </details>
-      <details class="index-group">
-        <summary>Cloud &amp; MLOps <span>2</span></summary>
-        <ul class="index-list">
-          <li><a href="https://github.com/beauvilerobed/ml-workflow-build-for-scones-unlimited" target="_blank" rel="noopener">ML Workflow for Scones Unlimited</a><span>Image classifier on SageMaker served through Lambda functions and a Step Functions workflow.</span></li>
-          <li><a href="https://github.com/beauvilerobed/operationalize-ml-project" target="_blank" rel="noopener">Operationalizing ML on SageMaker</a><span>Multi-instance training, EC2, Lambda concurrency, endpoint autoscaling, and pipeline security.</span></li>
-        </ul>
-      </details>
-      <details class="index-group">
-        <summary>Software engineering <span>2</span></summary>
-        <ul class="index-list">
-          <li><a href="https://pypi.org/project/py-Matrix-123/" target="_blank" rel="noopener">py-Matrix-123 (PyPI)</a><span>Published Python package for matrix operations.</span></li>
-          <li><a href="https://github.com/beauvilerobed/algos-and-data-strucs" target="_blank" rel="noopener">Data Structures &amp; Algorithms</a><span>Dozens of algorithm problems with tests, from graphs to dynamic programming.</span></li>
-        </ul>
-      </details>
-      <details class="index-group">
-        <summary>Teaching <span>1</span></summary>
-        <ul class="index-list">
-          <li><a href="https://github.com/beauvilerobed/sql-seminar" target="_blank" rel="noopener">Let's Learn SQL Through Set Theory</a><span>Two-part seminar teaching SQL through set theory, with a worked database example.</span></li>
-        </ul>
-      </details>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section id="experience" class="section">
-    <div class="container">
-      <h2>Experience</h2>
-      <ol class="timeline">
-        <li>
-          <div class="when">May 2026 – Present</div>
-          <div>
-            <h3>Founder &amp; Data Scientist <span>· AniPoint Site Research</span></h3>
-            <p>Founded a location intelligence consultancy (<a href="https://anipointresearch.com" target="_blank" rel="noopener">anipointresearch.com</a>) whose feasibility screenings led a client to approve the top-ranked site ($1.5M projected yearly revenue). Built a revenue driver tree (traffic &times; capture rate &times; average ticket) that turns profit goals into car-count targets, with low/base/high scenarios and Monte Carlo risk models (probability of loss, VaR, CVaR). Estimated $533K in annual incremental county revenue per added car wash with Double ML, cross-checked with Callaway&ndash;Sant&rsquo;Anna DiD ($472K) and a synthetic-data recovery test, and engineered Python ETL pipelines with data-quality checks and 250+ unit tests that cut market analysis turnaround by 91%.</p>
-          </div>
-        </li>
-        <li>
-          <div class="when">Sep 2024 – Apr 2026</div>
-          <div>
-            <h3>Senior Data Scientist <span>· Limetree (Remote)</span></h3>
-            <p>Led the healthcare marketing analytics and data science roadmap with strategy, finance, engineering, and behavioral science leadership, setting OKRs around gross lead rate (GLR), enrollment rate, and cost per member. Identified a client&rsquo;s &ldquo;Opportunist&rdquo; segment as the main driver of GLR, reallocating 12% of campaign budget toward it. Uplift and segmentation models on millions of HIPAA-protected records were adopted in 90% of campaigns, cutting spend by $10K (about 3%) per campaign at baseline enrollment. Built an in-house experimentation platform (power analysis, CUPED, significance tests), with CUPED cutting metric variance 20%, and re-architected the churn pipeline on Databricks, cutting inference runtime 48% and memory 23%.</p>
-          </div>
-        </li>
-        <li>
-          <div class="when">Sep 2023 – Sep 2024</div>
-          <div>
-            <h3>Founding Machine Learning Engineer <span>· eParts Services</span></h3>
-            <p>As the first ML hire, defined success metrics, evaluation frameworks, and drift monitoring for production search and pricing models, and trained the 16-person product and engineering team on ML. Built SQL training tables that broke bulk orders into item-level shipping costs, then deployed a regression-based shipping-price API in C# on Azure, cutting median price error vs. carrier cost from $13 to $4 on standard orders while maintaining contribution margin. Partnered with product and engineering to cut product search dissatisfaction scores 12% and raise click-through rate by tuning Elasticsearch relevance, validated with NDCG@10, human review, and A/B tests.</p>
-          </div>
-        </li>
-        <li>
-          <div class="when">Apr 2022 – Sep 2023</div>
-          <div>
-            <h3>Data Scientist <span>· Limetree (Remote)</span></h3>
-            <p>Raised the XGBoost lead-scoring model&rsquo;s offline AUC-ROC from 0.62 to 0.67, explained its drivers with SHAP, and confirmed a 9% gross lead rate (GLR) lift in an A/B test. Standardized the core campaign metrics (GLR, enrollment rate, cost per member), resolving conflicting GLR definitions with data engineering, and validated GLR out of sample as a 60-day leading indicator of enrollment rate (R&sup2; = 0.49). Automated reporting pipelines and Power BI dashboards, including a company-wide self-service dashboard, doubled the precision of high-opportunity zone selection (15% to 30%), and owned monthly monitoring of up to 5 production models.</p>
-          </div>
-        </li>
-      </ol>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section section-alt">
-    <div class="container about">
-      <img class="portrait" src="assets/robed.jpg" alt="Portrait of Robed Beauvile-Owen" width="320" height="320" loading="lazy">
-      <div>
-        <h2>About</h2>
-        <p>I&rsquo;m a data scientist who builds the metrics a business decides with: KPI and driver trees, leading indicators, experiments, and causal estimates that separate what a lever actually changed from what merely moved with it. I have 4+ years of experience across healthcare marketing, e-commerce, and my own consultancy, <a href="https://anipointresearch.com" target="_blank" rel="noopener">AniPoint Site Research</a>.</p>
-        <p>At Limetree I built an in-house experimentation platform, uplift models adopted in 90% of campaigns, and showed that gross lead rate predicts enrollment 60 days ahead. At eParts, as the first ML hire, I shipped a pricing model that cut median shipping price error from $13 to $4. At AniPoint I turn a client&rsquo;s profit goal into car-count targets, then use Double ML and Monte Carlo risk models to show where a new site will pay off. My PhD in mathematics shows up in the habits: state the assumptions, check that a method can recover a known answer, and report a range when a single number would overclaim.</p>
-        <p>I'm Haitian born and Miami raised. Outside of work I love philosophy, breakdancing, and sketching landscapes.</p>
-        <ul class="tags">
-          <li>Python</li><li>SQL</li><li>Spark</li><li>Databricks</li><li>Snowflake</li><li>Azure</li>
-          <li>KPI Frameworks</li><li>Metric Definitions</li><li>Causal Inference</li><li>Double ML</li><li>A/B Testing</li><li>Uplift Modeling</li><li>Forecasting</li><li>Model Monitoring</li><li>XGBoost</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- RESEARCH -->
-  <section id="research" class="section">
-    <div class="container">
-      <h2>Research</h2>
-      <p class="sub">Dissertation: <a href="https://d-scholarship.pitt.edu/45561/" target="_blank" rel="noopener"><em>A Minimal Invariant Set, Frames, and Operators</em></a>, University of Pittsburgh</p>
-      <div class="grid grid-3">
-        <div class="card card-plain">
-          <h3>Fixed Point Theory</h3>
-          <p>Building on Alspach's fixed-point-free non-expansive map, showed that special closed linear spans of a minimal invariant set contain a copy of L<sub>1</sub>[0,1].</p>
-        </div>
-        <div class="card card-plain">
-          <h3>Frames &amp; Generalized Frames</h3>
-          <p>Used operator theory to characterize frames in terms of Riesz bases, and generalized frames (g-frames) in terms of g-Riesz bases.</p>
-        </div>
-        <div class="card card-plain">
-          <h3>Frame Potentials &amp; Optimization</h3>
-          <p>Studied finite normalized tight frames as minimizers of a potential energy function, and their links to sparse approximation and deep learning.</p>
-        </div>
-      </div>
-      <p class="sub research-note">In plain terms: years of proving exactly when a structure exists and when it breaks. That is the same discipline as checking whether a metric or a causal estimate holds up.</p>
-      <p class="more"><a href="https://d-scholarship.pitt.edu/45561/" target="_blank" rel="noopener">Read the dissertation →</a></p>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section section-alt">
-    <div class="container contact">
-      <h2>Get in touch</h2>
-      <p>I'm open to data science and machine learning roles. The fastest way to reach me is email.</p>
-      <div class="hero-actions">
-        <a class="btn" href="mailto:robedbeauvile@gmail.com">robedbeauvile@gmail.com</a>
-        <a class="btn btn-outline" href="https://www.linkedin.com/in/robedbeauvile" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn btn-outline" href="https://github.com/beauvilerobed" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </div>
+  <section>
+    <h2>Education</h2>
+    <p>PhD, Mathematics, University of Pittsburgh · <a href="https://d-scholarship.pitt.edu/45561/" target="_blank" rel="noopener">Dissertation</a></p>
   </section>
 
 </main>
 
-<footer class="footer">
-  <div class="container footer-inner">
-    <span>© 2026 Robed Beauvile-Owen</span>
-    <span class="quote">"Like what you do, and then you'll do your best." – Katherine Johnson</span>
-  </div>
-</footer>
+<footer class="page footer">© 2026 Robed Beauvile-Owen</footer>
 
 <script>
   // Keep the hero still for visitors who prefer reduced motion.
@@ -340,5 +127,6 @@
     v.pause();
   }
 </script>
+
 </body>
 </html>
