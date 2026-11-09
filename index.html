@@ -147,7 +147,7 @@
       <li>
         <p class="meta">Sep 2024 – Apr 2026 · Remote</p>
         <h3>Senior Data Scientist <span>· Limetree</span></h3>
-        <p>Built experimentation and reporting tools to improve campaign targeting and measure what drives enrollment: an in-house analysis platform for A/B test readouts, automated reporting, standardized campaign KPIs, and uplift targeting models adopted in 90% of campaigns.</p>
+        <p>Built experimentation and reporting tools to improve campaign targeting and measure what drives enrollment: an in-house experimentation platform for creative A/B, champion/challenger, and holdout test readouts, automated reporting, standardized campaign KPIs, and uplift targeting models trained on mail-holdout tests, adopted in 90% of campaigns.</p>
       </li>
       <li>
         <p class="meta">Sep 2023 – Sep 2024 · Remote</p>
@@ -157,7 +157,7 @@
       <li>
         <p class="meta">Apr 2022 – Sep 2023 · Remote</p>
         <h3>Data Scientist <span>· Limetree</span></h3>
-        <p>Built an XGBoost lead-scoring model that improved campaign targeting, validated in an A/B test, automated reporting with a company-wide self-service dashboard, owned monthly monitoring for up to five production models, and doubled high-opportunity zone selection precision.</p>
+        <p>Built an XGBoost lead-scoring model that improved campaign targeting, validated in a randomized champion/challenger test, automated reporting with a company-wide self-service dashboard, owned monthly monitoring for up to five production models, and doubled high-opportunity zone selection precision.</p>
       </li>
     </ol>
   </section>
@@ -181,7 +181,7 @@
         <p class="stat">−20% <span>metric variance</span></p>
         <dl>
           <dt>Problem</dt><dd>Campaign tests were noisy, so real effects took too long to detect and budgets were hard to defend.</dd>
-          <dt>Approach</dt><dd>Built an in-house analysis platform that automated power analysis, significance tests, and A/B test readouts, with CUPED variance reduction.</dd>
+          <dt>Approach</dt><dd>Built an in-house experimentation platform that automated power analysis, significance tests, and readouts for creative A/B, champion/challenger, and mail-holdout tests, with CUPED variance reduction.</dd>
           <dt>Result</dt><dd>CUPED cut metric variance 20%, narrowing confidence intervals so the same test reaches a decision with a smaller sample.</dd>
         </dl>
       </article>
@@ -192,7 +192,7 @@
         <dl>
           <dt>Problem</dt><dd>Direct-mail campaigns reached many prospects unlikely to respond, so spend went to the wrong people.</dd>
           <dt>Approach</dt><dd>Built an XGBoost lead-scoring model on millions of healthcare consumer records with hundreds of attributes, raising offline AUC-ROC and explaining drivers with SHAP.</dd>
-          <dt>Result</dt><dd>In an A/B test, targeting with the model raised gross lead rate 9% (relative).</dd>
+          <dt>Result</dt><dd>In a randomized champion/challenger test (list split at random before scoring, same mailer for both halves), the new model raised gross lead rate 9% relative to the prior model.</dd>
         </dl>
       </article>
       <article class="case">
